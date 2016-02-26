@@ -1,0 +1,7 @@
+[2016-02-02 15:02:21:903] DebugLaunchPlugin - Got port address in 1.818517secs
+[2016-02-02 15:02:47:439] DebugLaunchPlugin - java.lang.InterruptedException
+	at java.util.concurrent.FutureTask.awaitDone(FutureTask.java:400)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:187)
+	at com.robovm.debug.server.DebugLaunchPlugin.b(Unknown.java:274)
+	at com.robovm.debug.server.e.run(Unknown.java:204)
+	at java.lang.Thread.run(Thread.java:745)

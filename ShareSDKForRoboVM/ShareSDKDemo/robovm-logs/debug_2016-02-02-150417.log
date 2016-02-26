@@ -1,0 +1,26 @@
+[2016-02-02 15:04:25:373] DebugLaunchPlugin - Got port address in 1.983776secs
+[2016-02-02 15:04:25:377] DebugLaunchPlugin - com.robovm.debug.server.DebuggerException: java.util.concurrent.ExecutionException: java.lang.OutOfMemoryError: Java heap space
+	at com.robovm.debug.server.DebugLaunchPlugin.b(Unknown.java:278)
+	at com.robovm.debug.server.e.run(Unknown.java:204)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.util.concurrent.ExecutionException: java.lang.OutOfMemoryError: Java heap space
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:188)
+	at com.robovm.debug.server.DebugLaunchPlugin.b(Unknown.java:274)
+	... 2 more
+Caused by: java.lang.OutOfMemoryError: Java heap space
+	at java.lang.StringCoding$StringDecoder.decode(StringCoding.java:149)
+	at java.lang.StringCoding.decode(StringCoding.java:193)
+	at java.lang.StringCoding.decode(StringCoding.java:254)
+	at java.lang.String.<init>(String.java:536)
+	at java.lang.String.<init>(String.java:556)
+	at org.robovm.compiler.util.Executor.execCapture(Executor.java:379)
+	at org.robovm.compiler.util.Executor.execCapture(Executor.java:364)
+	at com.robovm.debug.compiler.e.b(Unknown.java:3051)
+	at com.robovm.debug.server.c.g.a(Unknown.java:2042)
+	at com.robovm.debug.server.c.g.<init>(Unknown.java:2033)
+	at com.robovm.debug.server.b.call(Unknown.java:1154)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	... 1 more

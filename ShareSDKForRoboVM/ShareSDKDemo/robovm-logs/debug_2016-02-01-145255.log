@@ -1,0 +1,242 @@
+[2016-02-01 14:52:55:662] ExecutableMemoryAccess - Reading executable bytes took: 0.164705
+[2016-02-01 14:52:55:729] ExecutableMemoryAccess - Dumped section __TEXT,__text, took: 0.042108
+[2016-02-01 14:52:55:731] ExecutableMemoryAccess - Dumped section __TEXT,__const, took: 0.001027
+[2016-02-01 14:52:55:732] ExecutableMemoryAccess - Dumped section __DATA,__const, took: 6.36E-4
+[2016-02-01 14:52:55:733] ExecutableMemoryAccess - Dumped section __DATA,__data, took: 6.7E-4
+[2016-02-01 14:52:55:733] ExecutableMemoryAccess - Parsing sections took: 0.235958
+[2016-02-01 14:52:56:564] ExecutableSymbolLookup - Reading nm output took: 1.067413
+[2016-02-01 14:52:56:663] ExecutableSymbolLookup - Parsing nm output took: 0.097026
+[2016-02-01 14:52:56:663] ExecutableSymbolLookup - Parsing symbols took: 1.165948
+[2016-02-01 14:53:00:333] DebugLaunchPlugin - Got port address in 2.44155secs
+[2016-02-01 14:53:00:336] SoftDebugger - Established connection to app on port 57396
+[2016-02-01 14:53:00:336] ClassInfoParser - Reading boot classes info
+[2016-02-01 14:53:00:338] ClassInfoParser - Took 0.001801
+[2016-02-01 14:53:00:339] ClassInfoParser - Reading classes info
+[2016-02-01 14:53:00:340] DebugChannel - Starting debug channel thread
+[2016-02-01 14:53:00:340] ClassInfoParser - Took 0.001373
+[2016-02-01 14:53:00:415] SoftDebugger - Loading class infos took: 0.07843secs
+[2016-02-01 14:53:00:417] SoftDebugger - Loading class infos and adjusting addresses took: 0.080557secs
+[2016-02-01 14:53:00:418] DebugLaunchPlugin - Waiting for JDWP client to connect
+[2016-02-01 14:53:00:419] SocketTransport - Listening for transport dt_socket at address: 57384
+[2016-02-01 14:53:00:645] DebugChannel - Event: Thread attached, java obj: 0x116818f30, thread: 0x116817ee0
+[2016-02-01 14:53:00:648] SoftDebugger - Thread main attached
+[2016-02-01 14:53:00:910] JdwpDebugServer - Command: aq(1 7) id = 1883 length = 0
+[2016-02-01 14:53:00:911] JdwpDebugServer - Command: m(15 1) id = 1884 length = 6
+[2016-02-01 14:53:00:911] JdwpDebugServer - Command: m(15 1) id = 1882 length = 6
+[2016-02-01 14:53:00:912] JdwpDebugServer - Command: m(15 1) id = 1885 length = 6
+[2016-02-01 14:53:00:912] JdwpDebugServer - Command: au(1 1) id = 1886 length = 0
+[2016-02-01 14:53:00:913] JdwpDebugServer - Command: ah(1 4) id = 1887 length = 0
+[2016-02-01 14:53:00:914] JdwpDebugServer - Command: ad(11 5) id = 1888 length = 8
+[2016-02-01 14:53:00:915] JdwpDebugServer - Command: S(12 1) id = 1889 length = 8
+[2016-02-01 14:53:00:916] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-01 14:53:00:916] JdwpDebugServer - Command: T(12 2) id = 1890 length = 8
+[2016-02-01 14:53:00:916] JdwpDebugServer - Command: y(9 1) id = 1891 length = 8
+[2016-02-01 14:53:00:917] JdwpDebugServer - Command: D(2 14) id = 1892 length = 8
+[2016-02-01 14:53:00:917] JdwpDebugServer - Command: F(2 10) id = 1893 length = 8
+[2016-02-01 14:53:00:917] JdwpDebugServer - Command: D(2 14) id = 1894 length = 8
+[2016-02-01 14:53:00:917] JdwpDebugServer - Command: F(2 10) id = 1895 length = 8
+[2016-02-01 14:53:00:918] JdwpDebugServer - Command: j(3 1) id = 1896 length = 8
+[2016-02-01 14:53:00:918] JdwpDebugServer - Command: D(2 14) id = 1897 length = 8
+[2016-02-01 14:53:00:918] JdwpDebugServer - Command: F(2 10) id = 1898 length = 8
+[2016-02-01 14:53:00:918] JdwpDebugServer - Command: j(3 1) id = 1899 length = 8
+[2016-02-01 14:53:00:918] JdwpDebugServer - Command: u(9 2) id = 1900 length = 20
+[2016-02-01 14:53:00:919] JdwpDebugServer - Command: aa(11 4) id = 1901 length = 8
+[2016-02-01 14:53:00:919] JdwpDebugServer - Command: aa(11 4) id = 1902 length = 8
+[2016-02-01 14:53:00:919] JdwpDebugServer - Command: m(15 1) id = 1903 length = 39
+[2016-02-01 14:53:00:919] SoftJdwpEventProcessor - Set up class load event with filter: mob.sharesdk.MobShareSDKDemo
+[2016-02-01 14:53:00:919] ClassInfos - Couldn't find class info for mob/sharesdk/MobShareSDKDemo
+[2016-02-01 14:53:00:920] ClassInfos - com.robovm.debug.server.DebuggerException: Unknown primitive type: mob/sharesdk/MobShareSDKDemo
+	at com.robovm.debug.server.a.c.a(Unknown.java:3147)
+	at com.robovm.debug.server.a.c.a(Unknown.java:57)
+	at com.robovm.debug.server.d.y.a(Unknown.java:626)
+	at com.robovm.debug.server.d.y.a(Unknown.java:597)
+	at com.robovm.debug.server.b.c.a.a(Unknown.java:4118)
+	at com.robovm.debug.server.b.c.b.a(Unknown.java:1693)
+	at com.robovm.debug.server.b.a.m.a(Unknown.java:106)
+	at com.robovm.debug.server.b.a.ae.b(Unknown.java:26)
+	at com.robovm.debug.server.b.p.a(Unknown.java:7320)
+	at com.robovm.debug.server.b.q.run(Unknown.java:207)
+[2016-02-01 14:53:00:920] JdwpDebugServer - Command: m(15 1) id = 1904 length = 41
+[2016-02-01 14:53:00:920] SoftJdwpEventProcessor - Set up class load event with filter: mob.sharesdk.MobShareSDKDemo$*
+[2016-02-01 14:53:00:921] JdwpDebugServer - Command: al(1 2) id = 1905 length = 34
+[2016-02-01 14:53:00:921] ClassInfos - Couldn't find class info for mob/sharesdk/MobShareSDKDemo
+[2016-02-01 14:53:00:921] ClassInfos - com.robovm.debug.server.DebuggerException: Unknown primitive type: mob/sharesdk/MobShareSDKDemo
+	at com.robovm.debug.server.a.c.a(Unknown.java:3147)
+	at com.robovm.debug.server.a.c.a(Unknown.java:57)
+	at com.robovm.debug.server.b.c.b.a(Unknown.java:281)
+	at com.robovm.debug.server.b.a.al.a(Unknown.java:22)
+	at com.robovm.debug.server.b.a.ae.b(Unknown.java:26)
+	at com.robovm.debug.server.b.p.a(Unknown.java:7320)
+	at com.robovm.debug.server.b.q.run(Unknown.java:207)
+[2016-02-01 14:53:00:921] JdwpDebugServer - Command: aj(1 17) id = 1906 length = 0
+[2016-02-01 14:53:00:922] JdwpDebugServer - Command: m(15 1) id = 1907 length = 26
+[2016-02-01 14:53:00:922] SoftJdwpEventProcessor - Set up class load event with filter: java.lang.Error
+[2016-02-01 14:53:00:923] JdwpDebugServer - Command: m(15 1) id = 1908 length = 28
+[2016-02-01 14:53:00:923] SoftJdwpEventProcessor - Set up class load event with filter: java.lang.Error$*
+[2016-02-01 14:53:00:924] JdwpDebugServer - Command: al(1 2) id = 1909 length = 21
+[2016-02-01 14:53:00:925] JdwpDebugServer - Command: m(15 1) id = 1910 length = 17
+[2016-02-01 14:53:00:925] JdwpDebugServer - Command: J(2 1) id = 1911 length = 8
+[2016-02-01 14:53:00:926] JdwpDebugServer - Command: m(15 1) id = 1912 length = 30
+[2016-02-01 14:53:00:926] SoftJdwpEventProcessor - Set up class load event with filter: java.lang.Throwable
+[2016-02-01 14:53:00:927] JdwpDebugServer - Command: m(15 1) id = 1913 length = 32
+[2016-02-01 14:53:00:927] SoftJdwpEventProcessor - Set up class load event with filter: java.lang.Throwable$*
+[2016-02-01 14:53:00:927] JdwpDebugServer - Command: al(1 2) id = 1914 length = 25
+[2016-02-01 14:53:00:928] JdwpDebugServer - Command: m(15 1) id = 1915 length = 17
+[2016-02-01 14:53:00:928] JdwpDebugServer - Command: J(2 1) id = 1916 length = 8
+[2016-02-01 14:53:00:928] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-01 14:53:00:941] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-01 14:53:00:952] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-01 14:53:00:963] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-01 14:53:00:975] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-01 14:53:00:986] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-01 14:53:00:994] DebugChannel - Event: Thread stopped, reason: Exception, java obj: 0x116818f30, thread: 0x116817ee0, frames: 15
+[2016-02-01 14:53:00:997] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-01 14:53:01:002] SoftDebugger - Reconstructing frames took: 0.007688secs
+[2016-02-01 14:53:01:003] DebugChannel - Event: Thread resumed, java obj: 0x116818f30, thread: 0x116817ee0
+[2016-02-01 14:53:01:009] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-01 14:53:01:022] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-01 14:53:01:034] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-01 14:53:01:045] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-01 14:53:01:055] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-01 14:53:01:066] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-01 14:53:01:077] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-01 14:53:01:089] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-01 14:53:01:102] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-01 14:53:01:114] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-01 14:53:01:116] DebugChannel - Event: Thread stopped, reason: Exception, java obj: 0x116818f30, thread: 0x116817ee0, frames: 10
+[2016-02-01 14:53:01:116] SoftDebugger - Reconstructing frames took: 4.0E-5secs
+[2016-02-01 14:53:01:116] DebugChannel - Event: Thread resumed, java obj: 0x116818f30, thread: 0x116817ee0
+[2016-02-01 14:53:01:119] DebugChannel - Event: Thread attached, java obj: 0x116818ea0, thread: 0x116817e00
+[2016-02-01 14:53:01:120] DebugChannel - Event: Thread attached, java obj: 0x116818d80, thread: 0x116817d20
+[2016-02-01 14:53:01:120] DebugChannel - Event: Thread attached, java obj: 0x116818c60, thread: 0x116817c40
+[2016-02-01 14:53:01:122] SoftDebugger - Thread ReferenceQueueDaemon attached
+[2016-02-01 14:53:01:122] SoftJdwpEventProcessor - processing thread start event
+[2016-02-01 14:53:01:124] JdwpDebugServer - Command: w(9 9) id = 1917 length = 8
+[2016-02-01 14:53:01:124] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-01 14:53:01:124] JdwpDebugServer - Command: ad(11 5) id = 1918 length = 8
+[2016-02-01 14:53:01:126] JdwpDebugServer - Command: y(9 1) id = 1919 length = 8
+[2016-02-01 14:53:01:126] SoftDebugger - Thread FinalizerDaemon attached
+[2016-02-01 14:53:01:126] SoftJdwpEventProcessor - processing thread start event
+[2016-02-01 14:53:01:126] JdwpDebugServer - Command: u(9 2) id = 1920 length = 20
+[2016-02-01 14:53:01:127] JdwpDebugServer - Command: w(9 9) id = 1921 length = 8
+[2016-02-01 14:53:01:127] JdwpDebugServer - Command: aa(11 4) id = 1922 length = 8
+[2016-02-01 14:53:01:127] JdwpDebugServer - Command: ad(11 5) id = 1923 length = 8
+[2016-02-01 14:53:01:128] JdwpDebugServer - Command: aa(11 4) id = 1924 length = 8
+[2016-02-01 14:53:01:128] JdwpDebugServer - Command: y(9 1) id = 1925 length = 8
+[2016-02-01 14:53:01:129] JdwpDebugServer - Command: u(9 2) id = 1926 length = 20
+[2016-02-01 14:53:01:131] SoftDebugger - Thread FinalizerWatchdogDaemon attached
+[2016-02-01 14:53:01:131] JdwpDebugServer - Command: aa(11 4) id = 1927 length = 8
+[2016-02-01 14:53:01:131] SoftJdwpEventProcessor - processing thread start event
+[2016-02-01 14:53:01:132] JdwpDebugServer - Command: aa(11 4) id = 1928 length = 8
+[2016-02-01 14:53:01:132] JdwpDebugServer - Command: w(9 9) id = 1929 length = 8
+[2016-02-01 14:53:01:133] JdwpDebugServer - Command: ad(11 5) id = 1930 length = 8
+[2016-02-01 14:53:01:134] JdwpDebugServer - Command: y(9 1) id = 1931 length = 8
+[2016-02-01 14:53:01:134] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-01 14:53:01:135] JdwpDebugServer - Command: u(9 2) id = 1932 length = 20
+[2016-02-01 14:53:01:135] JdwpDebugServer - Command: aa(11 4) id = 1933 length = 8
+[2016-02-01 14:53:01:136] JdwpDebugServer - Command: aa(11 4) id = 1934 length = 8
+[2016-02-01 14:53:01:145] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-01 14:53:01:147] DebugChannel - Event: Thread stopped, reason: Exception, java obj: 0x116818f30, thread: 0x116817ee0, frames: 9
+[2016-02-01 14:53:01:602] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-01 14:53:01:603] SoftDebugger - Reconstructing frames took: 0.456088secs
+[2016-02-01 14:53:01:604] DebugChannel - Event: Thread resumed, java obj: 0x116818f30, thread: 0x116817ee0
+[2016-02-01 14:53:01:605] DebugChannel - Event: Thread stopped, reason: Exception, java obj: 0x116818f30, thread: 0x116817ee0, frames: 9
+[2016-02-01 14:53:01:605] SoftDebugger - Reconstructing frames took: 6.2E-5secs
+[2016-02-01 14:53:01:605] DebugChannel - Event: Thread resumed, java obj: 0x116818f30, thread: 0x116817ee0
+[2016-02-01 14:53:01:606] DebugChannel - Event: Thread stopped, reason: Exception, java obj: 0x116818f30, thread: 0x116817ee0, frames: 9
+[2016-02-01 14:53:01:607] SoftDebugger - Reconstructing frames took: 4.8E-5secs
+[2016-02-01 14:53:01:607] DebugChannel - Event: Thread resumed, java obj: 0x116818f30, thread: 0x116817ee0
+[2016-02-01 14:53:01:608] DebugChannel - Event: Thread stopped, reason: Exception, java obj: 0x116818f30, thread: 0x116817ee0, frames: 9
+[2016-02-01 14:53:01:608] SoftDebugger - Reconstructing frames took: 3.4E-5secs
+[2016-02-01 14:53:01:611] DebugChannel - Event: Thread resumed, java obj: 0x116818f30, thread: 0x116817ee0
+[2016-02-01 14:53:01:613] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-01 14:53:01:614] DebugChannel - Event: Thread stopped, reason: Exception, java obj: 0x116818f30, thread: 0x116817ee0, frames: 9
+[2016-02-01 14:53:01:614] SoftDebugger - Reconstructing frames took: 4.4E-5secs
+[2016-02-01 14:53:01:615] DebugChannel - Event: Thread resumed, java obj: 0x116818f30, thread: 0x116817ee0
+[2016-02-01 14:53:01:617] DebugChannel - Event: Thread stopped, reason: Exception, java obj: 0x116818f30, thread: 0x116817ee0, frames: 9
+[2016-02-01 14:53:01:617] SoftDebugger - Reconstructing frames took: 4.2E-5secs
+[2016-02-01 14:53:01:617] DebugChannel - Event: Thread resumed, java obj: 0x116818f30, thread: 0x116817ee0
+[2016-02-01 14:53:01:618] DebugChannel - Event: Thread stopped, reason: Exception, java obj: 0x116818f30, thread: 0x116817ee0, frames: 9
+[2016-02-01 14:53:01:618] SoftDebugger - Reconstructing frames took: 3.9E-5secs
+[2016-02-01 14:53:01:618] DebugChannel - Event: Thread resumed, java obj: 0x116818f30, thread: 0x116817ee0
+[2016-02-01 14:53:01:619] DebugChannel - Event: Thread stopped, reason: Exception, java obj: 0x116818f30, thread: 0x116817ee0, frames: 9
+[2016-02-01 14:53:01:619] SoftDebugger - Reconstructing frames took: 2.9E-5secs
+[2016-02-01 14:53:01:619] DebugChannel - Event: Thread resumed, java obj: 0x116818f30, thread: 0x116817ee0
+[2016-02-01 14:53:01:626] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-01 14:53:01:638] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-01 14:53:01:650] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-01 14:53:01:652] DebugChannel - Event: Thread stopped, reason: Exception, java obj: 0x116818f30, thread: 0x116817ee0, frames: 9
+[2016-02-01 14:53:01:652] SoftDebugger - Reconstructing frames took: 4.0E-5secs
+[2016-02-01 14:53:01:652] DebugChannel - Event: Thread resumed, java obj: 0x116818f30, thread: 0x116817ee0
+[2016-02-01 14:53:01:653] DebugChannel - Event: Thread stopped, reason: Exception, java obj: 0x116818f30, thread: 0x116817ee0, frames: 9
+[2016-02-01 14:53:01:653] SoftDebugger - Reconstructing frames took: 3.9E-5secs
+[2016-02-01 14:53:01:654] DebugChannel - Event: Thread resumed, java obj: 0x116818f30, thread: 0x116817ee0
+[2016-02-01 14:53:01:662] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-01 14:53:01:674] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-01 14:53:01:685] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-01 14:53:01:698] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-01 14:53:01:711] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-01 14:53:01:720] DebugChannel - Event: Thread stopped, reason: Exception, java obj: 0x116818f30, thread: 0x116817ee0, frames: 9
+[2016-02-01 14:53:01:720] SoftDebugger - Reconstructing frames took: 3.4E-5secs
+[2016-02-01 14:53:01:720] DebugChannel - Event: Thread resumed, java obj: 0x116818f30, thread: 0x116817ee0
+[2016-02-01 14:53:01:723] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-01 14:53:01:734] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-01 14:53:01:745] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-01 14:53:01:757] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-01 14:53:01:768] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-01 14:53:01:779] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-01 14:53:01:786] DebugChannel - Event: Thread stopped, reason: Exception, java obj: 0x116818f30, thread: 0x116817ee0, frames: 15
+[2016-02-01 14:53:01:790] SoftDebugger - Reconstructing frames took: 0.003122secs
+[2016-02-01 14:53:01:790] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-01 14:53:01:790] DebugChannel - Event: Thread resumed, java obj: 0x116818f30, thread: 0x116817ee0
+[2016-02-01 14:53:01:793] DebugChannel - Event: Thread stopped, reason: Exception, java obj: 0x116818f30, thread: 0x116817ee0, frames: 10
+[2016-02-01 14:53:01:793] SoftDebugger - Reconstructing frames took: 3.6E-5secs
+[2016-02-01 14:53:01:793] DebugChannel - Event: Thread resumed, java obj: 0x116818f30, thread: 0x116817ee0
+[2016-02-01 14:53:01:801] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-01 14:53:01:813] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-01 14:53:01:825] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-01 14:53:01:838] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-01 14:53:01:849] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-01 14:53:01:862] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-01 14:53:01:874] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-01 14:53:01:886] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-01 14:53:01:898] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-01 14:53:01:910] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-01 14:53:01:922] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-01 14:53:01:934] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-01 14:53:01:945] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-01 14:53:01:957] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-01 14:53:01:969] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-01 14:53:01:981] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-01 14:53:01:992] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-01 14:53:02:002] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-01 14:53:02:013] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-01 14:53:02:024] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-01 14:53:02:034] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-01 14:53:02:045] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-01 14:53:02:058] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-01 14:53:02:068] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-01 14:53:02:079] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-01 14:53:02:091] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-01 14:53:02:101] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-01 14:53:02:112] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-01 14:53:02:124] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-01 14:53:02:135] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-01 14:53:02:145] DebugLaunchPlugin - Debugger has settled. Resuming inferior.
+[2016-02-01 14:56:32:383] JdwpDebugServer - Command: al(1 2) id = 1935 length = 39
+[2016-02-01 14:56:32:384] JdwpDebugServer - Command: al(1 2) id = 1936 length = 56
+[2016-02-01 14:56:32:384] JdwpDebugServer - Command: al(1 2) id = 1937 length = 49
+[2016-02-01 14:56:32:384] JdwpDebugServer - Command: al(1 2) id = 1938 length = 54
+[2016-02-01 14:56:32:385] JdwpDebugServer - Command: al(1 2) id = 1939 length = 58
+[2016-02-01 14:56:32:385] JdwpDebugServer - Command: al(1 2) id = 1940 length = 31
+[2016-02-01 14:56:35:513] JdwpDebugServer - Command: ap(1 10) id = 1941 length = 4
+[2016-02-01 14:56:35:514] JdwpDebugServer - java.io.IOException: eof
+	at com.robovm.debug.server.b.b.b.q(Unknown.java:161)
+	at com.robovm.debug.server.b.b.b.e(Unknown.java:70)
+	at com.robovm.debug.server.b.p.a(Unknown.java:7303)
+	at com.robovm.debug.server.b.q.run(Unknown.java:207)
+[2016-02-01 14:56:35:514] DebugLaunchPlugin - Shutting down JDWP server
+[2016-02-01 14:56:35:515] SocketTransport - Listening for transport dt_socket at address: 57384
+[2016-02-01 14:56:35:720] DebugChannel - Shutting down debug channel thread
+[2016-02-01 14:56:35:720] SoftJdwpEventProcessor - processing vm death event
+[2016-02-01 14:56:35:720] SoftDebugger - Shutting down event loop thread

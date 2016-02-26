@@ -27,7 +27,7 @@ iii.配置robovm.xml 中引用各种系统库和第三方库的路径
 **.a文件类:**
 
         <libs>
-            <lib>z</lib>       	 <!-- (系统库,必须) -->
+            <lib>z</lib>       	 <!--(系统库,必须)-->
             <lib>sqlite3</lib> 	 <!--(系统库,必须)-->
             <lib>stdc++</lib>	 <!--(系统库,必须)-->
             <lib>icucore</lib>	 <!--(系统库,必须)-->

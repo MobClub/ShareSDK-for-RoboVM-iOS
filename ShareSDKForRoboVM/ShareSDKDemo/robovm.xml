@@ -1,0 +1,50 @@
+<config>
+    <executableName>${app.executable}</executableName>
+    <mainClass>${app.mainclass}</mainClass>
+    <os>ios</os>    
+    <target>ios</target>
+    <iosInfoPList>Info.plist.xml</iosInfoPList>
+    <resources>
+        <resource>
+            <directory>resources</directory>
+        </resource>
+    </resources>
+    
+  	<libs>
+    <lib>z</lib>
+    <lib>sqlite3</lib>
+    <lib>stdc++</lib>
+    <lib>icucore</lib>
+    <lib>ShareSDK/Support/PlatformSDK/WeChatSDK/libWeChatSDK.a</lib>
+    <!-- 目前无法得知Eclipse打包生成程序是否正确包含有"-ObjC" 这个标志,添加以下lib会导致崩溃.但是不添加也不会影响新浪SSO的正常功能 -->
+    <!-- <lib>ShareSDK/Support/PlatformSDK/SinaWeiboSDK/libWeiboSDK.a</lib> -->
+    <lib>ShareSDK/Support/PlatformSDK/APSocialSDK/libAPOpenSdk.a</lib>
+    <lib>ShareSDK/Support/PlatformSDK/YiXinSDK/libYixinSDK.a</lib>
+	</libs>
+	<frameworkPaths>
+		<path>ShareSDK</path>
+		<path>ShareSDK/Support/Required</path>
+		<path>ShareSDK/Support/Optional</path>
+		<path>ShareSDK/Support/PlatformSDK/QQSDK</path>
+		<path>ShareSDK/Support/PlatformSDK/RenRenSDK</path>
+		<path>ShareSDK/Support/PlatformSDK/FacebookMessengerSDK</path>
+		<path>ShareSDK/Support/PlatformSDK/KaKaoSDK</path>
+	</frameworkPaths>
+	<frameworks>
+	<framework>Foundation</framework>
+	<framework>JavaScriptCore</framework>
+	<framework>ImageIO</framework>
+    <framework>ShareSDK</framework>
+    <framework>ShareSDKUI</framework>
+    <framework>ShareSDKExtension</framework>
+    <framework>MOBFoundation</framework>
+    <framework>ShareSDKConnector</framework>
+    <framework>SystemConfiguration</framework>
+    <framework>Security</framework>
+    <framework>TencentOpenAPI</framework>
+    <framework>RennSDK</framework>
+    <framework>FBSDKMessengerShareKit</framework>
+    <framework>KakaoOpenSDK</framework>
+	</frameworks>
+	
+</config>

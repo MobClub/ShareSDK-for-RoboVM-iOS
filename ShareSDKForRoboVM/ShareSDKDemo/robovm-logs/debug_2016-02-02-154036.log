@@ -1,0 +1,9 @@
+[2016-02-02 15:40:40:942] DebugChannel - Error in debug channel thread: null
+[2016-02-02 15:40:40:942] DebugChannel - Shutting down debug channel thread
+[2016-02-02 15:40:45:161] SoftJdwpEventProcessor - processing vm death event
+[2016-02-02 15:40:45:162] DebugLaunchPlugin - Shutting down JDWP server
+[2016-02-02 15:40:45:162] SoftDebugger - Shutting down event loop thread
+[2016-02-02 15:41:10:473] DebugLaunchPlugin - com.robovm.debug.server.DebuggerException: Waiting for PID file timed out
+	at com.robovm.debug.server.DebugLaunchPlugin.b(Unknown.java:265)
+	at com.robovm.debug.server.e.run(Unknown.java:204)
+	at java.lang.Thread.run(Thread.java:745)

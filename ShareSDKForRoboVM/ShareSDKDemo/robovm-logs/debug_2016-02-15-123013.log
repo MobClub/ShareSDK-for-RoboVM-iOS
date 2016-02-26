@@ -1,0 +1,9 @@
+[2016-02-15 12:30:14:138] ExecutableMemoryAccess - Reading executable bytes took: 0.176935
+[2016-02-15 12:30:14:198] ExecutableMemoryAccess - Dumped section __TEXT,__text, took: 0.023247
+[2016-02-15 12:30:14:199] ExecutableMemoryAccess - Dumped section __TEXT,__const, took: 0.001056
+[2016-02-15 12:30:14:200] ExecutableMemoryAccess - Dumped section __DATA,__const, took: 5.89E-4
+[2016-02-15 12:30:14:202] ExecutableMemoryAccess - Dumped section __DATA,__data, took: 0.001111
+[2016-02-15 12:30:14:202] ExecutableMemoryAccess - Parsing sections took: 0.241188
+[2016-02-15 12:30:15:498] ExecutableSymbolLookup - Reading nm output took: 1.536859
+[2016-02-15 12:30:15:639] ExecutableSymbolLookup - Parsing nm output took: 0.139735
+[2016-02-15 12:30:15:639] ExecutableSymbolLookup - Parsing symbols took: 1.677877

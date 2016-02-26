@@ -1,0 +1,1172 @@
+[2016-02-02 14:21:46:835] ExecutableMemoryAccess - Reading executable bytes took: 0.151994
+[2016-02-02 14:21:46:849] ExecutableMemoryAccess - Dumped section __TEXT,__text, took: 0.006924
+[2016-02-02 14:21:46:851] ExecutableMemoryAccess - Dumped section __TEXT,__const, took: 9.75E-4
+[2016-02-02 14:21:46:852] ExecutableMemoryAccess - Dumped section __DATA,__const, took: 7.53E-4
+[2016-02-02 14:21:46:852] ExecutableMemoryAccess - Dumped section __DATA,__data, took: 5.65E-4
+[2016-02-02 14:21:46:853] ExecutableMemoryAccess - Parsing sections took: 0.169755
+[2016-02-02 14:21:48:311] ExecutableSymbolLookup - Reading nm output took: 1.628212
+[2016-02-02 14:21:48:860] ExecutableSymbolLookup - Parsing nm output took: 0.548073
+[2016-02-02 14:21:48:860] ExecutableSymbolLookup - Parsing symbols took: 2.177324
+[2016-02-02 14:21:51:472] DebugLaunchPlugin - Got port address in 1.906646secs
+[2016-02-02 14:21:51:473] SoftDebugger - Established connection to app on port 51602
+[2016-02-02 14:21:51:474] DebugChannel - Starting debug channel thread
+[2016-02-02 14:21:51:474] ClassInfoParser - Reading boot classes info
+[2016-02-02 14:21:51:476] ClassInfoParser - Took 0.001955
+[2016-02-02 14:21:51:476] ClassInfoParser - Reading classes info
+[2016-02-02 14:21:51:477] ClassInfoParser - Took 0.001394
+[2016-02-02 14:21:51:549] DebugChannel - Event: Thread attached, java obj: 0x116818f30, thread: 0x116817ee0
+[2016-02-02 14:21:51:562] SoftDebugger - Loading class infos took: 0.087901secs
+[2016-02-02 14:21:51:564] SoftDebugger - Loading class infos and adjusting addresses took: 0.090367secs
+[2016-02-02 14:21:51:566] DebugLaunchPlugin - Waiting for JDWP client to connect
+[2016-02-02 14:21:51:566] SocketTransport - Listening for transport dt_socket at address: 51588
+[2016-02-02 14:21:51:569] SoftDebugger - Thread main attached
+[2016-02-02 14:21:51:596] JdwpDebugServer - Command: aq(1 7) id = 5235 length = 0
+[2016-02-02 14:21:51:597] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:51:597] JdwpDebugServer - Command: m(15 1) id = 5236 length = 6
+[2016-02-02 14:21:51:597] JdwpDebugServer - Command: m(15 1) id = 5234 length = 6
+[2016-02-02 14:21:51:597] JdwpDebugServer - Command: m(15 1) id = 5237 length = 6
+[2016-02-02 14:21:51:598] JdwpDebugServer - Command: au(1 1) id = 5238 length = 0
+[2016-02-02 14:21:51:598] JdwpDebugServer - Command: ah(1 4) id = 5239 length = 0
+[2016-02-02 14:21:51:600] JdwpDebugServer - Command: ad(11 5) id = 5240 length = 8
+[2016-02-02 14:21:51:601] JdwpDebugServer - Command: S(12 1) id = 5241 length = 8
+[2016-02-02 14:21:51:604] JdwpDebugServer - Command: T(12 2) id = 5242 length = 8
+[2016-02-02 14:21:51:604] JdwpDebugServer - Command: y(9 1) id = 5243 length = 8
+[2016-02-02 14:21:51:604] JdwpDebugServer - Command: D(2 14) id = 5244 length = 8
+[2016-02-02 14:21:51:605] JdwpDebugServer - Command: F(2 10) id = 5245 length = 8
+[2016-02-02 14:21:51:605] JdwpDebugServer - Command: D(2 14) id = 5246 length = 8
+[2016-02-02 14:21:51:606] JdwpDebugServer - Command: F(2 10) id = 5247 length = 8
+[2016-02-02 14:21:51:606] JdwpDebugServer - Command: j(3 1) id = 5248 length = 8
+[2016-02-02 14:21:51:606] JdwpDebugServer - Command: D(2 14) id = 5249 length = 8
+[2016-02-02 14:21:51:606] JdwpDebugServer - Command: F(2 10) id = 5250 length = 8
+[2016-02-02 14:21:51:607] JdwpDebugServer - Command: j(3 1) id = 5251 length = 8
+[2016-02-02 14:21:51:607] JdwpDebugServer - Command: u(9 2) id = 5252 length = 20
+[2016-02-02 14:21:51:607] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:51:607] JdwpDebugServer - Command: aa(11 4) id = 5253 length = 8
+[2016-02-02 14:21:51:608] JdwpDebugServer - Command: aa(11 4) id = 5254 length = 8
+[2016-02-02 14:21:51:608] JdwpDebugServer - Command: m(15 1) id = 5255 length = 40
+[2016-02-02 14:21:51:608] SoftJdwpEventProcessor - Set up class load event with filter: com.mob.demo.MyViewController
+[2016-02-02 14:21:51:609] JdwpDebugServer - Command: m(15 1) id = 5256 length = 42
+[2016-02-02 14:21:51:609] SoftJdwpEventProcessor - Set up class load event with filter: com.mob.demo.MyViewController$*
+[2016-02-02 14:21:51:611] JdwpDebugServer - Command: al(1 2) id = 5257 length = 35
+[2016-02-02 14:21:51:612] JdwpDebugServer - Command: m(15 1) id = 5258 length = 36
+[2016-02-02 14:21:51:612] SoftJdwpEventProcessor - Set up class load event with filter: com.mob.demo.ShareSDKDemo
+[2016-02-02 14:21:51:612] JdwpDebugServer - Command: m(15 1) id = 5259 length = 38
+[2016-02-02 14:21:51:612] SoftJdwpEventProcessor - Set up class load event with filter: com.mob.demo.ShareSDKDemo$*
+[2016-02-02 14:21:51:613] JdwpDebugServer - Command: al(1 2) id = 5260 length = 31
+[2016-02-02 14:21:51:613] JdwpDebugServer - Command: m(15 1) id = 5261 length = 36
+[2016-02-02 14:21:51:613] SoftJdwpEventProcessor - Set up class load event with filter: com.mob.demo.ShareSDKDemo
+[2016-02-02 14:21:51:614] JdwpDebugServer - Command: m(15 1) id = 5262 length = 38
+[2016-02-02 14:21:51:614] SoftJdwpEventProcessor - Set up class load event with filter: com.mob.demo.ShareSDKDemo$*
+[2016-02-02 14:21:51:615] JdwpDebugServer - Command: al(1 2) id = 5263 length = 31
+[2016-02-02 14:21:51:615] JdwpDebugServer - Command: m(15 1) id = 5264 length = 36
+[2016-02-02 14:21:51:615] SoftJdwpEventProcessor - Set up class load event with filter: com.mob.demo.ShareSDKDemo
+[2016-02-02 14:21:51:616] JdwpDebugServer - Command: m(15 1) id = 5265 length = 38
+[2016-02-02 14:21:51:616] SoftJdwpEventProcessor - Set up class load event with filter: com.mob.demo.ShareSDKDemo$*
+[2016-02-02 14:21:51:618] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:51:619] JdwpDebugServer - Command: al(1 2) id = 5266 length = 31
+[2016-02-02 14:21:51:620] JdwpDebugServer - Command: m(15 1) id = 5267 length = 36
+[2016-02-02 14:21:51:620] SoftJdwpEventProcessor - Set up class load event with filter: com.mob.demo.ShareSDKDemo
+[2016-02-02 14:21:51:621] JdwpDebugServer - Command: m(15 1) id = 5268 length = 38
+[2016-02-02 14:21:51:621] SoftJdwpEventProcessor - Set up class load event with filter: com.mob.demo.ShareSDKDemo$*
+[2016-02-02 14:21:51:623] JdwpDebugServer - Command: al(1 2) id = 5269 length = 31
+[2016-02-02 14:21:51:624] JdwpDebugServer - Command: m(15 1) id = 5270 length = 36
+[2016-02-02 14:21:51:624] SoftJdwpEventProcessor - Set up class load event with filter: com.mob.demo.ShareSDKDemo
+[2016-02-02 14:21:51:625] JdwpDebugServer - Command: m(15 1) id = 5271 length = 38
+[2016-02-02 14:21:51:625] SoftJdwpEventProcessor - Set up class load event with filter: com.mob.demo.ShareSDKDemo$*
+[2016-02-02 14:21:51:626] JdwpDebugServer - Command: al(1 2) id = 5272 length = 31
+[2016-02-02 14:21:51:627] JdwpDebugServer - Command: m(15 1) id = 5273 length = 36
+[2016-02-02 14:21:51:627] SoftJdwpEventProcessor - Set up class load event with filter: com.mob.demo.ShareSDKDemo
+[2016-02-02 14:21:51:627] JdwpDebugServer - Command: m(15 1) id = 5274 length = 38
+[2016-02-02 14:21:51:627] SoftJdwpEventProcessor - Set up class load event with filter: com.mob.demo.ShareSDKDemo$*
+[2016-02-02 14:21:51:628] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:51:628] JdwpDebugServer - Command: al(1 2) id = 5275 length = 31
+[2016-02-02 14:21:51:629] JdwpDebugServer - Command: m(15 1) id = 5276 length = 36
+[2016-02-02 14:21:51:629] SoftJdwpEventProcessor - Set up class load event with filter: com.mob.demo.ShareSDKDemo
+[2016-02-02 14:21:51:630] JdwpDebugServer - Command: m(15 1) id = 5277 length = 38
+[2016-02-02 14:21:51:630] SoftJdwpEventProcessor - Set up class load event with filter: com.mob.demo.ShareSDKDemo$*
+[2016-02-02 14:21:51:630] JdwpDebugServer - Command: al(1 2) id = 5278 length = 31
+[2016-02-02 14:21:51:631] JdwpDebugServer - Command: aj(1 17) id = 5279 length = 0
+[2016-02-02 14:21:51:632] JdwpDebugServer - Command: m(15 1) id = 5280 length = 26
+[2016-02-02 14:21:51:632] SoftJdwpEventProcessor - Set up class load event with filter: java.lang.Error
+[2016-02-02 14:21:51:633] JdwpDebugServer - Command: m(15 1) id = 5281 length = 28
+[2016-02-02 14:21:51:633] SoftJdwpEventProcessor - Set up class load event with filter: java.lang.Error$*
+[2016-02-02 14:21:51:635] JdwpDebugServer - Command: al(1 2) id = 5282 length = 21
+[2016-02-02 14:21:51:636] JdwpDebugServer - Command: m(15 1) id = 5283 length = 17
+[2016-02-02 14:21:51:636] JdwpDebugServer - Command: J(2 1) id = 5284 length = 8
+[2016-02-02 14:21:51:638] JdwpDebugServer - Command: m(15 1) id = 5285 length = 30
+[2016-02-02 14:21:51:638] SoftJdwpEventProcessor - Set up class load event with filter: java.lang.Throwable
+[2016-02-02 14:21:51:639] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:51:640] JdwpDebugServer - Command: m(15 1) id = 5286 length = 32
+[2016-02-02 14:21:51:641] SoftJdwpEventProcessor - Set up class load event with filter: java.lang.Throwable$*
+[2016-02-02 14:21:51:644] JdwpDebugServer - Command: al(1 2) id = 5287 length = 25
+[2016-02-02 14:21:51:644] JdwpDebugServer - Command: m(15 1) id = 5288 length = 17
+[2016-02-02 14:21:51:644] JdwpDebugServer - Command: J(2 1) id = 5289 length = 8
+[2016-02-02 14:21:51:651] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:51:656] DebugChannel - Event: Thread stopped, reason: Exception, java obj: 0x116818f30, thread: 0x116817ee0, frames: 15
+[2016-02-02 14:21:51:660] SoftDebugger - Reconstructing frames took: 0.003864secs
+[2016-02-02 14:21:51:661] DebugChannel - Event: Thread resumed, java obj: 0x116818f30, thread: 0x116817ee0
+[2016-02-02 14:21:51:662] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:51:667] DebugChannel - Event: Thread stopped, reason: Exception, java obj: 0x116818f30, thread: 0x116817ee0, frames: 10
+[2016-02-02 14:21:51:667] SoftDebugger - Reconstructing frames took: 9.9E-5secs
+[2016-02-02 14:21:51:668] DebugChannel - Event: Thread resumed, java obj: 0x116818f30, thread: 0x116817ee0
+[2016-02-02 14:21:51:672] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:51:673] DebugChannel - Event: Thread attached, java obj: 0x116818ea0, thread: 0x116817e00
+[2016-02-02 14:21:51:678] DebugChannel - Event: Thread attached, java obj: 0x116818d80, thread: 0x116817d20
+[2016-02-02 14:21:51:679] DebugChannel - Event: Thread attached, java obj: 0x116818c60, thread: 0x116817c40
+[2016-02-02 14:21:51:679] SoftDebugger - Thread ReferenceQueueDaemon attached
+[2016-02-02 14:21:51:679] SoftJdwpEventProcessor - processing thread start event
+[2016-02-02 14:21:51:681] JdwpDebugServer - Command: w(9 9) id = 5290 length = 8
+[2016-02-02 14:21:51:681] JdwpDebugServer - Command: ad(11 5) id = 5291 length = 8
+[2016-02-02 14:21:51:682] JdwpDebugServer - Command: y(9 1) id = 5292 length = 8
+[2016-02-02 14:21:51:682] JdwpDebugServer - Command: u(9 2) id = 5293 length = 20
+[2016-02-02 14:21:51:683] JdwpDebugServer - Command: aa(11 4) id = 5294 length = 8
+[2016-02-02 14:21:51:684] JdwpDebugServer - Command: aa(11 4) id = 5295 length = 8
+[2016-02-02 14:21:51:687] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:51:688] SoftDebugger - Thread FinalizerDaemon attached
+[2016-02-02 14:21:51:688] SoftJdwpEventProcessor - processing thread start event
+[2016-02-02 14:21:51:689] JdwpDebugServer - Command: w(9 9) id = 5296 length = 8
+[2016-02-02 14:21:51:689] JdwpDebugServer - Command: ad(11 5) id = 5297 length = 8
+[2016-02-02 14:21:51:692] JdwpDebugServer - Command: y(9 1) id = 5298 length = 8
+[2016-02-02 14:21:51:692] JdwpDebugServer - Command: u(9 2) id = 5299 length = 20
+[2016-02-02 14:21:51:694] JdwpDebugServer - Command: aa(11 4) id = 5300 length = 8
+[2016-02-02 14:21:51:694] SoftDebugger - Thread FinalizerWatchdogDaemon attached
+[2016-02-02 14:21:51:694] JdwpDebugServer - Command: aa(11 4) id = 5301 length = 8
+[2016-02-02 14:21:51:695] SoftJdwpEventProcessor - processing thread start event
+[2016-02-02 14:21:51:695] JdwpDebugServer - Command: w(9 9) id = 5302 length = 8
+[2016-02-02 14:21:51:696] SoftJdwpEventProcessor - Reporting class prepare event EventRequest [id=5, eventKind=CLASS_PREPARE, suspendPolicy=EVENT_THREAD, constraints=[ClassMatchConstraint [classPattern=com.mob.demo.ShareSDKDemo]]] to JDWP client for class com/mob/demo/ShareSDKDemo
+[2016-02-02 14:21:51:696] JdwpDebugServer - Command: ad(11 5) id = 5303 length = 8
+[2016-02-02 14:21:51:696] SoftJdwpEventProcessor - Reporting class prepare event EventRequest [id=7, eventKind=CLASS_PREPARE, suspendPolicy=EVENT_THREAD, constraints=[ClassMatchConstraint [classPattern=com.mob.demo.ShareSDKDemo]]] to JDWP client for class com/mob/demo/ShareSDKDemo
+[2016-02-02 14:21:51:696] SoftJdwpEventProcessor - Reporting class prepare event EventRequest [id=9, eventKind=CLASS_PREPARE, suspendPolicy=EVENT_THREAD, constraints=[ClassMatchConstraint [classPattern=com.mob.demo.ShareSDKDemo]]] to JDWP client for class com/mob/demo/ShareSDKDemo
+[2016-02-02 14:21:51:696] SoftJdwpEventProcessor - Reporting class prepare event EventRequest [id=11, eventKind=CLASS_PREPARE, suspendPolicy=EVENT_THREAD, constraints=[ClassMatchConstraint [classPattern=com.mob.demo.ShareSDKDemo]]] to JDWP client for class com/mob/demo/ShareSDKDemo
+[2016-02-02 14:21:51:696] SoftJdwpEventProcessor - Reporting class prepare event EventRequest [id=13, eventKind=CLASS_PREPARE, suspendPolicy=EVENT_THREAD, constraints=[ClassMatchConstraint [classPattern=com.mob.demo.ShareSDKDemo]]] to JDWP client for class com/mob/demo/ShareSDKDemo
+[2016-02-02 14:21:51:696] SoftJdwpEventProcessor - Reporting class prepare event EventRequest [id=15, eventKind=CLASS_PREPARE, suspendPolicy=EVENT_THREAD, constraints=[ClassMatchConstraint [classPattern=com.mob.demo.ShareSDKDemo]]] to JDWP client for class com/mob/demo/ShareSDKDemo
+[2016-02-02 14:21:51:696] SoftJdwpEventProcessor - Reporting class prepare event EventRequest [id=17, eventKind=CLASS_PREPARE, suspendPolicy=EVENT_THREAD, constraints=[ClassMatchConstraint [classPattern=com.mob.demo.ShareSDKDemo]]] to JDWP client for class com/mob/demo/ShareSDKDemo
+[2016-02-02 14:21:51:696] JdwpDebugServer - Command: y(9 1) id = 5304 length = 8
+[2016-02-02 14:21:51:697] JdwpDebugServer - Command: u(9 2) id = 5305 length = 20
+[2016-02-02 14:21:51:697] JdwpDebugServer - Command: H(2 15) id = 5306 length = 8
+[2016-02-02 14:21:51:697] SoftVmInterface - Reporting method: com/mob/demo/ShareSDKDemo.<init>
+[2016-02-02 14:21:51:697] SoftVmInterface - Reporting method: com/mob/demo/ShareSDKDemo.didFinishLaunching
+[2016-02-02 14:21:51:697] SoftVmInterface - Reporting method: com/mob/demo/ShareSDKDemo.main
+[2016-02-02 14:21:51:697] SoftVmInterface - Reporting method: com/mob/demo/ShareSDKDemo.initShareSDK
+[2016-02-02 14:21:51:697] SoftVmInterface - Reporting method: com/mob/demo/ShareSDKDemo.$cb$application$didFinishLaunchingWithOptions$
+[2016-02-02 14:21:51:697] SoftVmInterface - Reporting method: com/mob/demo/ShareSDKDemo.$cb$init
+[2016-02-02 14:21:51:697] SoftVmInterface - Reporting method: com/mob/demo/ShareSDKDemo.$setHandle
+[2016-02-02 14:21:51:697] SoftVmInterface - Reporting method: com/mob/demo/ShareSDKDemo.$cb$initWithCoder$
+[2016-02-02 14:21:51:697] SoftVmInterface - Reporting method: com/mob/demo/ShareSDKDemo.$m$super$initWithCoder$
+[2016-02-02 14:21:51:697] SoftVmInterface - Reporting method: com/mob/demo/ShareSDKDemo.$getSuper
+[2016-02-02 14:21:51:698] SoftVmInterface - Reporting method: com/mob/demo/ShareSDKDemo.$initObject
+[2016-02-02 14:21:51:698] SoftVmInterface - Reporting method: com/mob/demo/ShareSDKDemo.<clinit>
+[2016-02-02 14:21:51:698] JdwpDebugServer - Command: aa(11 4) id = 5307 length = 8
+[2016-02-02 14:21:51:698] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:51:698] JdwpDebugServer - Command: j(3 1) id = 5308 length = 8
+[2016-02-02 14:21:51:698] JdwpDebugServer - Command: aa(11 4) id = 5309 length = 8
+[2016-02-02 14:21:51:698] JdwpDebugServer - Command: H(2 15) id = 5310 length = 8
+[2016-02-02 14:21:51:698] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplicationDelegateAdapter.<init>
+[2016-02-02 14:21:51:698] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplicationDelegateAdapter.getWindow
+[2016-02-02 14:21:51:698] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplicationDelegateAdapter.setWindow
+[2016-02-02 14:21:51:699] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplicationDelegateAdapter.didReceiveMemoryWarning
+[2016-02-02 14:21:51:699] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplicationDelegateAdapter.didFinishLaunching
+[2016-02-02 14:21:51:699] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplicationDelegateAdapter.willFinishLaunching
+[2016-02-02 14:21:51:699] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplicationDelegateAdapter.didFinishLaunching
+[2016-02-02 14:21:51:699] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplicationDelegateAdapter.didBecomeActive
+[2016-02-02 14:21:51:699] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplicationDelegateAdapter.willResignActive
+[2016-02-02 14:21:51:699] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplicationDelegateAdapter.handleOpenURL
+[2016-02-02 14:21:51:699] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplicationDelegateAdapter.openURL
+[2016-02-02 14:21:51:699] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplicationDelegateAdapter.openURL
+[2016-02-02 14:21:51:699] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplicationDelegateAdapter.willTerminate
+[2016-02-02 14:21:51:699] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplicationDelegateAdapter.significantTimeChange
+[2016-02-02 14:21:51:699] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplicationDelegateAdapter.willChangeStatusBarOrientation
+[2016-02-02 14:21:51:699] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplicationDelegateAdapter.didChangStatusBarOrientation
+[2016-02-02 14:21:51:699] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplicationDelegateAdapter.willChangeStatusBarFrame
+[2016-02-02 14:21:51:699] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplicationDelegateAdapter.didChangStatusBarFrame
+[2016-02-02 14:21:51:699] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplicationDelegateAdapter.didRegisterUserNotificationSettings
+[2016-02-02 14:21:51:700] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplicationDelegateAdapter.didRegisterForRemoteNotifications
+[2016-02-02 14:21:51:700] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplicationDelegateAdapter.didFailToRegisterForRemoteNotifications
+[2016-02-02 14:21:51:700] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplicationDelegateAdapter.didReceiveRemoteNotification
+[2016-02-02 14:21:51:700] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplicationDelegateAdapter.didReceiveLocalNotification
+[2016-02-02 14:21:51:700] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplicationDelegateAdapter.handleLocalNotificationAction
+[2016-02-02 14:21:51:700] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplicationDelegateAdapter.handleRemoteNotificationAction
+[2016-02-02 14:21:51:700] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplicationDelegateAdapter.handleRemoteNotificationAction
+[2016-02-02 14:21:51:700] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplicationDelegateAdapter.handleLocalNotificationAction
+[2016-02-02 14:21:51:700] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplicationDelegateAdapter.didReceiveRemoteNotification
+[2016-02-02 14:21:51:700] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplicationDelegateAdapter.performFetch
+[2016-02-02 14:21:51:701] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplicationDelegateAdapter.performAction
+[2016-02-02 14:21:51:701] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplicationDelegateAdapter.handleEventsForBackgroundURLSession
+[2016-02-02 14:21:51:701] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplicationDelegateAdapter.handleWatchKitExtensionRequest
+[2016-02-02 14:21:51:702] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplicationDelegateAdapter.shouldRequestHealthAuthorization
+[2016-02-02 14:21:51:702] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplicationDelegateAdapter.didEnterBackground
+[2016-02-02 14:21:51:702] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplicationDelegateAdapter.willEnterForeground
+[2016-02-02 14:21:51:702] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplicationDelegateAdapter.protectedDataWillBecomeUnavailable
+[2016-02-02 14:21:51:702] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplicationDelegateAdapter.protectedDataDidBecomeAvailable
+[2016-02-02 14:21:51:702] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplicationDelegateAdapter.getSupportedInterfaceOrientations
+[2016-02-02 14:21:51:702] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplicationDelegateAdapter.shouldAllowExtensionPointIdentifier
+[2016-02-02 14:21:51:702] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplicationDelegateAdapter.getViewController
+[2016-02-02 14:21:51:702] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplicationDelegateAdapter.shouldSaveApplicationState
+[2016-02-02 14:21:51:702] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplicationDelegateAdapter.shouldRestoreApplicationState
+[2016-02-02 14:21:51:703] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplicationDelegateAdapter.willEncodeRestorableState
+[2016-02-02 14:21:51:703] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplicationDelegateAdapter.didDecodeRestorableState
+[2016-02-02 14:21:51:703] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplicationDelegateAdapter.willContinueUserActivity
+[2016-02-02 14:21:51:703] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplicationDelegateAdapter.continueUserActivity
+[2016-02-02 14:21:51:703] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplicationDelegateAdapter.didFailToContinueUserActivity
+[2016-02-02 14:21:51:703] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplicationDelegateAdapter.didUpdateUserActivity
+[2016-02-02 14:21:51:703] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplicationDelegateAdapter.$cb$window
+[2016-02-02 14:21:51:703] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplicationDelegateAdapter.$cb$setWindow$
+[2016-02-02 14:21:51:703] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplicationDelegateAdapter.$cb$applicationDidReceiveMemoryWarning$
+[2016-02-02 14:21:51:703] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplicationDelegateAdapter.$cb$init
+[2016-02-02 14:21:51:703] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplicationDelegateAdapter.$setHandle
+[2016-02-02 14:21:51:703] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplicationDelegateAdapter.$cb$initWithCoder$
+[2016-02-02 14:21:51:704] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplicationDelegateAdapter.$m$super$initWithCoder$
+[2016-02-02 14:21:51:704] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplicationDelegateAdapter.$getSuper
+[2016-02-02 14:21:51:704] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplicationDelegateAdapter.$initObject
+[2016-02-02 14:21:51:704] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplicationDelegateAdapter.<clinit>
+[2016-02-02 14:21:52:398] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:52:399] JdwpDebugServer - Command: j(3 1) id = 5311 length = 8
+[2016-02-02 14:21:52:399] JdwpDebugServer - Command: H(2 15) id = 5312 length = 8
+[2016-02-02 14:21:52:400] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.<init>
+[2016-02-02 14:21:52:400] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.<init>
+[2016-02-02 14:21:52:400] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.<init>
+[2016-02-02 14:21:52:400] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.<init>
+[2016-02-02 14:21:52:400] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.<init>
+[2016-02-02 14:21:52:400] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.getClassForCoder
+[2016-02-02 14:21:52:400] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.getAutoContentAccessingProxy
+[2016-02-02 14:21:52:400] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.getObservationInfo
+[2016-02-02 14:21:52:401] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.setObservationInfo
+[2016-02-02 14:21:52:401] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.getClassForKeyedArchiver
+[2016-02-02 14:21:52:401] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.afterMarshaled
+[2016-02-02 14:21:52:401] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.alloc
+[2016-02-02 14:21:52:401] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.alloc
+[2016-02-02 14:21:52:401] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.equals
+[2016-02-02 14:21:52:401] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.hashCode
+[2016-02-02 14:21:52:401] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.doDispose
+[2016-02-02 14:21:52:401] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.toString
+[2016-02-02 14:21:52:402] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.retain
+[2016-02-02 14:21:52:402] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.release
+[2016-02-02 14:21:52:402] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.autorelease
+[2016-02-02 14:21:52:402] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.performSelector
+[2016-02-02 14:21:52:402] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.performSelector
+[2016-02-02 14:21:52:402] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.performSelector
+[2016-02-02 14:21:52:402] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.isEqual
+[2016-02-02 14:21:52:402] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.hash
+[2016-02-02 14:21:52:402] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.isKindOfClass
+[2016-02-02 14:21:52:402] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.isMemberOfClass
+[2016-02-02 14:21:52:403] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.conformsToProtocol
+[2016-02-02 14:21:52:403] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.respondsToSelector
+[2016-02-02 14:21:52:403] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.init
+[2016-02-02 14:21:52:403] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.retain
+[2016-02-02 14:21:52:403] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.release
+[2016-02-02 14:21:52:403] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.autorelease
+[2016-02-02 14:21:52:403] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.retainCount
+[2016-02-02 14:21:52:403] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.description
+[2016-02-02 14:21:52:403] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.performSelectorV
+[2016-02-02 14:21:52:403] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.performSelectorV
+[2016-02-02 14:21:52:403] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.performSelectorV
+[2016-02-02 14:21:52:403] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.addKeyValueObserver
+[2016-02-02 14:21:52:403] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.addKeyValueObserver
+[2016-02-02 14:21:52:403] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.removeKeyValueObservers
+[2016-02-02 14:21:52:404] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.removeKeyValueObserver
+[2016-02-02 14:21:52:404] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.getKeyValueCoder
+[2016-02-02 14:21:52:404] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.willChangeValues
+[2016-02-02 14:21:52:404] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.didChangeValues
+[2016-02-02 14:21:52:404] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.awakeFromNib
+[2016-02-02 14:21:52:404] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.copy
+[2016-02-02 14:21:52:404] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.mutableCopy
+[2016-02-02 14:21:52:404] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.addObserver
+[2016-02-02 14:21:52:404] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.removeObserver
+[2016-02-02 14:21:52:404] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.willChangeValue
+[2016-02-02 14:21:52:404] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.didChangeValue
+[2016-02-02 14:21:52:405] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.willChangeValues
+[2016-02-02 14:21:52:405] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.didChangeValues
+[2016-02-02 14:21:52:405] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.willChangeValue
+[2016-02-02 14:21:52:405] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.didChangeValue
+[2016-02-02 14:21:52:405] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.performSelector
+[2016-02-02 14:21:52:405] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.performSelector
+[2016-02-02 14:21:52:405] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.performSelectorOnMainThread
+[2016-02-02 14:21:52:405] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.performSelectorOnMainThread
+[2016-02-02 14:21:52:405] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.performSelector
+[2016-02-02 14:21:52:405] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.performSelector
+[2016-02-02 14:21:52:405] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.performSelectorInBackground
+[2016-02-02 14:21:52:405] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.<clinit>
+[2016-02-02 14:21:52:405] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.$m$classForCoder
+[2016-02-02 14:21:52:405] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.$m$super$classForCoder
+[2016-02-02 14:21:52:405] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.$m$observationInfo
+[2016-02-02 14:21:52:406] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.$m$super$observationInfo
+[2016-02-02 14:21:52:406] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.$m$setObservationInfo$
+[2016-02-02 14:21:52:406] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.$m$super$setObservationInfo$
+[2016-02-02 14:21:52:406] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.$m$classForKeyedArchiver
+[2016-02-02 14:21:52:406] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.$m$super$classForKeyedArchiver
+[2016-02-02 14:21:52:406] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.$m$performSelector$
+[2016-02-02 14:21:52:406] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.$m$super$performSelector$
+[2016-02-02 14:21:52:406] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.$m$performSelector$withObject$
+[2016-02-02 14:21:52:406] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.$m$super$performSelector$withObject$
+[2016-02-02 14:21:52:406] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.$m$performSelector$withObject$withObject$
+[2016-02-02 14:21:52:406] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.$m$super$performSelector$withObject$withObject$
+[2016-02-02 14:21:52:406] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.$m$isEqual$
+[2016-02-02 14:21:52:406] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.$m$super$isEqual$
+[2016-02-02 14:21:52:406] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.$m$isKindOfClass$
+[2016-02-02 14:21:52:406] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.$m$super$isKindOfClass$
+[2016-02-02 14:21:52:407] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.$m$isMemberOfClass$
+[2016-02-02 14:21:52:407] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.$m$super$isMemberOfClass$
+[2016-02-02 14:21:52:407] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.$m$respondsToSelector$
+[2016-02-02 14:21:52:407] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.$m$super$respondsToSelector$
+[2016-02-02 14:21:52:407] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.$m$performSelector$
+[2016-02-02 14:21:52:407] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.$m$super$performSelector$
+[2016-02-02 14:21:52:407] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.$m$performSelector$withObject$
+[2016-02-02 14:21:52:407] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.$m$super$performSelector$withObject$
+[2016-02-02 14:21:52:407] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.$m$performSelector$withObject$withObject$
+[2016-02-02 14:21:52:407] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.$m$super$performSelector$withObject$withObject$
+[2016-02-02 14:21:52:407] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.$m$addObserver$forKeyPath$options$context$
+[2016-02-02 14:21:52:407] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.$m$super$addObserver$forKeyPath$options$context$
+[2016-02-02 14:21:52:407] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.$m$removeObserver$forKeyPath$context$
+[2016-02-02 14:21:52:407] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.$m$super$removeObserver$forKeyPath$context$
+[2016-02-02 14:21:52:408] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.$m$willChange$valuesAtIndexes$forKey$
+[2016-02-02 14:21:52:408] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.$m$super$willChange$valuesAtIndexes$forKey$
+[2016-02-02 14:21:52:408] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.$m$didChange$valuesAtIndexes$forKey$
+[2016-02-02 14:21:52:408] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.$m$super$didChange$valuesAtIndexes$forKey$
+[2016-02-02 14:21:52:408] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.$m$willChangeValueForKey$withSetMutation$usingObjects$
+[2016-02-02 14:21:52:408] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.$m$super$willChangeValueForKey$withSetMutation$usingObjects$
+[2016-02-02 14:21:52:408] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.$m$didChangeValueForKey$withSetMutation$usingObjects$
+[2016-02-02 14:21:52:408] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.$m$super$didChangeValueForKey$withSetMutation$usingObjects$
+[2016-02-02 14:21:52:408] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.$m$performSelector$withObject$afterDelay$inModes$
+[2016-02-02 14:21:52:408] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.$m$super$performSelector$withObject$afterDelay$inModes$
+[2016-02-02 14:21:52:408] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.$m$performSelector$withObject$afterDelay$
+[2016-02-02 14:21:52:408] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.$m$super$performSelector$withObject$afterDelay$
+[2016-02-02 14:21:52:409] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.$m$performSelectorOnMainThread$withObject$waitUntilDone$modes$
+[2016-02-02 14:21:52:409] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.$m$super$performSelectorOnMainThread$withObject$waitUntilDone$modes$
+[2016-02-02 14:21:52:409] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.$m$performSelectorOnMainThread$withObject$waitUntilDone$
+[2016-02-02 14:21:52:409] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.$m$super$performSelectorOnMainThread$withObject$waitUntilDone$
+[2016-02-02 14:21:52:409] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.$m$performSelector$onThread$withObject$waitUntilDone$modes$
+[2016-02-02 14:21:52:409] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.$m$super$performSelector$onThread$withObject$waitUntilDone$modes$
+[2016-02-02 14:21:52:409] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.$m$performSelector$onThread$withObject$waitUntilDone$
+[2016-02-02 14:21:52:409] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.$m$super$performSelector$onThread$withObject$waitUntilDone$
+[2016-02-02 14:21:52:409] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.$m$performSelectorInBackground$withObject$
+[2016-02-02 14:21:52:409] SoftVmInterface - Reporting method: org/robovm/apple/foundation/NSObject.$m$super$performSelectorInBackground$withObject$
+[2016-02-02 14:21:52:410] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:52:410] JdwpDebugServer - Command: j(3 1) id = 5313 length = 8
+[2016-02-02 14:21:52:411] JdwpDebugServer - Command: H(2 15) id = 5314 length = 8
+[2016-02-02 14:21:52:411] SoftVmInterface - Reporting method: org/robovm/objc/ObjCObject.<init>
+[2016-02-02 14:21:52:411] SoftVmInterface - Reporting method: org/robovm/objc/ObjCObject.<init>
+[2016-02-02 14:21:52:411] SoftVmInterface - Reporting method: org/robovm/objc/ObjCObject.<init>
+[2016-02-02 14:21:52:411] SoftVmInterface - Reporting method: org/robovm/objc/ObjCObject.initObject
+[2016-02-02 14:21:52:411] SoftVmInterface - Reporting method: org/robovm/objc/ObjCObject.alloc
+[2016-02-02 14:21:52:411] SoftVmInterface - Reporting method: org/robovm/objc/ObjCObject.finalize
+[2016-02-02 14:21:52:411] SoftVmInterface - Reporting method: org/robovm/objc/ObjCObject.dispose
+[2016-02-02 14:21:52:411] SoftVmInterface - Reporting method: org/robovm/objc/ObjCObject.doDispose
+[2016-02-02 14:21:52:411] SoftVmInterface - Reporting method: org/robovm/objc/ObjCObject.dispose
+[2016-02-02 14:21:52:411] SoftVmInterface - Reporting method: org/robovm/objc/ObjCObject.getSuper
+[2016-02-02 14:21:52:412] SoftVmInterface - Reporting method: org/robovm/objc/ObjCObject.afterMarshaled
+[2016-02-02 14:21:52:412] SoftVmInterface - Reporting method: org/robovm/objc/ObjCObject.getObjCClass
+[2016-02-02 14:21:52:412] SoftVmInterface - Reporting method: org/robovm/objc/ObjCObject.getPeerObject
+[2016-02-02 14:21:52:412] SoftVmInterface - Reporting method: org/robovm/objc/ObjCObject.setPeerObject
+[2016-02-02 14:21:52:412] SoftVmInterface - Reporting method: org/robovm/objc/ObjCObject.removePeerObject
+[2016-02-02 14:21:52:412] SoftVmInterface - Reporting method: org/robovm/objc/ObjCObject.addStrongRef
+[2016-02-02 14:21:52:412] SoftVmInterface - Reporting method: org/robovm/objc/ObjCObject.removeStrongRef
+[2016-02-02 14:21:52:412] SoftVmInterface - Reporting method: org/robovm/objc/ObjCObject.updateStrongRef
+[2016-02-02 14:21:52:412] SoftVmInterface - Reporting method: org/robovm/objc/ObjCObject.getAssociatedObject
+[2016-02-02 14:21:52:412] SoftVmInterface - Reporting method: org/robovm/objc/ObjCObject.setAssociatedObject
+[2016-02-02 14:21:52:412] SoftVmInterface - Reporting method: org/robovm/objc/ObjCObject.toObjCObject
+[2016-02-02 14:21:52:412] SoftVmInterface - Reporting method: org/robovm/objc/ObjCObject.toObjCObject
+[2016-02-02 14:21:52:412] SoftVmInterface - Reporting method: org/robovm/objc/ObjCObject.createInstance
+[2016-02-02 14:21:52:412] SoftVmInterface - Reporting method: org/robovm/objc/ObjCObject.logRetainRelease
+[2016-02-02 14:21:52:412] SoftVmInterface - Reporting method: org/robovm/objc/ObjCObject.logRetainRelease
+[2016-02-02 14:21:52:412] SoftVmInterface - Reporting method: org/robovm/objc/ObjCObject.access$000
+[2016-02-02 14:21:52:412] SoftVmInterface - Reporting method: org/robovm/objc/ObjCObject.access$100
+[2016-02-02 14:21:52:412] SoftVmInterface - Reporting method: org/robovm/objc/ObjCObject.access$200
+[2016-02-02 14:21:52:413] SoftVmInterface - Reporting method: org/robovm/objc/ObjCObject.<clinit>
+[2016-02-02 14:21:52:413] JdwpDebugServer - Command: j(3 1) id = 5315 length = 8
+[2016-02-02 14:21:52:413] JdwpDebugServer - Command: H(2 15) id = 5316 length = 8
+[2016-02-02 14:21:52:414] SoftVmInterface - Reporting method: org/robovm/rt/bro/NativeObject.<init>
+[2016-02-02 14:21:52:414] SoftVmInterface - Reporting method: org/robovm/rt/bro/NativeObject.getHandle
+[2016-02-02 14:21:52:414] SoftVmInterface - Reporting method: org/robovm/rt/bro/NativeObject.setHandle
+[2016-02-02 14:21:52:414] SoftVmInterface - Reporting method: org/robovm/rt/bro/NativeObject.as
+[2016-02-02 14:21:52:414] SoftVmInterface - Reporting method: org/robovm/rt/bro/NativeObject.hashCode
+[2016-02-02 14:21:52:414] SoftVmInterface - Reporting method: org/robovm/rt/bro/NativeObject.equals
+[2016-02-02 14:21:52:414] JdwpDebugServer - Command: j(3 1) id = 5317 length = 8
+[2016-02-02 14:21:52:414] JdwpDebugServer - Command: H(2 15) id = 5318 length = 8
+[2016-02-02 14:21:52:414] SoftVmInterface - Reporting method: java/lang/Object.<init>
+[2016-02-02 14:21:52:414] SoftVmInterface - Reporting method: java/lang/Object.clone
+[2016-02-02 14:21:52:415] SoftVmInterface - Reporting method: java/lang/Object.internalClone
+[2016-02-02 14:21:52:415] SoftVmInterface - Reporting method: java/lang/Object.equals
+[2016-02-02 14:21:52:415] SoftVmInterface - Reporting method: java/lang/Object.finalize
+[2016-02-02 14:21:52:415] SoftVmInterface - Reporting method: java/lang/Object.getClass
+[2016-02-02 14:21:52:415] SoftVmInterface - Reporting method: java/lang/Object.hashCode
+[2016-02-02 14:21:52:415] SoftVmInterface - Reporting method: java/lang/Object.notify
+[2016-02-02 14:21:52:415] SoftVmInterface - Reporting method: java/lang/Object.notifyAll
+[2016-02-02 14:21:52:415] SoftVmInterface - Reporting method: java/lang/Object.toString
+[2016-02-02 14:21:52:415] SoftVmInterface - Reporting method: java/lang/Object.wait
+[2016-02-02 14:21:52:415] SoftVmInterface - Reporting method: java/lang/Object.wait
+[2016-02-02 14:21:52:415] SoftVmInterface - Reporting method: java/lang/Object.wait
+[2016-02-02 14:21:52:416] JdwpDebugServer - Command: j(3 1) id = 5319 length = 8
+[2016-02-02 14:21:52:416] JdwpDebugServer - Command: m(15 1) id = 5320 length = 15
+[2016-02-02 14:21:52:421] JdwpDebugServer - Command: j(3 1) id = 5321 length = 8
+[2016-02-02 14:21:52:421] JdwpDebugServer - Command: m(15 1) id = 5322 length = 15
+[2016-02-02 14:21:52:422] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:52:425] JdwpDebugServer - Command: o(6 1) id = 5323 length = 16
+[2016-02-02 14:21:52:426] SoftVmInterface - Reporting line numbers for method com/mob/demo/ShareSDKDemo.<init>: [17]
+[2016-02-02 14:21:52:426] JdwpDebugServer - Command: o(6 1) id = 5324 length = 16
+[2016-02-02 14:21:52:426] SoftVmInterface - Reporting line numbers for method com/mob/demo/ShareSDKDemo.didFinishLaunching: [24, 27, 29, 31, 33, 36]
+[2016-02-02 14:21:52:426] JdwpDebugServer - Command: o(6 1) id = 5325 length = 16
+[2016-02-02 14:21:52:427] SoftVmInterface - Reporting line numbers for method com/mob/demo/ShareSDKDemo.main: [40, 41, 42, 43]
+[2016-02-02 14:21:52:428] JdwpDebugServer - Command: o(6 1) id = 5326 length = 16
+[2016-02-02 14:21:52:428] SoftVmInterface - Reporting line numbers for method com/mob/demo/ShareSDKDemo.initShareSDK: [48, 50, 51, 52, 53, 54, 56, 80, 118]
+[2016-02-02 14:21:52:428] JdwpDebugServer - Command: o(6 1) id = 5327 length = 16
+[2016-02-02 14:21:52:428] SoftVmInterface - Reporting line numbers for method com/mob/demo/ShareSDKDemo.$cb$application$didFinishLaunchingWithOptions$: [1048580]
+[2016-02-02 14:21:52:428] JdwpDebugServer - Command: o(6 1) id = 5328 length = 16
+[2016-02-02 14:21:52:429] SoftVmInterface - Reporting line numbers for method com/mob/demo/ShareSDKDemo.$cb$init: [1048581]
+[2016-02-02 14:21:52:429] JdwpDebugServer - Command: o(6 1) id = 5329 length = 16
+[2016-02-02 14:21:52:429] SoftVmInterface - Reporting line numbers for method com/mob/demo/ShareSDKDemo.$setHandle: [1048582]
+[2016-02-02 14:21:52:429] JdwpDebugServer - Command: o(6 1) id = 5330 length = 16
+[2016-02-02 14:21:52:429] SoftVmInterface - Reporting line numbers for method com/mob/demo/ShareSDKDemo.$cb$initWithCoder$: [1048583]
+[2016-02-02 14:21:52:429] JdwpDebugServer - Command: o(6 1) id = 5331 length = 16
+[2016-02-02 14:21:52:430] SoftVmInterface - Reporting line numbers for method com/mob/demo/ShareSDKDemo.$getSuper: [1048585]
+[2016-02-02 14:21:52:430] JdwpDebugServer - Command: o(6 1) id = 5332 length = 16
+[2016-02-02 14:21:52:430] SoftVmInterface - Reporting line numbers for method com/mob/demo/ShareSDKDemo.$initObject: [1048586]
+[2016-02-02 14:21:52:430] JdwpDebugServer - Command: o(6 1) id = 5333 length = 16
+[2016-02-02 14:21:52:430] SoftVmInterface - Reporting line numbers for method com/mob/demo/ShareSDKDemo.<clinit>: [1048587]
+[2016-02-02 14:21:52:431] JdwpDebugServer - Command: j(3 1) id = 5334 length = 8
+[2016-02-02 14:21:52:431] JdwpDebugServer - Command: m(15 1) id = 5335 length = 15
+[2016-02-02 14:21:52:432] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:52:435] JdwpDebugServer - Command: j(3 1) id = 5336 length = 8
+[2016-02-02 14:21:52:436] JdwpDebugServer - Command: m(15 1) id = 5337 length = 15
+[2016-02-02 14:21:52:441] JdwpDebugServer - Command: j(3 1) id = 5338 length = 8
+[2016-02-02 14:21:52:441] JdwpDebugServer - Command: m(15 1) id = 5339 length = 15
+[2016-02-02 14:21:52:442] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:52:445] JdwpDebugServer - Command: Z(11 3) id = 5340 length = 8
+[2016-02-02 14:21:52:446] DebugChannel - Event: Thread resumed, java obj: 0x116818f30, thread: 0x116817ee0
+[2016-02-02 14:21:52:453] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:52:464] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:52:475] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:52:486] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:52:497] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:52:509] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:52:521] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:52:533] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:52:546] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:52:557] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:52:568] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:52:578] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:52:590] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:52:601] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:52:614] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:52:624] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:52:634] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:52:647] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:52:660] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:52:672] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:52:683] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:52:695] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:52:705] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:52:716] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:52:716] DebugChannel - Event: Thread stopped, reason: Exception, java obj: 0x116818f30, thread: 0x116817ee0, frames: 9
+[2016-02-02 14:21:52:717] SoftDebugger - Reconstructing frames took: 0.001179secs
+[2016-02-02 14:21:52:718] DebugChannel - Event: Thread resumed, java obj: 0x116818f30, thread: 0x116817ee0
+[2016-02-02 14:21:52:718] DebugChannel - Event: Thread stopped, reason: Exception, java obj: 0x116818f30, thread: 0x116817ee0, frames: 9
+[2016-02-02 14:21:52:718] SoftDebugger - Reconstructing frames took: 5.8E-5secs
+[2016-02-02 14:21:52:719] DebugChannel - Event: Thread resumed, java obj: 0x116818f30, thread: 0x116817ee0
+[2016-02-02 14:21:52:719] DebugChannel - Event: Thread stopped, reason: Exception, java obj: 0x116818f30, thread: 0x116817ee0, frames: 9
+[2016-02-02 14:21:52:719] SoftDebugger - Reconstructing frames took: 4.3E-5secs
+[2016-02-02 14:21:52:720] DebugChannel - Event: Thread resumed, java obj: 0x116818f30, thread: 0x116817ee0
+[2016-02-02 14:21:52:720] DebugChannel - Event: Thread stopped, reason: Exception, java obj: 0x116818f30, thread: 0x116817ee0, frames: 9
+[2016-02-02 14:21:52:720] SoftDebugger - Reconstructing frames took: 3.5E-5secs
+[2016-02-02 14:21:52:721] DebugChannel - Event: Thread resumed, java obj: 0x116818f30, thread: 0x116817ee0
+[2016-02-02 14:21:52:721] DebugChannel - Event: Thread stopped, reason: Exception, java obj: 0x116818f30, thread: 0x116817ee0, frames: 9
+[2016-02-02 14:21:52:721] SoftDebugger - Reconstructing frames took: 4.0E-5secs
+[2016-02-02 14:21:52:722] DebugChannel - Event: Thread resumed, java obj: 0x116818f30, thread: 0x116817ee0
+[2016-02-02 14:21:52:723] DebugChannel - Event: Thread stopped, reason: Exception, java obj: 0x116818f30, thread: 0x116817ee0, frames: 9
+[2016-02-02 14:21:52:723] SoftDebugger - Reconstructing frames took: 3.3E-5secs
+[2016-02-02 14:21:52:723] DebugChannel - Event: Thread resumed, java obj: 0x116818f30, thread: 0x116817ee0
+[2016-02-02 14:21:52:724] DebugChannel - Event: Thread stopped, reason: Exception, java obj: 0x116818f30, thread: 0x116817ee0, frames: 9
+[2016-02-02 14:21:52:724] SoftDebugger - Reconstructing frames took: 4.7E-5secs
+[2016-02-02 14:21:52:724] DebugChannel - Event: Thread resumed, java obj: 0x116818f30, thread: 0x116817ee0
+[2016-02-02 14:21:52:725] DebugChannel - Event: Thread stopped, reason: Exception, java obj: 0x116818f30, thread: 0x116817ee0, frames: 9
+[2016-02-02 14:21:52:725] SoftDebugger - Reconstructing frames took: 4.9E-5secs
+[2016-02-02 14:21:52:725] DebugChannel - Event: Thread resumed, java obj: 0x116818f30, thread: 0x116817ee0
+[2016-02-02 14:21:52:726] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:52:727] DebugChannel - Event: Thread stopped, reason: Exception, java obj: 0x116818f30, thread: 0x116817ee0, frames: 9
+[2016-02-02 14:21:52:727] SoftDebugger - Reconstructing frames took: 4.0E-5secs
+[2016-02-02 14:21:52:727] DebugChannel - Event: Thread resumed, java obj: 0x116818f30, thread: 0x116817ee0
+[2016-02-02 14:21:52:727] DebugChannel - Event: Thread stopped, reason: Exception, java obj: 0x116818f30, thread: 0x116817ee0, frames: 9
+[2016-02-02 14:21:52:728] SoftDebugger - Reconstructing frames took: 2.2E-5secs
+[2016-02-02 14:21:52:728] DebugChannel - Event: Thread resumed, java obj: 0x116818f30, thread: 0x116817ee0
+[2016-02-02 14:21:52:733] DebugChannel - Event: Thread stopped, reason: Exception, java obj: 0x116818f30, thread: 0x116817ee0, frames: 9
+[2016-02-02 14:21:52:733] SoftDebugger - Reconstructing frames took: 4.1E-5secs
+[2016-02-02 14:21:52:733] DebugChannel - Event: Thread resumed, java obj: 0x116818f30, thread: 0x116817ee0
+[2016-02-02 14:21:52:736] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:52:747] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:52:757] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:52:769] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:52:776] SoftJdwpEventProcessor - Reporting class prepare event EventRequest [id=3, eventKind=CLASS_PREPARE, suspendPolicy=EVENT_THREAD, constraints=[ClassMatchConstraint [classPattern=com.mob.demo.MyViewController]]] to JDWP client for class com/mob/demo/MyViewController
+[2016-02-02 14:21:52:777] JdwpDebugServer - Command: H(2 15) id = 5341 length = 8
+[2016-02-02 14:21:52:777] SoftVmInterface - Reporting method: com/mob/demo/MyViewController.<init>
+[2016-02-02 14:21:52:777] SoftVmInterface - Reporting method: com/mob/demo/MyViewController.excute
+[2016-02-02 14:21:52:777] SoftVmInterface - Reporting method: com/mob/demo/MyViewController.initUI
+[2016-02-02 14:21:52:777] SoftVmInterface - Reporting method: com/mob/demo/MyViewController.$cb$init
+[2016-02-02 14:21:52:777] SoftVmInterface - Reporting method: com/mob/demo/MyViewController.$setHandle
+[2016-02-02 14:21:52:777] SoftVmInterface - Reporting method: com/mob/demo/MyViewController.$cb$initWithNibName$bundle$
+[2016-02-02 14:21:52:777] SoftVmInterface - Reporting method: com/mob/demo/MyViewController.$m$super$initWithNibName$bundle$
+[2016-02-02 14:21:52:777] SoftVmInterface - Reporting method: com/mob/demo/MyViewController.$getSuper
+[2016-02-02 14:21:52:778] SoftVmInterface - Reporting method: com/mob/demo/MyViewController.$initObject
+[2016-02-02 14:21:52:778] SoftVmInterface - Reporting method: com/mob/demo/MyViewController.$cb$initWithCoder$
+[2016-02-02 14:21:52:778] SoftVmInterface - Reporting method: com/mob/demo/MyViewController.$m$super$initWithCoder$
+[2016-02-02 14:21:52:778] SoftVmInterface - Reporting method: com/mob/demo/MyViewController.<clinit>
+[2016-02-02 14:21:52:778] JdwpDebugServer - Command: o(6 1) id = 5342 length = 16
+[2016-02-02 14:21:52:778] SoftVmInterface - Reporting line numbers for method com/mob/demo/MyViewController.<init>: [36, 38, 39, 41]
+[2016-02-02 14:21:52:778] JdwpDebugServer - Command: o(6 1) id = 5343 length = 16
+[2016-02-02 14:21:52:779] SoftVmInterface - Reporting line numbers for method com/mob/demo/MyViewController.excute: [46, 54, 57, 64, 67, 124, 127, 180, 183, 235, 237]
+[2016-02-02 14:21:52:779] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:52:779] JdwpDebugServer - Command: o(6 1) id = 5344 length = 16
+[2016-02-02 14:21:52:779] SoftVmInterface - Reporting line numbers for method com/mob/demo/MyViewController.initUI: [241, 242, 244, 245, 246, 247, 249, 250, 251, 252, 254, 255, 256, 257, 259, 260, 261, 262, 264, 265, 266, 267, 269]
+[2016-02-02 14:21:52:779] JdwpDebugServer - Command: o(6 1) id = 5345 length = 16
+[2016-02-02 14:21:52:779] SoftVmInterface - Reporting line numbers for method com/mob/demo/MyViewController.$cb$init: [1048579]
+[2016-02-02 14:21:52:780] JdwpDebugServer - Command: o(6 1) id = 5346 length = 16
+[2016-02-02 14:21:52:780] SoftVmInterface - Reporting line numbers for method com/mob/demo/MyViewController.$setHandle: [1048580]
+[2016-02-02 14:21:52:780] JdwpDebugServer - Command: o(6 1) id = 5347 length = 16
+[2016-02-02 14:21:52:780] SoftVmInterface - Reporting line numbers for method com/mob/demo/MyViewController.$cb$initWithNibName$bundle$: [1048581]
+[2016-02-02 14:21:52:780] JdwpDebugServer - Command: o(6 1) id = 5348 length = 16
+[2016-02-02 14:21:52:780] SoftVmInterface - Reporting line numbers for method com/mob/demo/MyViewController.$getSuper: [1048583]
+[2016-02-02 14:21:52:780] JdwpDebugServer - Command: o(6 1) id = 5349 length = 16
+[2016-02-02 14:21:52:780] SoftVmInterface - Reporting line numbers for method com/mob/demo/MyViewController.$initObject: [1048584]
+[2016-02-02 14:21:52:781] JdwpDebugServer - Command: o(6 1) id = 5350 length = 16
+[2016-02-02 14:21:52:781] SoftVmInterface - Reporting line numbers for method com/mob/demo/MyViewController.$cb$initWithCoder$: [1048585]
+[2016-02-02 14:21:52:781] JdwpDebugServer - Command: o(6 1) id = 5351 length = 16
+[2016-02-02 14:21:52:781] SoftVmInterface - Reporting line numbers for method com/mob/demo/MyViewController.<clinit>: [1048587]
+[2016-02-02 14:21:52:781] JdwpDebugServer - Command: Z(11 3) id = 5352 length = 8
+[2016-02-02 14:21:52:782] DebugChannel - Event: Thread resumed, java obj: 0x116818f30, thread: 0x116817ee0
+[2016-02-02 14:21:52:790] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:52:801] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:52:814] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:52:826] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:52:838] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:52:849] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:52:861] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:52:872] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:52:882] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:52:894] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:52:904] DebugChannel - Event: Thread stopped, reason: Exception, java obj: 0x116818f30, thread: 0x116817ee0, frames: 15
+[2016-02-02 14:21:52:905] SoftDebugger - Reconstructing frames took: 7.94E-4secs
+[2016-02-02 14:21:52:905] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:52:906] DebugChannel - Event: Thread resumed, java obj: 0x116818f30, thread: 0x116817ee0
+[2016-02-02 14:21:52:909] DebugChannel - Event: Thread stopped, reason: Exception, java obj: 0x116818f30, thread: 0x116817ee0, frames: 10
+[2016-02-02 14:21:52:909] SoftDebugger - Reconstructing frames took: 6.7E-5secs
+[2016-02-02 14:21:52:910] DebugChannel - Event: Thread resumed, java obj: 0x116818f30, thread: 0x116817ee0
+[2016-02-02 14:21:52:916] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:52:927] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:52:937] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:52:948] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:52:959] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:52:970] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:52:980] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:52:991] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:53:002] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:53:013] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:53:023] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:53:035] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:53:045] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:53:058] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:53:069] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:53:080] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:53:090] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:53:101] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:53:112] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:53:122] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:53:133] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:53:143] SoftJdwpEventProcessor - Reporting class prepare event EventRequest [id=4, eventKind=CLASS_PREPARE, suspendPolicy=EVENT_THREAD, constraints=[ClassMatchConstraint [classPattern=com.mob.demo.MyViewController$*]]] to JDWP client for class com/mob/demo/MyViewController$1
+[2016-02-02 14:21:53:143] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:53:144] JdwpDebugServer - Command: H(2 15) id = 5353 length = 8
+[2016-02-02 14:21:53:144] SoftVmInterface - Reporting method: com/mob/demo/MyViewController$1.<init>
+[2016-02-02 14:21:53:144] SoftVmInterface - Reporting method: com/mob/demo/MyViewController$1.onTouchUpInside
+[2016-02-02 14:21:53:144] JdwpDebugServer - Command: o(6 1) id = 5354 length = 16
+[2016-02-02 14:21:53:144] SoftVmInterface - Reporting line numbers for method com/mob/demo/MyViewController$1.<init>: [1, 46]
+[2016-02-02 14:21:53:144] JdwpDebugServer - Command: o(6 1) id = 5355 length = 16
+[2016-02-02 14:21:53:144] SoftVmInterface - Reporting line numbers for method com/mob/demo/MyViewController$1.onTouchUpInside: [52]
+[2016-02-02 14:21:53:145] JdwpDebugServer - Command: Z(11 3) id = 5356 length = 8
+[2016-02-02 14:21:53:145] DebugChannel - Event: Thread resumed, java obj: 0x116818f30, thread: 0x116817ee0
+[2016-02-02 14:21:53:148] SoftJdwpEventProcessor - Reporting class prepare event EventRequest [id=4, eventKind=CLASS_PREPARE, suspendPolicy=EVENT_THREAD, constraints=[ClassMatchConstraint [classPattern=com.mob.demo.MyViewController$*]]] to JDWP client for class com/mob/demo/MyViewController$2
+[2016-02-02 14:21:53:149] JdwpDebugServer - Command: H(2 15) id = 5357 length = 8
+[2016-02-02 14:21:53:149] SoftVmInterface - Reporting method: com/mob/demo/MyViewController$2.<init>
+[2016-02-02 14:21:53:149] SoftVmInterface - Reporting method: com/mob/demo/MyViewController$2.onTouchUpInside
+[2016-02-02 14:21:53:149] JdwpDebugServer - Command: o(6 1) id = 5358 length = 16
+[2016-02-02 14:21:53:150] SoftVmInterface - Reporting line numbers for method com/mob/demo/MyViewController$2.<init>: [1, 57]
+[2016-02-02 14:21:53:150] JdwpDebugServer - Command: o(6 1) id = 5359 length = 16
+[2016-02-02 14:21:53:150] SoftVmInterface - Reporting line numbers for method com/mob/demo/MyViewController$2.onTouchUpInside: [62]
+[2016-02-02 14:21:53:150] JdwpDebugServer - Command: Z(11 3) id = 5360 length = 8
+[2016-02-02 14:21:53:151] DebugChannel - Event: Thread resumed, java obj: 0x116818f30, thread: 0x116817ee0
+[2016-02-02 14:21:53:152] SoftJdwpEventProcessor - Reporting class prepare event EventRequest [id=4, eventKind=CLASS_PREPARE, suspendPolicy=EVENT_THREAD, constraints=[ClassMatchConstraint [classPattern=com.mob.demo.MyViewController$*]]] to JDWP client for class com/mob/demo/MyViewController$3
+[2016-02-02 14:21:53:154] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:53:156] JdwpDebugServer - Command: H(2 15) id = 5361 length = 8
+[2016-02-02 14:21:53:157] SoftVmInterface - Reporting method: com/mob/demo/MyViewController$3.<init>
+[2016-02-02 14:21:53:157] SoftVmInterface - Reporting method: com/mob/demo/MyViewController$3.onTouchUpInside
+[2016-02-02 14:21:53:157] JdwpDebugServer - Command: o(6 1) id = 5362 length = 16
+[2016-02-02 14:21:53:157] SoftVmInterface - Reporting line numbers for method com/mob/demo/MyViewController$3.<init>: [1, 67]
+[2016-02-02 14:21:53:157] JdwpDebugServer - Command: o(6 1) id = 5363 length = 16
+[2016-02-02 14:21:53:158] SoftVmInterface - Reporting line numbers for method com/mob/demo/MyViewController$3.onTouchUpInside: [71, 72, 74, 76, 78, 80, 81, 82, 84, 122]
+[2016-02-02 14:21:53:158] JdwpDebugServer - Command: Z(11 3) id = 5364 length = 8
+[2016-02-02 14:21:53:158] DebugChannel - Event: Thread resumed, java obj: 0x116818f30, thread: 0x116817ee0
+[2016-02-02 14:21:53:159] SoftJdwpEventProcessor - Reporting class prepare event EventRequest [id=4, eventKind=CLASS_PREPARE, suspendPolicy=EVENT_THREAD, constraints=[ClassMatchConstraint [classPattern=com.mob.demo.MyViewController$*]]] to JDWP client for class com/mob/demo/MyViewController$4
+[2016-02-02 14:21:53:164] JdwpDebugServer - Command: H(2 15) id = 5365 length = 8
+[2016-02-02 14:21:53:164] SoftVmInterface - Reporting method: com/mob/demo/MyViewController$4.<init>
+[2016-02-02 14:21:53:164] SoftVmInterface - Reporting method: com/mob/demo/MyViewController$4.onTouchUpInside
+[2016-02-02 14:21:53:164] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:53:164] JdwpDebugServer - Command: o(6 1) id = 5366 length = 16
+[2016-02-02 14:21:53:165] SoftVmInterface - Reporting line numbers for method com/mob/demo/MyViewController$4.<init>: [1, 127]
+[2016-02-02 14:21:53:165] JdwpDebugServer - Command: o(6 1) id = 5367 length = 16
+[2016-02-02 14:21:53:165] SoftVmInterface - Reporting line numbers for method com/mob/demo/MyViewController$4.onTouchUpInside: [131, 132, 134, 136, 138, 140, 141, 142, 144, 178]
+[2016-02-02 14:21:53:166] JdwpDebugServer - Command: Z(11 3) id = 5368 length = 8
+[2016-02-02 14:21:53:166] DebugChannel - Event: Thread resumed, java obj: 0x116818f30, thread: 0x116817ee0
+[2016-02-02 14:21:53:169] SoftJdwpEventProcessor - Reporting class prepare event EventRequest [id=4, eventKind=CLASS_PREPARE, suspendPolicy=EVENT_THREAD, constraints=[ClassMatchConstraint [classPattern=com.mob.demo.MyViewController$*]]] to JDWP client for class com/mob/demo/MyViewController$5
+[2016-02-02 14:21:53:174] JdwpDebugServer - Command: H(2 15) id = 5369 length = 8
+[2016-02-02 14:21:53:174] SoftVmInterface - Reporting method: com/mob/demo/MyViewController$5.<init>
+[2016-02-02 14:21:53:174] SoftVmInterface - Reporting method: com/mob/demo/MyViewController$5.onTouchUpInside
+[2016-02-02 14:21:53:174] JdwpDebugServer - Command: o(6 1) id = 5370 length = 16
+[2016-02-02 14:21:53:175] SoftVmInterface - Reporting line numbers for method com/mob/demo/MyViewController$5.<init>: [1, 183]
+[2016-02-02 14:21:53:175] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:53:175] JdwpDebugServer - Command: o(6 1) id = 5371 length = 16
+[2016-02-02 14:21:53:175] SoftVmInterface - Reporting line numbers for method com/mob/demo/MyViewController$5.onTouchUpInside: [187, 188, 190, 192, 194, 196, 197, 198, 200, 233]
+[2016-02-02 14:21:53:175] JdwpDebugServer - Command: Z(11 3) id = 5372 length = 8
+[2016-02-02 14:21:53:176] DebugChannel - Event: Thread resumed, java obj: 0x116818f30, thread: 0x116817ee0
+[2016-02-02 14:21:53:187] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:53:198] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:53:208] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:53:218] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:53:230] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:53:243] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:53:255] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:53:266] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:53:273] SoftJdwpEventProcessor - Reporting class prepare event EventRequest [id=6, eventKind=CLASS_PREPARE, suspendPolicy=EVENT_THREAD, constraints=[ClassMatchConstraint [classPattern=com.mob.demo.ShareSDKDemo$*]]] to JDWP client for class com/mob/demo/ShareSDKDemo$1
+[2016-02-02 14:21:53:273] SoftJdwpEventProcessor - Reporting class prepare event EventRequest [id=8, eventKind=CLASS_PREPARE, suspendPolicy=EVENT_THREAD, constraints=[ClassMatchConstraint [classPattern=com.mob.demo.ShareSDKDemo$*]]] to JDWP client for class com/mob/demo/ShareSDKDemo$1
+[2016-02-02 14:21:53:273] SoftJdwpEventProcessor - Reporting class prepare event EventRequest [id=10, eventKind=CLASS_PREPARE, suspendPolicy=EVENT_THREAD, constraints=[ClassMatchConstraint [classPattern=com.mob.demo.ShareSDKDemo$*]]] to JDWP client for class com/mob/demo/ShareSDKDemo$1
+[2016-02-02 14:21:53:273] SoftJdwpEventProcessor - Reporting class prepare event EventRequest [id=12, eventKind=CLASS_PREPARE, suspendPolicy=EVENT_THREAD, constraints=[ClassMatchConstraint [classPattern=com.mob.demo.ShareSDKDemo$*]]] to JDWP client for class com/mob/demo/ShareSDKDemo$1
+[2016-02-02 14:21:53:273] SoftJdwpEventProcessor - Reporting class prepare event EventRequest [id=14, eventKind=CLASS_PREPARE, suspendPolicy=EVENT_THREAD, constraints=[ClassMatchConstraint [classPattern=com.mob.demo.ShareSDKDemo$*]]] to JDWP client for class com/mob/demo/ShareSDKDemo$1
+[2016-02-02 14:21:53:273] SoftJdwpEventProcessor - Reporting class prepare event EventRequest [id=16, eventKind=CLASS_PREPARE, suspendPolicy=EVENT_THREAD, constraints=[ClassMatchConstraint [classPattern=com.mob.demo.ShareSDKDemo$*]]] to JDWP client for class com/mob/demo/ShareSDKDemo$1
+[2016-02-02 14:21:53:273] SoftJdwpEventProcessor - Reporting class prepare event EventRequest [id=18, eventKind=CLASS_PREPARE, suspendPolicy=EVENT_THREAD, constraints=[ClassMatchConstraint [classPattern=com.mob.demo.ShareSDKDemo$*]]] to JDWP client for class com/mob/demo/ShareSDKDemo$1
+[2016-02-02 14:21:53:274] JdwpDebugServer - Command: H(2 15) id = 5373 length = 8
+[2016-02-02 14:21:53:274] SoftVmInterface - Reporting method: com/mob/demo/ShareSDKDemo$1.<init>
+[2016-02-02 14:21:53:274] SoftVmInterface - Reporting method: com/mob/demo/ShareSDKDemo$1.invoke
+[2016-02-02 14:21:53:274] SoftVmInterface - Reporting method: com/mob/demo/ShareSDKDemo$1.$SWITCH_TABLE$com$mob$sharesdk$SSDKPlatformType
+[2016-02-02 14:21:53:275] JdwpDebugServer - Command: o(6 1) id = 5374 length = 16
+[2016-02-02 14:21:53:275] SoftVmInterface - Reporting line numbers for method com/mob/demo/ShareSDKDemo$1.<init>: [1, 56]
+[2016-02-02 14:21:53:276] JdwpDebugServer - Command: o(6 1) id = 5375 length = 16
+[2016-02-02 14:21:53:276] SoftVmInterface - Reporting line numbers for method com/mob/demo/ShareSDKDemo$1.invoke: [61, 68, 71, 79]
+[2016-02-02 14:21:53:276] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:53:276] JdwpDebugServer - Command: o(6 1) id = 5376 length = 16
+[2016-02-02 14:21:53:276] SoftVmInterface - Reporting line numbers for method com/mob/demo/ShareSDKDemo$1.$SWITCH_TABLE$com$mob$sharesdk$SSDKPlatformType: [56]
+[2016-02-02 14:21:53:277] JdwpDebugServer - Command: Z(11 3) id = 5377 length = 8
+[2016-02-02 14:21:53:277] DebugChannel - Event: Thread resumed, java obj: 0x116818f30, thread: 0x116817ee0
+[2016-02-02 14:21:53:282] SoftJdwpEventProcessor - Reporting class prepare event EventRequest [id=6, eventKind=CLASS_PREPARE, suspendPolicy=EVENT_THREAD, constraints=[ClassMatchConstraint [classPattern=com.mob.demo.ShareSDKDemo$*]]] to JDWP client for class com/mob/demo/ShareSDKDemo$2
+[2016-02-02 14:21:53:282] SoftJdwpEventProcessor - Reporting class prepare event EventRequest [id=8, eventKind=CLASS_PREPARE, suspendPolicy=EVENT_THREAD, constraints=[ClassMatchConstraint [classPattern=com.mob.demo.ShareSDKDemo$*]]] to JDWP client for class com/mob/demo/ShareSDKDemo$2
+[2016-02-02 14:21:53:282] SoftJdwpEventProcessor - Reporting class prepare event EventRequest [id=10, eventKind=CLASS_PREPARE, suspendPolicy=EVENT_THREAD, constraints=[ClassMatchConstraint [classPattern=com.mob.demo.ShareSDKDemo$*]]] to JDWP client for class com/mob/demo/ShareSDKDemo$2
+[2016-02-02 14:21:53:282] SoftJdwpEventProcessor - Reporting class prepare event EventRequest [id=12, eventKind=CLASS_PREPARE, suspendPolicy=EVENT_THREAD, constraints=[ClassMatchConstraint [classPattern=com.mob.demo.ShareSDKDemo$*]]] to JDWP client for class com/mob/demo/ShareSDKDemo$2
+[2016-02-02 14:21:53:282] SoftJdwpEventProcessor - Reporting class prepare event EventRequest [id=14, eventKind=CLASS_PREPARE, suspendPolicy=EVENT_THREAD, constraints=[ClassMatchConstraint [classPattern=com.mob.demo.ShareSDKDemo$*]]] to JDWP client for class com/mob/demo/ShareSDKDemo$2
+[2016-02-02 14:21:53:282] SoftJdwpEventProcessor - Reporting class prepare event EventRequest [id=16, eventKind=CLASS_PREPARE, suspendPolicy=EVENT_THREAD, constraints=[ClassMatchConstraint [classPattern=com.mob.demo.ShareSDKDemo$*]]] to JDWP client for class com/mob/demo/ShareSDKDemo$2
+[2016-02-02 14:21:53:282] SoftJdwpEventProcessor - Reporting class prepare event EventRequest [id=18, eventKind=CLASS_PREPARE, suspendPolicy=EVENT_THREAD, constraints=[ClassMatchConstraint [classPattern=com.mob.demo.ShareSDKDemo$*]]] to JDWP client for class com/mob/demo/ShareSDKDemo$2
+[2016-02-02 14:21:53:288] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:53:291] JdwpDebugServer - Command: H(2 15) id = 5378 length = 8
+[2016-02-02 14:21:53:291] SoftVmInterface - Reporting method: com/mob/demo/ShareSDKDemo$2.<init>
+[2016-02-02 14:21:53:292] SoftVmInterface - Reporting method: com/mob/demo/ShareSDKDemo$2.invoke
+[2016-02-02 14:21:53:292] SoftVmInterface - Reporting method: com/mob/demo/ShareSDKDemo$2.$SWITCH_TABLE$com$mob$sharesdk$SSDKPlatformType
+[2016-02-02 14:21:53:295] JdwpDebugServer - Command: o(6 1) id = 5379 length = 16
+[2016-02-02 14:21:53:295] SoftVmInterface - Reporting line numbers for method com/mob/demo/ShareSDKDemo$2.<init>: [1, 80]
+[2016-02-02 14:21:53:296] JdwpDebugServer - Command: o(6 1) id = 5380 length = 16
+[2016-02-02 14:21:53:296] SoftVmInterface - Reporting line numbers for method com/mob/demo/ShareSDKDemo$2.invoke: [86, 90, 91, 92, 93, 94, 98, 99, 100, 102, 105, 106, 107, 114]
+[2016-02-02 14:21:53:297] JdwpDebugServer - Command: o(6 1) id = 5381 length = 16
+[2016-02-02 14:21:53:298] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:53:298] SoftVmInterface - Reporting line numbers for method com/mob/demo/ShareSDKDemo$2.$SWITCH_TABLE$com$mob$sharesdk$SSDKPlatformType: [80]
+[2016-02-02 14:21:53:298] JdwpDebugServer - Command: m(15 1) id = 5382 length = 32
+[2016-02-02 14:21:53:299] SoftJdwpEventProcessor - Set breakpoint at com/mob/demo/ShareSDKDemo$2.invoke(Lcom/mob/sharesdk/SSDKPlatformType;Lorg/robovm/apple/foundation/NSMutableDictionary;)V:98
+[2016-02-02 14:21:53:304] JdwpDebugServer - Command: m(15 1) id = 5383 length = 32
+[2016-02-02 14:21:53:306] SoftJdwpEventProcessor - Set breakpoint at com/mob/demo/ShareSDKDemo$2.invoke(Lcom/mob/sharesdk/SSDKPlatformType;Lorg/robovm/apple/foundation/NSMutableDictionary;)V:90
+[2016-02-02 14:21:53:308] JdwpDebugServer - Command: Z(11 3) id = 5384 length = 8
+[2016-02-02 14:21:53:309] DebugChannel - Event: Thread resumed, java obj: 0x116818f30, thread: 0x116817ee0
+[2016-02-02 14:21:53:310] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:53:321] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:53:332] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:53:342] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:53:356] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:53:367] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:53:377] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:53:388] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:53:398] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:53:409] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:53:420] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:53:431] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:53:437] DebugChannel - Event: Thread stopped, reason: Breakpoint, java obj: 0x116818f30, thread: 0x116817ee0, frames: 10
+[2016-02-02 14:21:53:438] SoftDebugger - Reconstructing frames took: 6.42E-4secs
+[2016-02-02 14:21:53:439] SoftJdwpEventProcessor - processing breakpoint event
+[2016-02-02 14:21:53:441] JdwpDebugServer - Command: W(11 6) id = 5385 length = 16
+[2016-02-02 14:21:53:448] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:53:449] JdwpDebugServer - Command: H(2 15) id = 5386 length = 8
+[2016-02-02 14:21:53:449] SoftVmInterface - Reporting method: com/mob/sharesdk/ShareSDK$$BlockMarshaler1.invoke
+[2016-02-02 14:21:53:449] SoftVmInterface - Reporting method: com/mob/sharesdk/ShareSDK$$BlockMarshaler1.invoke
+[2016-02-02 14:21:53:450] SoftVmInterface - Reporting method: com/mob/sharesdk/ShareSDK$$BlockMarshaler1.invoked
+[2016-02-02 14:21:53:450] SoftVmInterface - Reporting method: com/mob/sharesdk/ShareSDK$$BlockMarshaler1.<init>
+[2016-02-02 14:21:53:450] SoftVmInterface - Reporting method: com/mob/sharesdk/ShareSDK$$BlockMarshaler1.finalize
+[2016-02-02 14:21:53:450] SoftVmInterface - Reporting method: com/mob/sharesdk/ShareSDK$$BlockMarshaler1.toObject
+[2016-02-02 14:21:53:450] SoftVmInterface - Reporting method: com/mob/sharesdk/ShareSDK$$BlockMarshaler1.toNative
+[2016-02-02 14:21:53:450] SoftVmInterface - Reporting method: com/mob/sharesdk/ShareSDK$$BlockMarshaler1.<clinit>
+[2016-02-02 14:21:53:451] JdwpDebugServer - Command: H(2 15) id = 5387 length = 8
+[2016-02-02 14:21:53:451] SoftVmInterface - Reporting method: com/mob/sharesdk/ShareSDK.<init>
+[2016-02-02 14:21:53:451] SoftVmInterface - Reporting method: com/mob/sharesdk/ShareSDK.registerShareSDK
+[2016-02-02 14:21:53:451] SoftVmInterface - Reporting method: com/mob/sharesdk/ShareSDK.shareContent
+[2016-02-02 14:21:53:451] SoftVmInterface - Reporting method: com/mob/sharesdk/ShareSDK.activePlatforms
+[2016-02-02 14:21:53:451] SoftVmInterface - Reporting method: com/mob/sharesdk/ShareSDK.showShareView
+[2016-02-02 14:21:53:451] SoftVmInterface - Reporting method: com/mob/sharesdk/ShareSDK.showShareActionSheet
+[2016-02-02 14:21:53:451] SoftVmInterface - Reporting method: com/mob/sharesdk/ShareSDK.$m$registerApp$activePlatforms$onImport$onConfiguration$
+[2016-02-02 14:21:53:452] SoftVmInterface - Reporting method: com/mob/sharesdk/ShareSDK.$m$share$parameters$onStateChanged$
+[2016-02-02 14:21:53:452] SoftVmInterface - Reporting method: com/mob/sharesdk/ShareSDK.$m$activePlatforms
+[2016-02-02 14:21:53:452] SoftVmInterface - Reporting method: com/mob/sharesdk/ShareSDK.$m$showShareEditor$otherPlatformTypes$shareParams$onShareStateChanged$
+[2016-02-02 14:21:53:452] SoftVmInterface - Reporting method: com/mob/sharesdk/ShareSDK.$m$showShareActionSheet$items$shareParams$onShareStateChanged$
+[2016-02-02 14:21:53:452] SoftVmInterface - Reporting method: com/mob/sharesdk/ShareSDK.<clinit>
+[2016-02-02 14:21:53:453] JdwpDebugServer - Command: H(2 15) id = 5388 length = 8
+[2016-02-02 14:21:53:453] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.<init>
+[2016-02-02 14:21:53:453] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.<init>
+[2016-02-02 14:21:53:454] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.<init>
+[2016-02-02 14:21:53:454] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.getDelegate
+[2016-02-02 14:21:53:454] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.setDelegate
+[2016-02-02 14:21:53:454] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.isIdleTimerDisabled
+[2016-02-02 14:21:53:454] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.setIdleTimerDisabled
+[2016-02-02 14:21:53:454] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.getKeyWindow
+[2016-02-02 14:21:53:454] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.getWindows
+[2016-02-02 14:21:53:454] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.isNetworkActivityIndicatorVisible
+[2016-02-02 14:21:53:454] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.setNetworkActivityIndicatorVisible
+[2016-02-02 14:21:53:454] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.getStatusBarStyle
+[2016-02-02 14:21:53:454] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.isStatusBarHidden
+[2016-02-02 14:21:53:454] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.getStatusBarOrientation
+[2016-02-02 14:21:53:454] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.getStatusBarOrientationAnimationDuration
+[2016-02-02 14:21:53:455] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.getStatusBarFrame
+[2016-02-02 14:21:53:455] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.getApplicationIconBadgeNumber
+[2016-02-02 14:21:53:455] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.setApplicationIconBadgeNumber
+[2016-02-02 14:21:53:456] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.supportsShakeToEdit
+[2016-02-02 14:21:53:456] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.setSupportsShakeToEdit
+[2016-02-02 14:21:53:456] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.getApplicationState
+[2016-02-02 14:21:53:456] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.getBackgroundTimeRemaining
+[2016-02-02 14:21:53:456] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.getBackgroundRefreshStatus
+[2016-02-02 14:21:53:456] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.isProtectedDataAvailable
+[2016-02-02 14:21:53:456] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.getUserInterfaceLayoutDirection
+[2016-02-02 14:21:53:456] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.getPreferredContentSizeCategory
+[2016-02-02 14:21:53:456] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.getScheduledLocalNotifications
+[2016-02-02 14:21:53:456] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.setScheduledLocalNotifications
+[2016-02-02 14:21:53:456] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.getShortcutItems
+[2016-02-02 14:21:53:457] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.setShortcutItems
+[2016-02-02 14:21:53:457] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.setStatusBarOrientation
+[2016-02-02 14:21:53:457] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.setStatusBarStyle
+[2016-02-02 14:21:53:457] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.setStatusBarHidden
+[2016-02-02 14:21:53:457] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.main
+[2016-02-02 14:21:53:457] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.preloadClasses
+[2016-02-02 14:21:53:457] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.getInvalidBackgroundTask
+[2016-02-02 14:21:53:457] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.getMinimumKeepAliveTimeout
+[2016-02-02 14:21:53:457] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.getBackgroundFetchIntervalMinimum
+[2016-02-02 14:21:53:457] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.getBackgroundFetchIntervalNever
+[2016-02-02 14:21:53:457] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.DidEnterBackgroundNotification
+[2016-02-02 14:21:53:458] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.WillEnterForegroundNotification
+[2016-02-02 14:21:53:458] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.DidFinishLaunchingNotification
+[2016-02-02 14:21:53:458] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.DidBecomeActiveNotification
+[2016-02-02 14:21:53:458] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.WillResignActiveNotification
+[2016-02-02 14:21:53:458] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.DidReceiveMemoryWarningNotification
+[2016-02-02 14:21:53:458] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.WillTerminateNotification
+[2016-02-02 14:21:53:458] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.SignificantTimeChangeNotification
+[2016-02-02 14:21:53:458] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.WillChangeStatusBarOrientationNotification
+[2016-02-02 14:21:53:458] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.DidChangeStatusBarOrientationNotification
+[2016-02-02 14:21:53:458] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.StatusBarOrientationUserInfoKey
+[2016-02-02 14:21:53:458] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:53:458] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.WillChangeStatusBarFrameNotification
+[2016-02-02 14:21:53:459] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.DidChangeStatusBarFrameNotification
+[2016-02-02 14:21:53:459] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.StatusBarFrameUserInfoKey
+[2016-02-02 14:21:53:459] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.BackgroundRefreshStatusDidChangeNotification
+[2016-02-02 14:21:53:459] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.ProtectedDataWillBecomeUnavailableNotification
+[2016-02-02 14:21:53:459] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.ProtectedDataDidBecomeAvailableNotification
+[2016-02-02 14:21:53:459] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.getOpenSettingsURLString
+[2016-02-02 14:21:53:459] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.ContentSizeCategoryDidChangeNotification
+[2016-02-02 14:21:53:459] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.ContentSizeCategoryNewValueKey
+[2016-02-02 14:21:53:459] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.UserDidTakeScreenshotNotification
+[2016-02-02 14:21:53:459] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.main
+[2016-02-02 14:21:53:459] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.beginIgnoringInteractionEvents
+[2016-02-02 14:21:53:459] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.endIgnoringInteractionEvents
+[2016-02-02 14:21:53:460] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.isIgnoringInteractionEvents
+[2016-02-02 14:21:53:460] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.openURL
+[2016-02-02 14:21:53:460] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.canOpenURL
+[2016-02-02 14:21:53:460] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.sendEvent
+[2016-02-02 14:21:53:460] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.sendAction
+[2016-02-02 14:21:53:460] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.getSupportedInterfaceOrientations
+[2016-02-02 14:21:53:460] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.beginBackgroundTask
+[2016-02-02 14:21:53:460] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.beginBackgroundTask
+[2016-02-02 14:21:53:460] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.endBackgroundTask
+[2016-02-02 14:21:53:460] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.setMinimumBackgroundFetchInterval
+[2016-02-02 14:21:53:460] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.getSharedApplication
+[2016-02-02 14:21:53:460] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.registerForRemoteNotifications
+[2016-02-02 14:21:53:460] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.unregisterForRemoteNotifications
+[2016-02-02 14:21:53:460] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.isRegisteredForRemoteNotifications
+[2016-02-02 14:21:53:460] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.registerForRemoteNotificationTypes
+[2016-02-02 14:21:53:460] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.getEnabledRemoteNotificationTypes
+[2016-02-02 14:21:53:460] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.presentLocalNotificationNow
+[2016-02-02 14:21:53:461] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.scheduleLocalNotification
+[2016-02-02 14:21:53:461] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.cancelLocalNotification
+[2016-02-02 14:21:53:461] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.cancelAllLocalNotifications
+[2016-02-02 14:21:53:461] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.registerUserNotificationSettings
+[2016-02-02 14:21:53:461] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.getCurrentUserNotificationSettings
+[2016-02-02 14:21:53:461] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.beginReceivingRemoteControlEvents
+[2016-02-02 14:21:53:461] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.endReceivingRemoteControlEvents
+[2016-02-02 14:21:53:461] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.setNewsstandIconImage
+[2016-02-02 14:21:53:461] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.extendStateRestoration
+[2016-02-02 14:21:53:461] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.completeStateRestoration
+[2016-02-02 14:21:53:461] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.ignoreSnapshotOnNextApplicationLaunch
+[2016-02-02 14:21:53:461] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.registerObjectForStateRestoration
+[2016-02-02 14:21:53:461] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.setStatusBarOrientation
+[2016-02-02 14:21:53:461] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.setStatusBarStyle
+[2016-02-02 14:21:53:461] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.setStatusBarHidden
+[2016-02-02 14:21:53:461] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.setKeepAliveTimeout
+[2016-02-02 14:21:53:461] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.clearKeepAliveTimeout
+[2016-02-02 14:21:53:461] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.access$002
+[2016-02-02 14:21:53:462] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.access$000
+[2016-02-02 14:21:53:462] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.<clinit>
+[2016-02-02 14:21:53:462] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.$m$delegate
+[2016-02-02 14:21:53:462] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.$m$super$delegate
+[2016-02-02 14:21:53:462] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.$m$setDelegate$
+[2016-02-02 14:21:53:462] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.$m$super$setDelegate$
+[2016-02-02 14:21:53:462] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.$m$windows
+[2016-02-02 14:21:53:462] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.$m$super$windows
+[2016-02-02 14:21:53:462] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.$m$statusBarStyle
+[2016-02-02 14:21:53:462] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.$m$super$statusBarStyle
+[2016-02-02 14:21:53:462] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.$m$statusBarOrientation
+[2016-02-02 14:21:53:462] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.$m$super$statusBarOrientation
+[2016-02-02 14:21:53:462] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.$m$statusBarFrame
+[2016-02-02 14:21:53:462] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.$m$super$statusBarFrame
+[2016-02-02 14:21:53:462] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.$m$applicationState
+[2016-02-02 14:21:53:462] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.$m$super$applicationState
+[2016-02-02 14:21:53:462] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.$m$backgroundRefreshStatus
+[2016-02-02 14:21:53:462] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.$m$super$backgroundRefreshStatus
+[2016-02-02 14:21:53:463] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.$m$userInterfaceLayoutDirection
+[2016-02-02 14:21:53:463] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.$m$super$userInterfaceLayoutDirection
+[2016-02-02 14:21:53:463] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.$m$scheduledLocalNotifications
+[2016-02-02 14:21:53:463] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.$m$super$scheduledLocalNotifications
+[2016-02-02 14:21:53:463] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.$m$setScheduledLocalNotifications$
+[2016-02-02 14:21:53:463] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.$m$super$setScheduledLocalNotifications$
+[2016-02-02 14:21:53:463] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.$m$shortcutItems
+[2016-02-02 14:21:53:463] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.$m$super$shortcutItems
+[2016-02-02 14:21:53:463] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.$m$setShortcutItems$
+[2016-02-02 14:21:53:463] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.$m$super$setShortcutItems$
+[2016-02-02 14:21:53:463] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.$m$setStatusBarOrientation$
+[2016-02-02 14:21:53:463] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.$m$super$setStatusBarOrientation$
+[2016-02-02 14:21:53:463] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.$m$setStatusBarStyle$
+[2016-02-02 14:21:53:463] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.$m$super$setStatusBarStyle$
+[2016-02-02 14:21:53:463] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.$m$openURL$
+[2016-02-02 14:21:53:463] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.$m$super$openURL$
+[2016-02-02 14:21:53:463] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.$m$canOpenURL$
+[2016-02-02 14:21:53:463] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.$m$super$canOpenURL$
+[2016-02-02 14:21:53:463] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.$m$sendAction$to$from$forEvent$
+[2016-02-02 14:21:53:464] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.$m$super$sendAction$to$from$forEvent$
+[2016-02-02 14:21:53:464] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.$m$supportedInterfaceOrientationsForWindow$
+[2016-02-02 14:21:53:464] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.$m$super$supportedInterfaceOrientationsForWindow$
+[2016-02-02 14:21:53:464] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.$m$beginBackgroundTaskWithExpirationHandler$
+[2016-02-02 14:21:53:464] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.$m$super$beginBackgroundTaskWithExpirationHandler$
+[2016-02-02 14:21:53:464] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.$m$beginBackgroundTaskWithName$expirationHandler$
+[2016-02-02 14:21:53:464] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.$m$super$beginBackgroundTaskWithName$expirationHandler$
+[2016-02-02 14:21:53:464] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.$m$sharedApplication
+[2016-02-02 14:21:53:464] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.$m$registerForRemoteNotificationTypes$
+[2016-02-02 14:21:53:464] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.$m$super$registerForRemoteNotificationTypes$
+[2016-02-02 14:21:53:464] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.$m$enabledRemoteNotificationTypes
+[2016-02-02 14:21:53:464] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.$m$super$enabledRemoteNotificationTypes
+[2016-02-02 14:21:53:464] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.$m$registerObjectForStateRestoration$restorationIdentifier$
+[2016-02-02 14:21:53:464] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.$m$setStatusBarOrientation$animated$
+[2016-02-02 14:21:53:464] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.$m$super$setStatusBarOrientation$animated$
+[2016-02-02 14:21:53:464] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.$m$setStatusBarStyle$animated$
+[2016-02-02 14:21:53:464] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.$m$super$setStatusBarStyle$animated$
+[2016-02-02 14:21:53:464] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.$m$setStatusBarHidden$withAnimation$
+[2016-02-02 14:21:53:465] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.$m$super$setStatusBarHidden$withAnimation$
+[2016-02-02 14:21:53:465] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.$m$setKeepAliveTimeout$handler$
+[2016-02-02 14:21:53:465] SoftVmInterface - Reporting method: org/robovm/apple/uikit/UIApplication.$m$super$setKeepAliveTimeout$handler$
+[2016-02-02 14:21:53:467] JdwpDebugServer - Command: V(11 7) id = 5389 length = 8
+[2016-02-02 14:21:53:467] JdwpDebugServer - Command: Y(11 8) id = 5390 length = 8
+[2016-02-02 14:21:53:468] JdwpDebugServer - Command: U(11 9) id = 5391 length = 8
+[2016-02-02 14:21:53:468] JdwpDebugServer - Command: Y(11 8) id = 5392 length = 8
+[2016-02-02 14:21:53:468] JdwpDebugServer - Command: U(11 9) id = 5393 length = 8
+[2016-02-02 14:21:53:469] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:53:481] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:53:493] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:53:503] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:53:514] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:53:526] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:53:538] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:53:550] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:53:562] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:53:575] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:53:587] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:53:600] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:53:611] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:53:623] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:53:636] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:53:646] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:53:658] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:53:669] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:53:682] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:53:694] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:53:704] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:53:715] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:53:728] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:53:739] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:53:751] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:53:762] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:53:774] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:53:786] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:53:797] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:53:807] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:53:818] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:53:830] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:53:830] JdwpDebugServer - Command: L(2 7) id = 5394 length = 8
+[2016-02-02 14:21:53:841] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:53:851] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:53:863] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:53:873] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:53:884] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:53:897] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:53:910] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:53:922] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:53:933] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:53:946] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:53:956] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:53:969] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:53:982] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:53:994] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:54:005] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:54:018] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:54:029] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:54:042] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:54:054] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:54:066] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:54:068] JdwpDebugServer - Command: K(2 13) id = 5395 length = 8
+[2016-02-02 14:21:54:068] JdwpDebugServer - Command: P(16 3) id = 5396 length = 16
+[2016-02-02 14:21:54:069] JdwpDebugServer - Command: y(9 1) id = 5397 length = 8
+[2016-02-02 14:21:54:069] JdwpDebugServer - Command: X(11 1) id = 5398 length = 8
+[2016-02-02 14:21:54:072] JdwpDebugServer - Command: U(11 9) id = 5399 length = 8
+[2016-02-02 14:21:54:072] JdwpDebugServer - Command: X(11 1) id = 5400 length = 8
+[2016-02-02 14:21:54:074] JdwpDebugServer - Command: Y(11 8) id = 5401 length = 8
+[2016-02-02 14:21:54:078] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:54:091] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:54:103] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:54:116] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:54:128] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:54:138] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:54:149] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:54:160] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:54:171] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:54:182] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:54:194] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:54:206] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:54:216] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:54:229] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:54:236] JdwpDebugServer - Command: q(6 5) id = 5402 length = 16
+[2016-02-02 14:21:54:240] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:54:250] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:54:261] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:54:274] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:54:286] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:54:298] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:54:310] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:54:321] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:54:333] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:54:345] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:54:358] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:54:370] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:54:383] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:54:394] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:54:407] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:54:410] JdwpDebugServer - Command: X(11 1) id = 5403 length = 8
+[2016-02-02 14:21:54:411] JdwpDebugServer - Command: V(11 7) id = 5404 length = 8
+[2016-02-02 14:21:54:412] JdwpDebugServer - Command: Y(11 8) id = 5405 length = 8
+[2016-02-02 14:21:54:412] JdwpDebugServer - Command: X(11 1) id = 5406 length = 8
+[2016-02-02 14:21:54:413] JdwpDebugServer - Command: U(11 9) id = 5407 length = 8
+[2016-02-02 14:21:54:413] JdwpDebugServer - Command: U(11 9) id = 5408 length = 8
+[2016-02-02 14:21:54:414] JdwpDebugServer - Command: X(11 1) id = 5409 length = 8
+[2016-02-02 14:21:54:415] JdwpDebugServer - Command: Y(11 8) id = 5410 length = 8
+[2016-02-02 14:21:54:415] JdwpDebugServer - Command: X(11 1) id = 5411 length = 8
+[2016-02-02 14:21:54:417] JdwpDebugServer - Command: U(11 9) id = 5412 length = 8
+[2016-02-02 14:21:54:417] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:54:417] JdwpDebugServer - Command: Y(11 8) id = 5413 length = 8
+[2016-02-02 14:21:54:417] JdwpDebugServer - Command: U(11 9) id = 5414 length = 8
+[2016-02-02 14:21:54:417] JdwpDebugServer - Command: Y(11 8) id = 5415 length = 8
+[2016-02-02 14:21:54:430] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:54:438] JdwpDebugServer - Command: J(2 1) id = 5416 length = 8
+[2016-02-02 14:21:54:438] JdwpDebugServer - Command: K(2 13) id = 5417 length = 8
+[2016-02-02 14:21:54:438] JdwpDebugServer - Command: o(6 1) id = 5418 length = 16
+[2016-02-02 14:21:54:438] SoftVmInterface - Reporting line numbers for method com/mob/sharesdk/ShareSDK$$BlockMarshaler1.invoked: [1048578]
+[2016-02-02 14:21:54:439] JdwpDebugServer - Command: J(2 1) id = 5419 length = 8
+[2016-02-02 14:21:54:439] JdwpDebugServer - Command: K(2 13) id = 5420 length = 8
+[2016-02-02 14:21:54:439] JdwpDebugServer - Command: o(6 1) id = 5421 length = 16
+[2016-02-02 14:21:54:439] SoftVmInterface - Reporting line numbers for method com/mob/sharesdk/ShareSDK.registerShareSDK: [1048577]
+[2016-02-02 14:21:54:440] JdwpDebugServer - Command: K(2 13) id = 5422 length = 8
+[2016-02-02 14:21:54:440] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:54:440] JdwpDebugServer - Command: P(16 3) id = 5423 length = 16
+[2016-02-02 14:21:54:442] JdwpDebugServer - Command: y(9 1) id = 5424 length = 8
+[2016-02-02 14:21:54:451] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:54:461] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:54:473] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:54:485] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:54:497] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:54:510] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:54:522] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:54:534] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:54:546] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:54:558] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:54:570] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:54:581] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:54:593] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:54:604] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:54:616] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:54:628] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:54:641] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:54:651] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:54:663] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:54:674] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:54:685] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:54:698] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:54:709] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:54:721] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:54:733] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:54:744] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:54:755] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:54:768] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:54:781] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:54:792] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:54:805] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:54:816] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:54:826] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:54:839] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:54:850] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:54:863] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:54:874] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:54:886] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:54:898] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:54:910] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:54:923] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:54:934] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:54:945] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:54:958] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:54:970] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:54:983] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:54:993] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:55:006] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:55:018] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:55:031] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:55:042] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:55:055] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:55:067] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:55:080] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:55:092] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:55:102] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:55:114] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:55:127] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:55:138] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:55:150] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:55:160] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:55:172] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:55:182] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:55:194] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:55:205] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:55:218] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:55:230] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:55:242] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:55:253] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:55:265] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:55:278] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:55:290] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:55:302] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:55:314] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:55:326] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:55:338] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:55:350] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:55:362] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:55:374] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:55:386] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:55:398] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:55:410] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:55:422] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:55:434] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 14:21:55:446] DebugLaunchPlugin - Debugger has settled. Resuming inferior.
+[2016-02-02 14:21:57:168] JdwpDebugServer - Command: Z(11 3) id = 5425 length = 8
+[2016-02-02 14:21:57:169] DebugChannel - Event: Thread resumed, java obj: 0x116818f30, thread: 0x116817ee0
+[2016-02-02 14:21:57:172] DebugChannel - Event: Thread stopped, reason: Breakpoint, java obj: 0x116818f30, thread: 0x116817ee0, frames: 10
+[2016-02-02 14:21:57:172] SoftDebugger - Reconstructing frames took: 5.4E-5secs
+[2016-02-02 14:21:57:172] SoftJdwpEventProcessor - processing breakpoint event
+[2016-02-02 14:21:57:174] JdwpDebugServer - Command: U(11 9) id = 5426 length = 8
+[2016-02-02 14:21:57:175] JdwpDebugServer - Command: Y(11 8) id = 5427 length = 8
+[2016-02-02 14:21:57:175] JdwpDebugServer - Command: U(11 9) id = 5428 length = 8
+[2016-02-02 14:21:57:175] JdwpDebugServer - Command: Y(11 8) id = 5429 length = 8
+[2016-02-02 14:21:57:175] JdwpDebugServer - Command: U(11 9) id = 5430 length = 8
+[2016-02-02 14:21:57:175] JdwpDebugServer - Command: Y(11 8) id = 5431 length = 8
+[2016-02-02 14:21:57:176] JdwpDebugServer - Command: U(11 9) id = 5432 length = 8
+[2016-02-02 14:21:57:176] JdwpDebugServer - Command: Y(11 8) id = 5433 length = 8
+[2016-02-02 14:21:57:176] JdwpDebugServer - Command: W(11 6) id = 5434 length = 16
+[2016-02-02 14:21:57:177] JdwpDebugServer - Command: V(11 7) id = 5435 length = 8
+[2016-02-02 14:21:57:177] JdwpDebugServer - Command: Y(11 8) id = 5436 length = 8
+[2016-02-02 14:21:57:178] JdwpDebugServer - Command: U(11 9) id = 5437 length = 8
+[2016-02-02 14:21:57:178] JdwpDebugServer - Command: Y(11 8) id = 5438 length = 8
+[2016-02-02 14:21:57:178] JdwpDebugServer - Command: U(11 9) id = 5439 length = 8
+[2016-02-02 14:21:57:179] JdwpDebugServer - Command: U(11 9) id = 5440 length = 8
+[2016-02-02 14:21:57:179] JdwpDebugServer - Command: Y(11 8) id = 5441 length = 8
+[2016-02-02 14:21:57:179] JdwpDebugServer - Command: U(11 9) id = 5442 length = 8
+[2016-02-02 14:21:57:179] JdwpDebugServer - Command: Y(11 8) id = 5443 length = 8
+[2016-02-02 14:21:57:180] JdwpDebugServer - Command: U(11 9) id = 5444 length = 8
+[2016-02-02 14:21:57:180] JdwpDebugServer - Command: Y(11 8) id = 5445 length = 8
+[2016-02-02 14:21:57:180] JdwpDebugServer - Command: U(11 9) id = 5446 length = 8
+[2016-02-02 14:21:57:181] JdwpDebugServer - Command: Y(11 8) id = 5447 length = 8
+[2016-02-02 14:21:57:187] JdwpDebugServer - Command: V(11 7) id = 5448 length = 8
+[2016-02-02 14:21:57:187] JdwpDebugServer - Command: Y(11 8) id = 5449 length = 8
+[2016-02-02 14:21:57:188] JdwpDebugServer - Command: U(11 9) id = 5450 length = 8
+[2016-02-02 14:21:57:222] JdwpDebugServer - Command: P(16 3) id = 5451 length = 16
+[2016-02-02 14:21:57:421] JdwpDebugServer - Command: X(11 1) id = 5452 length = 8
+[2016-02-02 14:21:57:422] JdwpDebugServer - Command: y(9 1) id = 5453 length = 8
+[2016-02-02 14:21:57:422] JdwpDebugServer - Command: X(11 1) id = 5454 length = 8
+[2016-02-02 14:21:57:424] JdwpDebugServer - Command: X(11 1) id = 5455 length = 8
+[2016-02-02 14:21:57:426] JdwpDebugServer - Command: X(11 1) id = 5456 length = 8
+[2016-02-02 14:21:57:428] JdwpDebugServer - Command: X(11 1) id = 5457 length = 8
+[2016-02-02 14:21:57:585] JdwpDebugServer - Command: V(11 7) id = 5458 length = 8
+[2016-02-02 14:21:57:585] JdwpDebugServer - Command: Y(11 8) id = 5459 length = 8
+[2016-02-02 14:21:57:585] JdwpDebugServer - Command: U(11 9) id = 5460 length = 8
+[2016-02-02 14:21:57:736] JdwpDebugServer - Command: X(11 1) id = 5461 length = 8
+[2016-02-02 14:21:57:738] JdwpDebugServer - Command: V(11 7) id = 5462 length = 8
+[2016-02-02 14:21:57:738] JdwpDebugServer - Command: Y(11 8) id = 5463 length = 8
+[2016-02-02 14:21:57:738] JdwpDebugServer - Command: U(11 9) id = 5464 length = 8
+[2016-02-02 14:21:57:755] JdwpDebugServer - Command: P(16 3) id = 5465 length = 16
+[2016-02-02 14:21:57:756] JdwpDebugServer - Command: y(9 1) id = 5466 length = 8
+[2016-02-02 14:21:57:756] JdwpDebugServer - Command: P(16 3) id = 5467 length = 16
+[2016-02-02 14:21:57:757] JdwpDebugServer - Command: y(9 1) id = 5468 length = 8
+[2016-02-02 14:21:57:758] JdwpDebugServer - Command: J(2 1) id = 5469 length = 8
+[2016-02-02 14:21:57:758] JdwpDebugServer - Command: K(2 13) id = 5470 length = 8
+[2016-02-02 14:21:57:758] JdwpDebugServer - Command: o(6 1) id = 5471 length = 16
+[2016-02-02 14:21:57:759] SoftVmInterface - Reporting line numbers for method org/robovm/apple/uikit/UIApplication.main: [365, 366, 367, 368, 369, 371, 372, 375, 376, 377, 379, 380, 381, 384, 385, 386, 388, 389, 394, 400, 408, 409, 410, 411, 413, 414]
+[2016-02-02 14:21:58:332] JdwpDebugServer - Command: Z(11 3) id = 5472 length = 8
+[2016-02-02 14:21:58:332] DebugChannel - Event: Thread resumed, java obj: 0x116818f30, thread: 0x116817ee0
+[2016-02-02 14:21:58:337] JdwpDebugServer - Command: U(11 9) id = 5473 length = 8
+[2016-02-02 14:21:58:338] JdwpDebugServer - Command: Y(11 8) id = 5474 length = 8
+[2016-02-02 14:21:58:338] JdwpDebugServer - Command: U(11 9) id = 5475 length = 8
+[2016-02-02 14:21:58:339] JdwpDebugServer - Command: Y(11 8) id = 5476 length = 8
+[2016-02-02 14:21:58:339] JdwpDebugServer - Command: U(11 9) id = 5477 length = 8
+[2016-02-02 14:21:58:339] JdwpDebugServer - Command: Y(11 8) id = 5478 length = 8
+[2016-02-02 14:21:58:340] JdwpDebugServer - Command: U(11 9) id = 5479 length = 8
+[2016-02-02 14:21:58:340] JdwpDebugServer - Command: Y(11 8) id = 5480 length = 8
+[2016-02-02 14:21:58:577] JdwpDebugServer - Command: X(11 1) id = 5481 length = 8
+[2016-02-02 14:21:58:579] JdwpDebugServer - Command: X(11 1) id = 5482 length = 8
+[2016-02-02 14:21:58:580] JdwpDebugServer - Command: X(11 1) id = 5483 length = 8
+[2016-02-02 14:21:58:703] JdwpDebugServer - Command: X(11 1) id = 5484 length = 8
+[2016-02-02 14:22:02:124] SoftJdwpEventProcessor - Reporting class prepare event EventRequest [id=4, eventKind=CLASS_PREPARE, suspendPolicy=EVENT_THREAD, constraints=[ClassMatchConstraint [classPattern=com.mob.demo.MyViewController$*]]] to JDWP client for class com/mob/demo/MyViewController$5$1
+[2016-02-02 14:22:02:125] JdwpDebugServer - Command: H(2 15) id = 5485 length = 8
+[2016-02-02 14:22:02:125] SoftVmInterface - Reporting method: com/mob/demo/MyViewController$5$1.<init>
+[2016-02-02 14:22:02:125] SoftVmInterface - Reporting method: com/mob/demo/MyViewController$5$1.invoke
+[2016-02-02 14:22:02:125] SoftVmInterface - Reporting method: com/mob/demo/MyViewController$5$1.$SWITCH_TABLE$com$mob$sharesdk$SSDKResponseState
+[2016-02-02 14:22:02:125] JdwpDebugServer - Command: o(6 1) id = 5486 length = 16
+[2016-02-02 14:22:02:125] SoftVmInterface - Reporting line numbers for method com/mob/demo/MyViewController$5$1.<init>: [1, 200]
+[2016-02-02 14:22:02:126] JdwpDebugServer - Command: o(6 1) id = 5487 length = 16
+[2016-02-02 14:22:02:126] SoftVmInterface - Reporting line numbers for method com/mob/demo/MyViewController$5$1.invoke: [207, 210, 213, 214, 215, 219, 220, 221, 225, 226, 230]
+[2016-02-02 14:22:02:126] JdwpDebugServer - Command: o(6 1) id = 5488 length = 16
+[2016-02-02 14:22:02:126] SoftVmInterface - Reporting line numbers for method com/mob/demo/MyViewController$5$1.$SWITCH_TABLE$com$mob$sharesdk$SSDKResponseState: [200]
+[2016-02-02 14:22:02:126] JdwpDebugServer - Command: Z(11 3) id = 5489 length = 8
+[2016-02-02 14:22:02:127] DebugChannel - Event: Thread resumed, java obj: 0x116818f30, thread: 0x116817ee0
+[2016-02-02 14:23:00:387] JdwpDebugServer - Command: ap(1 10) id = 5490 length = 4
+[2016-02-02 14:23:00:388] JdwpDebugServer - java.io.IOException: eof
+	at com.robovm.debug.server.b.b.b.q(Unknown.java:161)
+	at com.robovm.debug.server.b.b.b.e(Unknown.java:70)
+	at com.robovm.debug.server.b.p.a(Unknown.java:7303)
+	at com.robovm.debug.server.b.q.run(Unknown.java:207)
+[2016-02-02 14:23:00:388] DebugLaunchPlugin - Shutting down JDWP server
+[2016-02-02 14:23:00:388] SocketTransport - Listening for transport dt_socket at address: 51588
+[2016-02-02 14:23:00:589] DebugChannel - Shutting down debug channel thread
+[2016-02-02 14:23:00:589] SoftJdwpEventProcessor - processing vm death event
+[2016-02-02 14:23:00:589] SoftDebugger - Shutting down event loop thread

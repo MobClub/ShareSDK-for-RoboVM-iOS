@@ -1,0 +1,507 @@
+[2016-02-02 11:54:46:865] ExecutableMemoryAccess - Reading executable bytes took: 0.148455
+[2016-02-02 11:54:47:689] ExecutableMemoryAccess - Dumped section __TEXT,__text, took: 0.796838
+[2016-02-02 11:54:47:690] ExecutableMemoryAccess - Dumped section __TEXT,__const, took: 9.71E-4
+[2016-02-02 11:54:47:691] ExecutableMemoryAccess - Dumped section __DATA,__const, took: 2.83E-4
+[2016-02-02 11:54:47:691] ExecutableMemoryAccess - Dumped section __DATA,__data, took: 2.86E-4
+[2016-02-02 11:54:47:691] ExecutableMemoryAccess - Parsing sections took: 0.980033
+[2016-02-02 11:54:48:826] ExecutableSymbolLookup - Reading nm output took: 2.114694
+[2016-02-02 11:54:49:547] ExecutableSymbolLookup - Parsing nm output took: 0.720138
+[2016-02-02 11:54:49:547] ExecutableSymbolLookup - Parsing symbols took: 2.835533
+[2016-02-02 11:55:13:036] SoftDebugger - Established connection to app on port 52670
+[2016-02-02 11:55:13:036] ClassInfoParser - Reading boot classes info
+[2016-02-02 11:55:13:036] DebugChannel - Starting debug channel thread
+[2016-02-02 11:55:13:038] ClassInfoParser - Took 0.001441
+[2016-02-02 11:55:13:038] ClassInfoParser - Reading classes info
+[2016-02-02 11:55:13:039] ClassInfoParser - Took 0.001055
+[2016-02-02 11:55:13:100] DebugChannel - Event: Thread attached, java obj: 0x5010f78, thread: 0x500ff80
+[2016-02-02 11:55:13:129] SoftDebugger - Loading class infos took: 0.092263secs
+[2016-02-02 11:55:13:131] SoftDebugger - Loading class infos and adjusting addresses took: 0.094604secs
+[2016-02-02 11:55:13:133] SocketTransport - Listening for transport dt_socket at address: 62224
+[2016-02-02 11:55:13:133] DebugLaunchPlugin - Waiting for JDWP client to connect
+[2016-02-02 11:55:13:141] SoftDebugger - Thread main attached
+[2016-02-02 11:55:13:218] DebugChannel - Event: Thread attached, java obj: 0x5010ec8, thread: 0x500ff00
+[2016-02-02 11:55:13:218] DebugChannel - Event: Thread attached, java obj: 0x5010e70, thread: 0x500fe80
+[2016-02-02 11:55:13:218] DebugChannel - Event: Thread attached, java obj: 0x5010e18, thread: 0x500fe00
+[2016-02-02 11:55:13:223] SoftDebugger - Thread ReferenceQueueDaemon attached
+[2016-02-02 11:55:13:228] SoftDebugger - Thread FinalizerDaemon attached
+[2016-02-02 11:55:13:233] SoftDebugger - Thread FinalizerWatchdogDaemon attached
+[2016-02-02 11:55:13:912] JdwpDebugServer - Command: aq(1 7) id = 2948 length = 0
+[2016-02-02 11:55:13:912] JdwpDebugServer - Command: m(15 1) id = 2949 length = 6
+[2016-02-02 11:55:13:912] JdwpDebugServer - Command: m(15 1) id = 2947 length = 6
+[2016-02-02 11:55:13:913] JdwpDebugServer - Command: m(15 1) id = 2950 length = 6
+[2016-02-02 11:55:13:913] JdwpDebugServer - Command: au(1 1) id = 2951 length = 0
+[2016-02-02 11:55:13:913] JdwpDebugServer - Command: ah(1 4) id = 2952 length = 0
+[2016-02-02 11:55:13:914] JdwpDebugServer - Command: ad(11 5) id = 2953 length = 8
+[2016-02-02 11:55:13:915] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 11:55:13:920] JdwpDebugServer - Command: S(12 1) id = 2954 length = 8
+[2016-02-02 11:55:13:926] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 11:55:13:930] JdwpDebugServer - Command: T(12 2) id = 2955 length = 8
+[2016-02-02 11:55:13:933] JdwpDebugServer - Command: y(9 1) id = 2956 length = 8
+[2016-02-02 11:55:13:934] JdwpDebugServer - Command: D(2 14) id = 2957 length = 8
+[2016-02-02 11:55:13:934] JdwpDebugServer - Command: F(2 10) id = 2958 length = 8
+[2016-02-02 11:55:13:934] JdwpDebugServer - Command: D(2 14) id = 2959 length = 8
+[2016-02-02 11:55:13:935] JdwpDebugServer - Command: F(2 10) id = 2960 length = 8
+[2016-02-02 11:55:13:935] JdwpDebugServer - Command: j(3 1) id = 2961 length = 8
+[2016-02-02 11:55:13:935] JdwpDebugServer - Command: D(2 14) id = 2962 length = 8
+[2016-02-02 11:55:13:936] JdwpDebugServer - Command: F(2 10) id = 2963 length = 8
+[2016-02-02 11:55:13:936] JdwpDebugServer - Command: j(3 1) id = 2964 length = 8
+[2016-02-02 11:55:13:936] JdwpDebugServer - Command: u(9 2) id = 2965 length = 20
+[2016-02-02 11:55:13:937] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 11:55:13:938] JdwpDebugServer - Command: aa(11 4) id = 2966 length = 8
+[2016-02-02 11:55:13:938] JdwpDebugServer - Command: aa(11 4) id = 2967 length = 8
+[2016-02-02 11:55:13:938] JdwpDebugServer - Command: ad(11 5) id = 2968 length = 8
+[2016-02-02 11:55:13:941] JdwpDebugServer - Command: y(9 1) id = 2969 length = 8
+[2016-02-02 11:55:13:942] JdwpDebugServer - Command: u(9 2) id = 2970 length = 20
+[2016-02-02 11:55:13:943] JdwpDebugServer - Command: aa(11 4) id = 2971 length = 8
+[2016-02-02 11:55:13:944] JdwpDebugServer - Command: aa(11 4) id = 2972 length = 8
+[2016-02-02 11:55:13:944] JdwpDebugServer - Command: ad(11 5) id = 2973 length = 8
+[2016-02-02 11:55:13:948] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 11:55:13:949] JdwpDebugServer - Command: y(9 1) id = 2974 length = 8
+[2016-02-02 11:55:13:949] JdwpDebugServer - Command: u(9 2) id = 2975 length = 20
+[2016-02-02 11:55:13:951] JdwpDebugServer - Command: aa(11 4) id = 2976 length = 8
+[2016-02-02 11:55:13:951] JdwpDebugServer - Command: aa(11 4) id = 2977 length = 8
+[2016-02-02 11:55:13:951] JdwpDebugServer - Command: ad(11 5) id = 2978 length = 8
+[2016-02-02 11:55:13:954] JdwpDebugServer - Command: y(9 1) id = 2979 length = 8
+[2016-02-02 11:55:13:955] JdwpDebugServer - Command: u(9 2) id = 2980 length = 20
+[2016-02-02 11:55:13:956] JdwpDebugServer - Command: aa(11 4) id = 2981 length = 8
+[2016-02-02 11:55:13:956] JdwpDebugServer - Command: aa(11 4) id = 2982 length = 8
+[2016-02-02 11:55:13:957] JdwpDebugServer - Command: m(15 1) id = 2983 length = 40
+[2016-02-02 11:55:13:957] SoftJdwpEventProcessor - Set up class load event with filter: com.mob.demo.MyViewController
+[2016-02-02 11:55:13:959] JdwpDebugServer - Command: m(15 1) id = 2984 length = 42
+[2016-02-02 11:55:13:959] SoftJdwpEventProcessor - Set up class load event with filter: com.mob.demo.MyViewController$*
+[2016-02-02 11:55:13:960] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 11:55:13:968] JdwpDebugServer - Command: al(1 2) id = 2985 length = 35
+[2016-02-02 11:55:13:970] JdwpDebugServer - Command: aj(1 17) id = 2986 length = 0
+[2016-02-02 11:55:13:970] JdwpDebugServer - Command: m(15 1) id = 2987 length = 26
+[2016-02-02 11:55:13:971] SoftJdwpEventProcessor - Set up class load event with filter: java.lang.Error
+[2016-02-02 11:55:13:972] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 11:55:13:973] JdwpDebugServer - Command: m(15 1) id = 2988 length = 28
+[2016-02-02 11:55:13:973] SoftJdwpEventProcessor - Set up class load event with filter: java.lang.Error$*
+[2016-02-02 11:55:13:973] JdwpDebugServer - Command: al(1 2) id = 2989 length = 21
+[2016-02-02 11:55:13:974] JdwpDebugServer - Command: m(15 1) id = 2990 length = 17
+[2016-02-02 11:55:13:975] JdwpDebugServer - Command: J(2 1) id = 2991 length = 8
+[2016-02-02 11:55:13:976] JdwpDebugServer - Command: m(15 1) id = 2992 length = 30
+[2016-02-02 11:55:13:976] SoftJdwpEventProcessor - Set up class load event with filter: java.lang.Throwable
+[2016-02-02 11:55:13:978] JdwpDebugServer - Command: m(15 1) id = 2993 length = 32
+[2016-02-02 11:55:13:978] SoftJdwpEventProcessor - Set up class load event with filter: java.lang.Throwable$*
+[2016-02-02 11:55:13:978] JdwpDebugServer - Command: al(1 2) id = 2994 length = 25
+[2016-02-02 11:55:13:979] JdwpDebugServer - Command: m(15 1) id = 2995 length = 17
+[2016-02-02 11:55:13:979] JdwpDebugServer - Command: J(2 1) id = 2996 length = 8
+[2016-02-02 11:55:13:985] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 11:55:13:997] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 11:55:14:008] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 11:55:14:021] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 11:55:14:033] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 11:55:14:045] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 11:55:14:056] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 11:55:14:069] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 11:55:14:080] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 11:55:14:092] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 11:55:14:104] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 11:55:14:116] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 11:55:14:128] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 11:55:14:139] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 11:55:14:149] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 11:55:14:162] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 11:55:14:174] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 11:55:14:186] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 11:55:14:199] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 11:55:14:212] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 11:55:14:222] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 11:55:14:235] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 11:55:14:246] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 11:55:14:258] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 11:55:14:269] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 11:55:14:281] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 11:55:14:294] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 11:55:14:305] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 11:55:14:317] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 11:55:14:328] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 11:55:14:339] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 11:55:14:351] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 11:55:14:364] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 11:55:14:376] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 11:55:14:389] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 11:55:14:402] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 11:55:14:415] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 11:55:14:427] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 11:55:14:439] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 11:55:14:451] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 11:55:14:463] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 11:55:14:476] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 11:55:14:488] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 11:55:14:499] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 11:55:14:511] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 11:55:14:522] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 11:55:14:535] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 11:55:14:548] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 11:55:14:559] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 11:55:14:571] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 11:55:14:584] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 11:55:14:596] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 11:55:14:607] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 11:55:14:619] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 11:55:14:630] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 11:55:14:642] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 11:55:14:653] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 11:55:14:666] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 11:55:14:678] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 11:55:14:690] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 11:55:14:701] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 11:55:14:711] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 11:55:14:722] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 11:55:14:734] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 11:55:14:746] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 11:55:14:759] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 11:55:14:771] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 11:55:14:783] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 11:55:14:795] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 11:55:14:807] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 11:55:14:818] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 11:55:14:830] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 11:55:14:842] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 11:55:14:855] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 11:55:14:867] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 11:55:14:879] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 11:55:14:892] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 11:55:14:904] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 11:55:14:915] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 11:55:14:926] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 11:55:14:939] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 11:55:14:951] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 11:55:14:964] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 11:55:14:975] DebugLaunchPlugin - Waiting for the debugger to settle...
+[2016-02-02 11:55:14:987] DebugLaunchPlugin - Debugger has settled. Resuming inferior.
+[2016-02-02 11:55:15:066] DebugChannel - Event: Thread stopped, reason: Exception, java obj: 0x5010f78, thread: 0x500ff80, frames: 9
+[2016-02-02 11:55:15:072] SoftDebugger - Reconstructing frames took: 0.00562secs
+[2016-02-02 11:55:15:078] DebugChannel - Event: Thread resumed, java obj: 0x5010f78, thread: 0x500ff80
+[2016-02-02 11:55:15:086] DebugChannel - Event: Thread stopped, reason: Exception, java obj: 0x5010f78, thread: 0x500ff80, frames: 9
+[2016-02-02 11:55:15:086] SoftDebugger - Reconstructing frames took: 5.4E-5secs
+[2016-02-02 11:55:15:089] DebugChannel - Event: Thread resumed, java obj: 0x5010f78, thread: 0x500ff80
+[2016-02-02 11:55:15:095] DebugChannel - Event: Thread stopped, reason: Exception, java obj: 0x5010f78, thread: 0x500ff80, frames: 9
+[2016-02-02 11:55:15:095] SoftDebugger - Reconstructing frames took: 3.1E-5secs
+[2016-02-02 11:55:15:099] DebugChannel - Event: Thread resumed, java obj: 0x5010f78, thread: 0x500ff80
+[2016-02-02 11:55:15:105] DebugChannel - Event: Thread stopped, reason: Exception, java obj: 0x5010f78, thread: 0x500ff80, frames: 9
+[2016-02-02 11:55:15:105] SoftDebugger - Reconstructing frames took: 5.5E-5secs
+[2016-02-02 11:55:15:108] DebugChannel - Event: Thread resumed, java obj: 0x5010f78, thread: 0x500ff80
+[2016-02-02 11:55:15:114] DebugChannel - Event: Thread stopped, reason: Exception, java obj: 0x5010f78, thread: 0x500ff80, frames: 9
+[2016-02-02 11:55:15:114] SoftDebugger - Reconstructing frames took: 2.9E-5secs
+[2016-02-02 11:55:15:117] DebugChannel - Event: Thread resumed, java obj: 0x5010f78, thread: 0x500ff80
+[2016-02-02 11:55:15:123] DebugChannel - Event: Thread stopped, reason: Exception, java obj: 0x5010f78, thread: 0x500ff80, frames: 9
+[2016-02-02 11:55:15:123] SoftDebugger - Reconstructing frames took: 3.9E-5secs
+[2016-02-02 11:55:15:127] DebugChannel - Event: Thread resumed, java obj: 0x5010f78, thread: 0x500ff80
+[2016-02-02 11:55:15:132] DebugChannel - Event: Thread stopped, reason: Exception, java obj: 0x5010f78, thread: 0x500ff80, frames: 9
+[2016-02-02 11:55:15:133] SoftDebugger - Reconstructing frames took: 2.5E-5secs
+[2016-02-02 11:55:15:136] DebugChannel - Event: Thread resumed, java obj: 0x5010f78, thread: 0x500ff80
+[2016-02-02 11:55:15:142] DebugChannel - Event: Thread stopped, reason: Exception, java obj: 0x5010f78, thread: 0x500ff80, frames: 9
+[2016-02-02 11:55:15:142] SoftDebugger - Reconstructing frames took: 3.6E-5secs
+[2016-02-02 11:55:15:145] DebugChannel - Event: Thread resumed, java obj: 0x5010f78, thread: 0x500ff80
+[2016-02-02 11:55:15:152] DebugChannel - Event: Thread stopped, reason: Exception, java obj: 0x5010f78, thread: 0x500ff80, frames: 9
+[2016-02-02 11:55:15:152] SoftDebugger - Reconstructing frames took: 2.2E-5secs
+[2016-02-02 11:55:15:156] DebugChannel - Event: Thread resumed, java obj: 0x5010f78, thread: 0x500ff80
+[2016-02-02 11:55:15:162] DebugChannel - Event: Thread stopped, reason: Exception, java obj: 0x5010f78, thread: 0x500ff80, frames: 9
+[2016-02-02 11:55:15:163] SoftDebugger - Reconstructing frames took: 3.3E-5secs
+[2016-02-02 11:55:15:166] DebugChannel - Event: Thread resumed, java obj: 0x5010f78, thread: 0x500ff80
+[2016-02-02 11:55:15:174] DebugChannel - Event: Thread stopped, reason: Exception, java obj: 0x5010f78, thread: 0x500ff80, frames: 9
+[2016-02-02 11:55:15:174] SoftDebugger - Reconstructing frames took: 3.9E-5secs
+[2016-02-02 11:55:15:177] DebugChannel - Event: Thread resumed, java obj: 0x5010f78, thread: 0x500ff80
+[2016-02-02 11:55:15:183] DebugChannel - Event: Thread stopped, reason: Exception, java obj: 0x5010f78, thread: 0x500ff80, frames: 9
+[2016-02-02 11:55:15:183] SoftDebugger - Reconstructing frames took: 3.9E-5secs
+[2016-02-02 11:55:15:186] DebugChannel - Event: Thread resumed, java obj: 0x5010f78, thread: 0x500ff80
+[2016-02-02 11:55:15:192] DebugChannel - Event: Thread stopped, reason: Exception, java obj: 0x5010f78, thread: 0x500ff80, frames: 9
+[2016-02-02 11:55:15:192] SoftDebugger - Reconstructing frames took: 3.6E-5secs
+[2016-02-02 11:55:15:195] DebugChannel - Event: Thread resumed, java obj: 0x5010f78, thread: 0x500ff80
+[2016-02-02 11:55:15:202] DebugChannel - Event: Thread stopped, reason: Exception, java obj: 0x5010f78, thread: 0x500ff80, frames: 9
+[2016-02-02 11:55:15:202] SoftDebugger - Reconstructing frames took: 3.8E-5secs
+[2016-02-02 11:55:15:205] DebugChannel - Event: Thread resumed, java obj: 0x5010f78, thread: 0x500ff80
+[2016-02-02 11:55:15:213] DebugChannel - Event: Thread stopped, reason: Exception, java obj: 0x5010f78, thread: 0x500ff80, frames: 9
+[2016-02-02 11:55:15:213] SoftDebugger - Reconstructing frames took: 3.6E-5secs
+[2016-02-02 11:55:15:216] DebugChannel - Event: Thread resumed, java obj: 0x5010f78, thread: 0x500ff80
+[2016-02-02 11:55:15:222] DebugChannel - Event: Thread stopped, reason: Exception, java obj: 0x5010f78, thread: 0x500ff80, frames: 9
+[2016-02-02 11:55:15:222] SoftDebugger - Reconstructing frames took: 5.2E-5secs
+[2016-02-02 11:55:15:224] DebugChannel - Event: Thread resumed, java obj: 0x5010f78, thread: 0x500ff80
+[2016-02-02 11:55:15:231] DebugChannel - Event: Thread stopped, reason: Exception, java obj: 0x5010f78, thread: 0x500ff80, frames: 9
+[2016-02-02 11:55:15:231] SoftDebugger - Reconstructing frames took: 4.5E-5secs
+[2016-02-02 11:55:15:234] DebugChannel - Event: Thread resumed, java obj: 0x5010f78, thread: 0x500ff80
+[2016-02-02 11:55:15:239] DebugChannel - Event: Thread stopped, reason: Exception, java obj: 0x5010f78, thread: 0x500ff80, frames: 9
+[2016-02-02 11:55:15:239] SoftDebugger - Reconstructing frames took: 3.9E-5secs
+[2016-02-02 11:55:15:242] DebugChannel - Event: Thread resumed, java obj: 0x5010f78, thread: 0x500ff80
+[2016-02-02 11:55:15:276] DebugChannel - Event: Thread stopped, reason: Exception, java obj: 0x5010f78, thread: 0x500ff80, frames: 9
+[2016-02-02 11:55:15:276] SoftDebugger - Reconstructing frames took: 3.5E-5secs
+[2016-02-02 11:55:15:280] DebugChannel - Event: Thread resumed, java obj: 0x5010f78, thread: 0x500ff80
+[2016-02-02 11:55:15:286] DebugChannel - Event: Thread stopped, reason: Exception, java obj: 0x5010f78, thread: 0x500ff80, frames: 9
+[2016-02-02 11:55:15:286] SoftDebugger - Reconstructing frames took: 5.2E-5secs
+[2016-02-02 11:55:15:289] DebugChannel - Event: Thread resumed, java obj: 0x5010f78, thread: 0x500ff80
+[2016-02-02 11:55:15:296] DebugChannel - Event: Thread stopped, reason: Exception, java obj: 0x5010f78, thread: 0x500ff80, frames: 9
+[2016-02-02 11:55:15:296] SoftDebugger - Reconstructing frames took: 5.0E-5secs
+[2016-02-02 11:55:15:300] DebugChannel - Event: Thread resumed, java obj: 0x5010f78, thread: 0x500ff80
+[2016-02-02 11:55:15:306] DebugChannel - Event: Thread stopped, reason: Exception, java obj: 0x5010f78, thread: 0x500ff80, frames: 9
+[2016-02-02 11:55:15:306] SoftDebugger - Reconstructing frames took: 5.4E-5secs
+[2016-02-02 11:55:15:309] DebugChannel - Event: Thread resumed, java obj: 0x5010f78, thread: 0x500ff80
+[2016-02-02 11:55:15:315] DebugChannel - Event: Thread stopped, reason: Exception, java obj: 0x5010f78, thread: 0x500ff80, frames: 9
+[2016-02-02 11:55:15:315] SoftDebugger - Reconstructing frames took: 3.7E-5secs
+[2016-02-02 11:55:15:319] DebugChannel - Event: Thread resumed, java obj: 0x5010f78, thread: 0x500ff80
+[2016-02-02 11:55:15:325] DebugChannel - Event: Thread stopped, reason: Exception, java obj: 0x5010f78, thread: 0x500ff80, frames: 9
+[2016-02-02 11:55:15:325] SoftDebugger - Reconstructing frames took: 3.5E-5secs
+[2016-02-02 11:55:15:328] DebugChannel - Event: Thread resumed, java obj: 0x5010f78, thread: 0x500ff80
+[2016-02-02 11:55:15:333] DebugChannel - Event: Thread stopped, reason: Exception, java obj: 0x5010f78, thread: 0x500ff80, frames: 9
+[2016-02-02 11:55:15:333] SoftDebugger - Reconstructing frames took: 2.1E-5secs
+[2016-02-02 11:55:15:336] DebugChannel - Event: Thread resumed, java obj: 0x5010f78, thread: 0x500ff80
+[2016-02-02 11:55:15:520] SoftJdwpEventProcessor - Reporting class prepare event EventRequest [id=3, eventKind=CLASS_PREPARE, suspendPolicy=EVENT_THREAD, constraints=[ClassMatchConstraint [classPattern=com.mob.demo.MyViewController]]] to JDWP client for class com/mob/demo/MyViewController
+[2016-02-02 11:55:15:521] JdwpDebugServer - Command: H(2 15) id = 2997 length = 8
+[2016-02-02 11:55:15:522] SoftVmInterface - Reporting method: com/mob/demo/MyViewController.<init>
+[2016-02-02 11:55:15:522] SoftVmInterface - Reporting method: com/mob/demo/MyViewController.excute
+[2016-02-02 11:55:15:522] SoftVmInterface - Reporting method: com/mob/demo/MyViewController.initUI
+[2016-02-02 11:55:15:522] SoftVmInterface - Reporting method: com/mob/demo/MyViewController.$cb$init
+[2016-02-02 11:55:15:522] SoftVmInterface - Reporting method: com/mob/demo/MyViewController.$setHandle
+[2016-02-02 11:55:15:522] SoftVmInterface - Reporting method: com/mob/demo/MyViewController.$cb$initWithNibName$bundle$
+[2016-02-02 11:55:15:522] SoftVmInterface - Reporting method: com/mob/demo/MyViewController.$m$super$initWithNibName$bundle$
+[2016-02-02 11:55:15:522] SoftVmInterface - Reporting method: com/mob/demo/MyViewController.$getSuper
+[2016-02-02 11:55:15:522] SoftVmInterface - Reporting method: com/mob/demo/MyViewController.$initObject
+[2016-02-02 11:55:15:523] SoftVmInterface - Reporting method: com/mob/demo/MyViewController.$cb$initWithCoder$
+[2016-02-02 11:55:15:523] SoftVmInterface - Reporting method: com/mob/demo/MyViewController.$m$super$initWithCoder$
+[2016-02-02 11:55:15:523] SoftVmInterface - Reporting method: com/mob/demo/MyViewController.<clinit>
+[2016-02-02 11:55:15:523] JdwpDebugServer - Command: o(6 1) id = 2998 length = 16
+[2016-02-02 11:55:15:524] SoftVmInterface - Reporting line numbers for method com/mob/demo/MyViewController.<init>: [36, 38, 39, 41]
+[2016-02-02 11:55:15:524] JdwpDebugServer - Command: o(6 1) id = 2999 length = 16
+[2016-02-02 11:55:15:524] SoftVmInterface - Reporting line numbers for method com/mob/demo/MyViewController.excute: [46, 54, 57, 64, 67, 124, 127, 180, 183, 191, 193]
+[2016-02-02 11:55:15:525] JdwpDebugServer - Command: o(6 1) id = 3000 length = 16
+[2016-02-02 11:55:15:525] SoftVmInterface - Reporting line numbers for method com/mob/demo/MyViewController.initUI: [197, 198, 200, 201, 202, 203, 205, 206, 207, 208, 210, 211, 212, 213, 215, 216, 217, 218, 220, 221, 222, 223, 225]
+[2016-02-02 11:55:15:525] JdwpDebugServer - Command: o(6 1) id = 3001 length = 16
+[2016-02-02 11:55:15:525] SoftVmInterface - Reporting line numbers for method com/mob/demo/MyViewController.$cb$init: [1048579]
+[2016-02-02 11:55:15:526] JdwpDebugServer - Command: o(6 1) id = 3002 length = 16
+[2016-02-02 11:55:15:526] SoftVmInterface - Reporting line numbers for method com/mob/demo/MyViewController.$setHandle: [1048580]
+[2016-02-02 11:55:15:526] JdwpDebugServer - Command: o(6 1) id = 3003 length = 16
+[2016-02-02 11:55:15:526] SoftVmInterface - Reporting line numbers for method com/mob/demo/MyViewController.$cb$initWithNibName$bundle$: [1048581]
+[2016-02-02 11:55:15:526] JdwpDebugServer - Command: o(6 1) id = 3004 length = 16
+[2016-02-02 11:55:15:527] SoftVmInterface - Reporting line numbers for method com/mob/demo/MyViewController.$getSuper: [1048583]
+[2016-02-02 11:55:15:527] JdwpDebugServer - Command: o(6 1) id = 3005 length = 16
+[2016-02-02 11:55:15:527] SoftVmInterface - Reporting line numbers for method com/mob/demo/MyViewController.$initObject: [1048584]
+[2016-02-02 11:55:15:527] JdwpDebugServer - Command: o(6 1) id = 3006 length = 16
+[2016-02-02 11:55:15:527] SoftVmInterface - Reporting line numbers for method com/mob/demo/MyViewController.$cb$initWithCoder$: [1048585]
+[2016-02-02 11:55:15:527] JdwpDebugServer - Command: o(6 1) id = 3007 length = 16
+[2016-02-02 11:55:15:528] SoftVmInterface - Reporting line numbers for method com/mob/demo/MyViewController.<clinit>: [1048587]
+[2016-02-02 11:55:15:528] JdwpDebugServer - Command: Z(11 3) id = 3008 length = 8
+[2016-02-02 11:55:15:530] DebugChannel - Event: Thread resumed, java obj: 0x5010f78, thread: 0x500ff80
+[2016-02-02 11:55:15:656] DebugChannel - Event: Thread stopped, reason: Exception, java obj: 0x5010f78, thread: 0x500ff80, frames: 15
+[2016-02-02 11:55:15:659] SoftDebugger - Reconstructing frames took: 0.002618secs
+[2016-02-02 11:55:15:662] DebugChannel - Event: Thread resumed, java obj: 0x5010f78, thread: 0x500ff80
+[2016-02-02 11:55:15:667] DebugChannel - Event: Thread stopped, reason: Exception, java obj: 0x5010f78, thread: 0x500ff80, frames: 15
+[2016-02-02 11:55:15:668] SoftDebugger - Reconstructing frames took: 7.9E-5secs
+[2016-02-02 11:55:15:670] DebugChannel - Event: Thread resumed, java obj: 0x5010f78, thread: 0x500ff80
+[2016-02-02 11:55:15:676] DebugChannel - Event: Thread stopped, reason: Exception, java obj: 0x5010f78, thread: 0x500ff80, frames: 15
+[2016-02-02 11:55:15:676] SoftDebugger - Reconstructing frames took: 7.8E-5secs
+[2016-02-02 11:55:15:678] DebugChannel - Event: Thread resumed, java obj: 0x5010f78, thread: 0x500ff80
+[2016-02-02 11:55:15:685] DebugChannel - Event: Thread stopped, reason: Exception, java obj: 0x5010f78, thread: 0x500ff80, frames: 15
+[2016-02-02 11:55:15:685] SoftDebugger - Reconstructing frames took: 9.5E-5secs
+[2016-02-02 11:55:15:688] DebugChannel - Event: Thread resumed, java obj: 0x5010f78, thread: 0x500ff80
+[2016-02-02 11:55:15:694] DebugChannel - Event: Thread stopped, reason: Exception, java obj: 0x5010f78, thread: 0x500ff80, frames: 15
+[2016-02-02 11:55:15:694] SoftDebugger - Reconstructing frames took: 7.2E-5secs
+[2016-02-02 11:55:15:697] DebugChannel - Event: Thread resumed, java obj: 0x5010f78, thread: 0x500ff80
+[2016-02-02 11:55:15:702] DebugChannel - Event: Thread stopped, reason: Exception, java obj: 0x5010f78, thread: 0x500ff80, frames: 15
+[2016-02-02 11:55:15:703] SoftDebugger - Reconstructing frames took: 8.0E-5secs
+[2016-02-02 11:55:15:705] DebugChannel - Event: Thread resumed, java obj: 0x5010f78, thread: 0x500ff80
+[2016-02-02 11:55:15:712] DebugChannel - Event: Thread stopped, reason: Exception, java obj: 0x5010f78, thread: 0x500ff80, frames: 15
+[2016-02-02 11:55:15:712] SoftDebugger - Reconstructing frames took: 7.3E-5secs
+[2016-02-02 11:55:15:715] DebugChannel - Event: Thread resumed, java obj: 0x5010f78, thread: 0x500ff80
+[2016-02-02 11:55:15:733] DebugChannel - Event: Thread stopped, reason: Exception, java obj: 0x5010f78, thread: 0x500ff80, frames: 10
+[2016-02-02 11:55:15:733] SoftDebugger - Reconstructing frames took: 4.2E-5secs
+[2016-02-02 11:55:15:736] DebugChannel - Event: Thread resumed, java obj: 0x5010f78, thread: 0x500ff80
+[2016-02-02 11:55:15:740] DebugChannel - Event: Thread stopped, reason: Exception, java obj: 0x5010f78, thread: 0x500ff80, frames: 10
+[2016-02-02 11:55:15:740] SoftDebugger - Reconstructing frames took: 3.4E-5secs
+[2016-02-02 11:55:15:742] DebugChannel - Event: Thread resumed, java obj: 0x5010f78, thread: 0x500ff80
+[2016-02-02 11:55:15:746] DebugChannel - Event: Thread stopped, reason: Exception, java obj: 0x5010f78, thread: 0x500ff80, frames: 10
+[2016-02-02 11:55:15:746] SoftDebugger - Reconstructing frames took: 3.1E-5secs
+[2016-02-02 11:55:15:748] DebugChannel - Event: Thread resumed, java obj: 0x5010f78, thread: 0x500ff80
+[2016-02-02 11:55:15:753] DebugChannel - Event: Thread stopped, reason: Exception, java obj: 0x5010f78, thread: 0x500ff80, frames: 10
+[2016-02-02 11:55:15:753] SoftDebugger - Reconstructing frames took: 3.0E-5secs
+[2016-02-02 11:55:15:757] DebugChannel - Event: Thread resumed, java obj: 0x5010f78, thread: 0x500ff80
+[2016-02-02 11:55:15:762] DebugChannel - Event: Thread stopped, reason: Exception, java obj: 0x5010f78, thread: 0x500ff80, frames: 10
+[2016-02-02 11:55:15:763] SoftDebugger - Reconstructing frames took: 3.1E-5secs
+[2016-02-02 11:55:15:765] DebugChannel - Event: Thread resumed, java obj: 0x5010f78, thread: 0x500ff80
+[2016-02-02 11:55:15:767] DebugChannel - Event: Thread stopped, reason: Exception, java obj: 0x5010f78, thread: 0x500ff80, frames: 10
+[2016-02-02 11:55:15:768] SoftDebugger - Reconstructing frames took: 2.7E-5secs
+[2016-02-02 11:55:15:769] DebugChannel - Event: Thread resumed, java obj: 0x5010f78, thread: 0x500ff80
+[2016-02-02 11:55:15:772] DebugChannel - Event: Thread stopped, reason: Exception, java obj: 0x5010f78, thread: 0x500ff80, frames: 10
+[2016-02-02 11:55:15:772] SoftDebugger - Reconstructing frames took: 2.8E-5secs
+[2016-02-02 11:55:15:774] DebugChannel - Event: Thread resumed, java obj: 0x5010f78, thread: 0x500ff80
+[2016-02-02 11:55:16:954] SoftJdwpEventProcessor - Reporting class prepare event EventRequest [id=4, eventKind=CLASS_PREPARE, suspendPolicy=EVENT_THREAD, constraints=[ClassMatchConstraint [classPattern=com.mob.demo.MyViewController$*]]] to JDWP client for class com/mob/demo/MyViewController$1
+[2016-02-02 11:55:16:955] JdwpDebugServer - Command: H(2 15) id = 3009 length = 8
+[2016-02-02 11:55:16:955] SoftVmInterface - Reporting method: com/mob/demo/MyViewController$1.<init>
+[2016-02-02 11:55:16:955] SoftVmInterface - Reporting method: com/mob/demo/MyViewController$1.onTouchUpInside
+[2016-02-02 11:55:16:956] JdwpDebugServer - Command: o(6 1) id = 3010 length = 16
+[2016-02-02 11:55:16:959] SoftVmInterface - Reporting line numbers for method com/mob/demo/MyViewController$1.<init>: [1, 46]
+[2016-02-02 11:55:16:959] JdwpDebugServer - Command: o(6 1) id = 3011 length = 16
+[2016-02-02 11:55:16:959] SoftVmInterface - Reporting line numbers for method com/mob/demo/MyViewController$1.onTouchUpInside: [52]
+[2016-02-02 11:55:16:960] JdwpDebugServer - Command: Z(11 3) id = 3012 length = 8
+[2016-02-02 11:55:16:961] DebugChannel - Event: Thread resumed, java obj: 0x5010f78, thread: 0x500ff80
+[2016-02-02 11:55:16:971] SoftJdwpEventProcessor - Reporting class prepare event EventRequest [id=4, eventKind=CLASS_PREPARE, suspendPolicy=EVENT_THREAD, constraints=[ClassMatchConstraint [classPattern=com.mob.demo.MyViewController$*]]] to JDWP client for class com/mob/demo/MyViewController$2
+[2016-02-02 11:55:16:971] JdwpDebugServer - Command: H(2 15) id = 3013 length = 8
+[2016-02-02 11:55:16:971] SoftVmInterface - Reporting method: com/mob/demo/MyViewController$2.<init>
+[2016-02-02 11:55:16:971] SoftVmInterface - Reporting method: com/mob/demo/MyViewController$2.onTouchUpInside
+[2016-02-02 11:55:16:972] JdwpDebugServer - Command: o(6 1) id = 3014 length = 16
+[2016-02-02 11:55:16:972] SoftVmInterface - Reporting line numbers for method com/mob/demo/MyViewController$2.<init>: [1, 57]
+[2016-02-02 11:55:16:973] JdwpDebugServer - Command: o(6 1) id = 3015 length = 16
+[2016-02-02 11:55:16:973] SoftVmInterface - Reporting line numbers for method com/mob/demo/MyViewController$2.onTouchUpInside: [62]
+[2016-02-02 11:55:16:973] JdwpDebugServer - Command: Z(11 3) id = 3016 length = 8
+[2016-02-02 11:55:16:974] DebugChannel - Event: Thread resumed, java obj: 0x5010f78, thread: 0x500ff80
+[2016-02-02 11:55:16:977] SoftJdwpEventProcessor - Reporting class prepare event EventRequest [id=4, eventKind=CLASS_PREPARE, suspendPolicy=EVENT_THREAD, constraints=[ClassMatchConstraint [classPattern=com.mob.demo.MyViewController$*]]] to JDWP client for class com/mob/demo/MyViewController$3
+[2016-02-02 11:55:16:977] JdwpDebugServer - Command: H(2 15) id = 3017 length = 8
+[2016-02-02 11:55:16:977] SoftVmInterface - Reporting method: com/mob/demo/MyViewController$3.<init>
+[2016-02-02 11:55:16:977] SoftVmInterface - Reporting method: com/mob/demo/MyViewController$3.onTouchUpInside
+[2016-02-02 11:55:16:978] JdwpDebugServer - Command: o(6 1) id = 3018 length = 16
+[2016-02-02 11:55:16:978] SoftVmInterface - Reporting line numbers for method com/mob/demo/MyViewController$3.<init>: [1, 67]
+[2016-02-02 11:55:16:979] JdwpDebugServer - Command: o(6 1) id = 3019 length = 16
+[2016-02-02 11:55:16:979] SoftVmInterface - Reporting line numbers for method com/mob/demo/MyViewController$3.onTouchUpInside: [71, 72, 74, 76, 78, 80, 81, 82, 84, 122]
+[2016-02-02 11:55:16:979] JdwpDebugServer - Command: Z(11 3) id = 3020 length = 8
+[2016-02-02 11:55:16:980] DebugChannel - Event: Thread resumed, java obj: 0x5010f78, thread: 0x500ff80
+[2016-02-02 11:55:16:983] SoftJdwpEventProcessor - Reporting class prepare event EventRequest [id=4, eventKind=CLASS_PREPARE, suspendPolicy=EVENT_THREAD, constraints=[ClassMatchConstraint [classPattern=com.mob.demo.MyViewController$*]]] to JDWP client for class com/mob/demo/MyViewController$4
+[2016-02-02 11:55:16:984] JdwpDebugServer - Command: H(2 15) id = 3021 length = 8
+[2016-02-02 11:55:16:984] SoftVmInterface - Reporting method: com/mob/demo/MyViewController$4.<init>
+[2016-02-02 11:55:16:984] SoftVmInterface - Reporting method: com/mob/demo/MyViewController$4.onTouchUpInside
+[2016-02-02 11:55:16:985] JdwpDebugServer - Command: o(6 1) id = 3022 length = 16
+[2016-02-02 11:55:16:985] SoftVmInterface - Reporting line numbers for method com/mob/demo/MyViewController$4.<init>: [1, 127]
+[2016-02-02 11:55:16:986] JdwpDebugServer - Command: o(6 1) id = 3023 length = 16
+[2016-02-02 11:55:16:986] SoftVmInterface - Reporting line numbers for method com/mob/demo/MyViewController$4.onTouchUpInside: [131, 132, 134, 136, 138, 140, 141, 142, 144, 178]
+[2016-02-02 11:55:16:986] JdwpDebugServer - Command: Z(11 3) id = 3024 length = 8
+[2016-02-02 11:55:16:988] DebugChannel - Event: Thread resumed, java obj: 0x5010f78, thread: 0x500ff80
+[2016-02-02 11:55:16:989] SoftJdwpEventProcessor - Reporting class prepare event EventRequest [id=4, eventKind=CLASS_PREPARE, suspendPolicy=EVENT_THREAD, constraints=[ClassMatchConstraint [classPattern=com.mob.demo.MyViewController$*]]] to JDWP client for class com/mob/demo/MyViewController$5
+[2016-02-02 11:55:16:990] JdwpDebugServer - Command: H(2 15) id = 3025 length = 8
+[2016-02-02 11:55:16:990] SoftVmInterface - Reporting method: com/mob/demo/MyViewController$5.<init>
+[2016-02-02 11:55:16:990] SoftVmInterface - Reporting method: com/mob/demo/MyViewController$5.onTouchUpInside
+[2016-02-02 11:55:16:990] JdwpDebugServer - Command: o(6 1) id = 3026 length = 16
+[2016-02-02 11:55:16:991] SoftVmInterface - Reporting line numbers for method com/mob/demo/MyViewController$5.<init>: [1, 183]
+[2016-02-02 11:55:16:991] JdwpDebugServer - Command: o(6 1) id = 3027 length = 16
+[2016-02-02 11:55:16:991] SoftVmInterface - Reporting line numbers for method com/mob/demo/MyViewController$5.onTouchUpInside: [189]
+[2016-02-02 11:55:16:992] JdwpDebugServer - Command: Z(11 3) id = 3028 length = 8
+[2016-02-02 11:55:16:993] DebugChannel - Event: Thread resumed, java obj: 0x5010f78, thread: 0x500ff80
+[2016-02-02 11:55:17:536] DebugChannel - Event: Thread stopped, reason: Exception, java obj: 0x5010f78, thread: 0x500ff80, frames: 9
+[2016-02-02 11:55:17:539] SoftDebugger - Reconstructing frames took: 0.002389secs
+[2016-02-02 11:55:17:542] DebugChannel - Event: Thread resumed, java obj: 0x5010f78, thread: 0x500ff80
+[2016-02-02 11:55:17:544] DebugChannel - Event: Thread stopped, reason: Exception, java obj: 0x5010f78, thread: 0x500ff80, frames: 8
+[2016-02-02 11:55:17:544] SoftDebugger - Reconstructing frames took: 2.8E-5secs
+[2016-02-02 11:55:17:546] DebugChannel - Event: Thread resumed, java obj: 0x5010f78, thread: 0x500ff80
+[2016-02-02 11:55:17:547] DebugChannel - Event: Thread stopped, reason: Exception, java obj: 0x5010f78, thread: 0x500ff80, frames: 8
+[2016-02-02 11:55:17:547] SoftDebugger - Reconstructing frames took: 1.7E-5secs
+[2016-02-02 11:55:17:548] DebugChannel - Event: Thread resumed, java obj: 0x5010f78, thread: 0x500ff80
+[2016-02-02 11:55:17:549] DebugChannel - Event: Thread stopped, reason: Exception, java obj: 0x5010f78, thread: 0x500ff80, frames: 3
+[2016-02-02 11:55:17:550] SoftDebugger - Reconstructing frames took: 1.0E-5secs
+[2016-02-02 11:55:17:551] DebugChannel - Event: Thread resumed, java obj: 0x5010f78, thread: 0x500ff80
+[2016-02-02 11:55:17:552] DebugChannel - Event: Thread stopped, reason: Exception, java obj: 0x5010f78, thread: 0x500ff80, frames: 3
+[2016-02-02 11:55:17:552] SoftDebugger - Reconstructing frames took: 1.0E-5secs
+[2016-02-02 11:55:17:553] DebugChannel - Event: Thread resumed, java obj: 0x5010f78, thread: 0x500ff80
+[2016-02-02 11:55:17:555] DebugChannel - Event: Thread stopped, reason: Exception, java obj: 0x5010f78, thread: 0x500ff80, frames: 1
+[2016-02-02 11:55:17:555] SoftDebugger - Reconstructing frames took: 9.0E-6secs
+[2016-02-02 11:55:17:556] DebugChannel - Event: Thread resumed, java obj: 0x5010f78, thread: 0x500ff80
+[2016-02-02 11:55:17:557] DebugChannel - Event: Thread stopped, reason: Exception, java obj: 0x5010f78, thread: 0x500ff80, frames: 1
+[2016-02-02 11:55:17:557] SoftDebugger - Reconstructing frames took: 5.0E-6secs
+[2016-02-02 11:55:17:558] JdwpDebugServer - Command: H(2 15) id = 3029 length = 8
+[2016-02-02 11:55:17:558] SoftVmInterface - Reporting method: com/mob/demo/ShareSDKDemo.<init>
+[2016-02-02 11:55:17:558] SoftVmInterface - Reporting method: com/mob/demo/ShareSDKDemo.didFinishLaunching
+[2016-02-02 11:55:17:559] SoftVmInterface - Reporting method: com/mob/demo/ShareSDKDemo.main
+[2016-02-02 11:55:17:559] SoftVmInterface - Reporting method: com/mob/demo/ShareSDKDemo.initShareSDK
+[2016-02-02 11:55:17:559] SoftVmInterface - Reporting method: com/mob/demo/ShareSDKDemo.$cb$application$didFinishLaunchingWithOptions$
+[2016-02-02 11:55:17:559] SoftVmInterface - Reporting method: com/mob/demo/ShareSDKDemo.$cb$init
+[2016-02-02 11:55:17:559] SoftVmInterface - Reporting method: com/mob/demo/ShareSDKDemo.$setHandle
+[2016-02-02 11:55:17:559] SoftVmInterface - Reporting method: com/mob/demo/ShareSDKDemo.$cb$initWithCoder$
+[2016-02-02 11:55:17:559] SoftVmInterface - Reporting method: com/mob/demo/ShareSDKDemo.$m$super$initWithCoder$
+[2016-02-02 11:55:17:559] SoftVmInterface - Reporting method: com/mob/demo/ShareSDKDemo.$getSuper
+[2016-02-02 11:55:17:559] SoftVmInterface - Reporting method: com/mob/demo/ShareSDKDemo.$initObject
+[2016-02-02 11:55:17:559] SoftVmInterface - Reporting method: com/mob/demo/ShareSDKDemo.<clinit>
+[2016-02-02 11:55:17:560] JdwpDebugServer - Command: y(9 1) id = 3030 length = 8
+[2016-02-02 11:55:17:560] JdwpDebugServer - Command: J(2 1) id = 3031 length = 8
+[2016-02-02 11:55:17:560] JdwpDebugServer - Command: j(3 1) id = 3032 length = 8
+[2016-02-02 11:55:17:560] JdwpDebugServer - Command: J(2 1) id = 3033 length = 8
+[2016-02-02 11:55:17:561] JdwpDebugServer - Command: j(3 1) id = 3034 length = 8
+[2016-02-02 11:55:17:561] JdwpDebugServer - Command: J(2 1) id = 3035 length = 8
+[2016-02-02 11:55:17:561] JdwpDebugServer - Command: j(3 1) id = 3036 length = 8
+[2016-02-02 11:55:17:561] JdwpDebugServer - Command: W(11 6) id = 3037 length = 16
+[2016-02-02 11:55:17:562] JdwpDebugServer - Command: V(11 7) id = 3038 length = 8
+[2016-02-02 11:55:17:562] JdwpDebugServer - Command: Y(11 8) id = 3039 length = 8
+[2016-02-02 11:55:17:563] JdwpDebugServer - Command: U(11 9) id = 3040 length = 8
+[2016-02-02 11:55:17:563] JdwpDebugServer - Command: Y(11 8) id = 3041 length = 8
+[2016-02-02 11:55:17:563] JdwpDebugServer - Command: U(11 9) id = 3042 length = 8
+[2016-02-02 11:55:18:013] JdwpDebugServer - Command: L(2 7) id = 3043 length = 8
+[2016-02-02 11:55:18:027] JdwpDebugServer - Command: J(2 1) id = 3044 length = 8
+[2016-02-02 11:55:18:101] JdwpDebugServer - Command: K(2 13) id = 3045 length = 8
+[2016-02-02 11:55:18:102] JdwpDebugServer - Command: o(6 1) id = 3046 length = 16
+[2016-02-02 11:55:18:102] SoftVmInterface - Reporting line numbers for method com/mob/demo/ShareSDKDemo.main: [40, 41, 42, 43]
+[2016-02-02 11:55:18:103] JdwpDebugServer - Command: X(11 1) id = 3047 length = 8
+[2016-02-02 11:55:18:110] JdwpDebugServer - Command: U(11 9) id = 3048 length = 8
+[2016-02-02 11:55:18:111] JdwpDebugServer - Command: X(11 1) id = 3049 length = 8
+[2016-02-02 11:55:18:117] JdwpDebugServer - Command: Y(11 8) id = 3050 length = 8
+[2016-02-02 11:55:18:342] JdwpDebugServer - Command: D(2 14) id = 3051 length = 8
+[2016-02-02 11:55:18:342] JdwpDebugServer - Command: F(2 10) id = 3052 length = 8
+[2016-02-02 11:55:18:343] JdwpDebugServer - Command: j(3 1) id = 3053 length = 8
+[2016-02-02 11:55:18:343] JdwpDebugServer - Command: D(2 14) id = 3054 length = 8
+[2016-02-02 11:55:18:343] JdwpDebugServer - Command: F(2 10) id = 3055 length = 8
+[2016-02-02 11:55:18:343] JdwpDebugServer - Command: D(2 14) id = 3056 length = 8
+[2016-02-02 11:55:18:343] JdwpDebugServer - Command: F(2 10) id = 3057 length = 8
+[2016-02-02 11:55:18:344] JdwpDebugServer - Command: D(2 14) id = 3058 length = 8
+[2016-02-02 11:55:18:344] JdwpDebugServer - Command: F(2 10) id = 3059 length = 8
+[2016-02-02 11:55:18:344] JdwpDebugServer - Command: D(2 14) id = 3060 length = 8
+[2016-02-02 11:55:18:344] JdwpDebugServer - Command: F(2 10) id = 3061 length = 8
+[2016-02-02 11:55:18:345] JdwpDebugServer - Command: j(3 1) id = 3062 length = 8
+[2016-02-02 11:55:18:345] JdwpDebugServer - Command: D(2 14) id = 3063 length = 8
+[2016-02-02 11:55:18:346] JdwpDebugServer - Command: F(2 10) id = 3064 length = 8
+[2016-02-02 11:55:18:346] JdwpDebugServer - Command: j(3 1) id = 3065 length = 8
+[2016-02-02 11:55:18:346] JdwpDebugServer - Command: D(2 14) id = 3066 length = 8
+[2016-02-02 11:55:18:347] JdwpDebugServer - Command: F(2 10) id = 3067 length = 8
+[2016-02-02 11:55:18:347] JdwpDebugServer - Command: j(3 1) id = 3068 length = 8
+[2016-02-02 11:55:18:347] JdwpDebugServer - Command: D(2 14) id = 3069 length = 8
+[2016-02-02 11:55:18:348] JdwpDebugServer - Command: F(2 10) id = 3070 length = 8
+[2016-02-02 11:55:18:348] JdwpDebugServer - Command: j(3 1) id = 3071 length = 8
+[2016-02-02 11:55:18:348] JdwpDebugServer - Command: j(3 1) id = 3072 length = 8
+[2016-02-02 11:55:18:349] JdwpDebugServer - Command: q(6 5) id = 3073 length = 16
+[2016-02-02 11:55:18:554] JdwpDebugServer - Command: V(11 7) id = 3074 length = 8
+[2016-02-02 11:55:18:554] JdwpDebugServer - Command: Y(11 8) id = 3075 length = 8
+[2016-02-02 11:55:18:555] JdwpDebugServer - Command: U(11 9) id = 3076 length = 8
+[2016-02-02 11:55:18:556] JdwpDebugServer - Command: X(11 1) id = 3077 length = 8
+[2016-02-02 11:55:18:568] JdwpDebugServer - Command: V(11 7) id = 3078 length = 8
+[2016-02-02 11:55:18:568] JdwpDebugServer - Command: Y(11 8) id = 3079 length = 8
+[2016-02-02 11:55:18:568] JdwpDebugServer - Command: X(11 1) id = 3080 length = 8
+[2016-02-02 11:55:18:580] JdwpDebugServer - Command: U(11 9) id = 3081 length = 8
+[2016-02-02 11:55:18:580] JdwpDebugServer - Command: U(11 9) id = 3082 length = 8
+[2016-02-02 11:55:18:580] JdwpDebugServer - Command: X(11 1) id = 3083 length = 8
+[2016-02-02 11:55:18:592] JdwpDebugServer - Command: Y(11 8) id = 3084 length = 8
+[2016-02-02 11:55:18:592] JdwpDebugServer - Command: X(11 1) id = 3085 length = 8
+[2016-02-02 11:55:18:605] JdwpDebugServer - Command: U(11 9) id = 3086 length = 8
+[2016-02-02 11:55:18:605] JdwpDebugServer - Command: Y(11 8) id = 3087 length = 8
+[2016-02-02 11:55:18:606] JdwpDebugServer - Command: U(11 9) id = 3088 length = 8
+[2016-02-02 11:55:18:606] JdwpDebugServer - Command: Y(11 8) id = 3089 length = 8
+[2016-02-02 11:55:30:439] JdwpDebugServer - Command: Z(11 3) id = 3090 length = 8
+[2016-02-02 11:55:30:441] JdwpDebugServer - Command: U(11 9) id = 3091 length = 8
+[2016-02-02 11:55:30:442] JdwpDebugServer - Command: Y(11 8) id = 3092 length = 8
+[2016-02-02 11:55:30:442] DebugChannel - Event: Thread resumed, java obj: 0x5010f78, thread: 0x500ff80
+[2016-02-02 11:55:30:442] JdwpDebugServer - Command: U(11 9) id = 3093 length = 8
+[2016-02-02 11:55:30:442] JdwpDebugServer - Command: Y(11 8) id = 3094 length = 8
+[2016-02-02 11:55:30:443] JdwpDebugServer - Command: U(11 9) id = 3095 length = 8
+[2016-02-02 11:55:30:443] JdwpDebugServer - Command: Y(11 8) id = 3096 length = 8
+[2016-02-02 11:55:30:443] JdwpDebugServer - Command: U(11 9) id = 3097 length = 8
+[2016-02-02 11:55:30:443] JdwpDebugServer - Command: Y(11 8) id = 3098 length = 8
+[2016-02-02 11:55:30:474] DebugChannel - Event: Thread detached, java obj: 0x5010f78, thread: 0x500ff80, exception: 0x0
+[2016-02-02 11:55:30:494] DebugChannel - Error in debug channel thread: org.robovm.libimobiledevice.LibIMobileDeviceException: IDEVICE_E_UNKNOWN_ERROR
+[2016-02-02 11:55:30:494] DebugChannel - Shutting down debug channel thread
+[2016-02-02 11:55:30:494] SoftDebugger - com.robovm.debug.server.DebuggerException: Request interrupted
+	at com.robovm.debug.server.d.i.a(Unknown.java:805)
+	at com.robovm.debug.server.d.d.a(Unknown.java:203)
+	at com.robovm.debug.server.d.t.d(Unknown.java:77)
+	at com.robovm.debug.server.d.t.h(Unknown.java:112)
+	at com.robovm.debug.server.e.g.a(Unknown.java:444)
+	at com.robovm.debug.server.e.f.a(Unknown.java:33)
+	at com.robovm.debug.server.e.c.a(Unknown.java:140)
+	at com.robovm.debug.server.d.C.c(Unknown.java:1136)
+	at com.robovm.debug.server.d.y.a(Unknown.java:247)
+	at com.robovm.debug.server.d.y.a(Unknown.java:3150)
+	at com.robovm.debug.server.d.z.run(Unknown.java:128)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.InterruptedException
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.doAcquireSharedNanos(AbstractQueuedSynchronizer.java:1038)
+	at java.util.concurrent.locks.AbstractQueuedSynchronizer.tryAcquireSharedNanos(AbstractQueuedSynchronizer.java:1326)
+	at java.util.concurrent.CountDownLatch.await(CountDownLatch.java:282)
+	at com.robovm.debug.server.d.c.await(Unknown.java:31)
+	at com.robovm.debug.server.d.i.a(Unknown.java:801)
+	... 11 more
+[2016-02-02 11:55:30:494] SoftJdwpEventProcessor - processing vm death event
+[2016-02-02 11:55:30:495] SoftDebugger - Shutting down event loop thread
+[2016-02-02 11:55:30:589] DebugLaunchPlugin - Shutting down JDWP server

@@ -1,0 +1,13 @@
+[2016-02-15 14:19:58:985] ExecutableMemoryAccess - Reading executable bytes took: 0.154937
+[2016-02-15 14:19:59:849] ExecutableMemoryAccess - Dumped section __TEXT,__text, took: 0.847676
+[2016-02-15 14:19:59:850] ExecutableMemoryAccess - Dumped section __TEXT,__const, took: 9.48E-4
+[2016-02-15 14:19:59:851] ExecutableMemoryAccess - Dumped section __DATA,__const, took: 4.78E-4
+[2016-02-15 14:19:59:852] ExecutableMemoryAccess - Dumped section __DATA,__data, took: 5.67E-4
+[2016-02-15 14:19:59:852] ExecutableMemoryAccess - Parsing sections took: 1.023028
+[2016-02-15 14:20:01:851] ExecutableSymbolLookup - Reading nm output took: 3.021965
+[2016-02-15 14:20:02:396] ExecutableSymbolLookup - Parsing nm output took: 0.544186
+[2016-02-15 14:20:02:396] ExecutableSymbolLookup - Parsing symbols took: 3.566779
+[2016-02-15 14:20:32:658] DebugLaunchPlugin - com.robovm.debug.server.DebuggerException: Waiting for PID file timed out
+	at com.robovm.debug.server.DebugLaunchPlugin.b(Unknown.java:265)
+	at com.robovm.debug.server.e.run(Unknown.java:204)
+	at java.lang.Thread.run(Thread.java:745)
