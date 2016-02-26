@@ -4,7 +4,7 @@
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
-##RoboVM项目快速集成ShareSDK步骤##
+##RoboVM项目快速集成[ShareSDK](http://mob.com)步骤##
 
 ### 一、引入文件并添加ShareSDK库
 
@@ -92,9 +92,9 @@ iii.配置robovm.xml 中引用各种系统库和第三方库的路径
         tencentHashMap.put("redirect_uri", "http://www.sharesdk.cn");
         totalMap.put(SSDKPlatformType.TencentWeibo.value(), tencentHashMap);
 
-        //其他平台…..
+        //其他平台...
 
-        //初始化ShareSDK(其中第一个参数在ShareSDK官网申请获得)
+        //初始化ShareSDK(其中第一个参数在[ShareSDK官网](http://mob.com)申请获得)
         ShareSDK.registerApp("iosv1101", totalMap);
 
 ##### 2.授权方法示范:
@@ -169,8 +169,6 @@ iii.配置robovm.xml 中引用各种系统库和第三方库的路径
                     break;
                     }
                 }
-
-
             }
         });
 
@@ -256,7 +254,7 @@ iii.配置robovm.xml 中引用各种系统库和第三方库的路径
 
 ##### 3.如果是在iOS 9.0 以上的设备运行的话,因为iOS9.0以上是默认只允许https的网络请求,但有相当一部分的社交平台的网站不支持https，所以进行对NSAppTransportSecurity的设置，例如:
 
-**直接允许项目的所有http请求:**
+直接允许项目的所有http请求:
 
         <key>NSAppTransportSecurity</key>
         <dict>
@@ -265,7 +263,7 @@ iii.配置robovm.xml 中引用各种系统库和第三方库的路径
         </dict>
 
 
-##### 或者仅允许指定的域名能够进行http请求:
+或者仅允许指定的域名能够进行http请求:
 
         <key>NSAppTransportSecurity</key>
         <dict>
@@ -280,7 +278,6 @@ iii.配置robovm.xml 中引用各种系统库和第三方库的路径
                     <key>NSExceptionAllowsInsecureHTTPLoads</key>
                     <true/>
                 </dict>
-
             </dict>
         </dict>
 
