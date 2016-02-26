@@ -1,6 +1,6 @@
 # ShareSDK-for-RoboVM-iOS
 
-### 现在ShareSDK也支持基于 RoboVM 的 iOS 应用了。本项目将ShareSDK的多种功能和类已经绑定完毕，并且简化部分绑定的原生接口。详细使用方法请参考如下文档。(本项目是在Eclipse中编写,项目使用的ShareSDK为v3.2.0)
+###### 现在ShareSDK也支持基于 RoboVM 的 iOS 应用了。本项目将ShareSDK的多种功能和类已经绑定完毕，并且简化部分绑定的原生接口。详细使用方法请参考如下文档。(本项目是在Eclipse中编写,项目使用的ShareSDK为v3.2.0)
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
