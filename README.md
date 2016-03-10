@@ -13,8 +13,9 @@
 将项目中”Java”文件夹下的“com”文件夹复制到自身项目src/main/java 目录下,项目中刷新一下就见到添加了两个包(分别是com.mob.sharesdk和com.mob.platforms)
 
 包内容说明：
-com.mob.sharesdk - ShareSDK 主要的功能接口的绑定
-com.mob.platforms - 对使用到的第三方社交平台的SDK绑定
+
+-com.mob.sharesdk - ShareSDK 主要的功能接口的绑定
+-com.mob.platforms - 对使用到的第三方社交平台的SDK绑定
 
 ##### 2.项目添加ShareSDK库文件
 
