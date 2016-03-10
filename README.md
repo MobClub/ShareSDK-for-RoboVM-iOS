@@ -1,7 +1,7 @@
 # ShareSDK-for-RoboVM-iOS
 
 ###### 现在ShareSDK也支持基于 RoboVM 的 iOS 应用了。本项目将ShareSDK的多种功能和类已经绑定完毕，并且简化部分绑定的原生接口。详细使用方法请参考如下文档。(本项目是在Eclipse中编写,项目使用的ShareSDK为v3.2.0)
-
+###### Please view the English document at the bottom
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
 
 ##RoboVM项目快速集成[ShareSDK](http://mob.com)步骤##
@@ -113,19 +113,19 @@ iii.配置robovm.xml 中引用各种系统库和第三方库的路径
                     break;
                     case Success:
                     {
-                    UIAlertView alert = new UIAlertView("授权成功","",null,"确定");
+                    UIAlertView alert = new UIAlertView("Success!","",null,"OK");
                     alert.show();
                     break;
                     }
                     case Fail:
                     {
-                    UIAlertView alert = new UIAlertView("授权失败","",null,"确定");
+                    UIAlertView alert = new UIAlertView("Authorize failed!","",null,"OK");
                     alert.show();
                     break;
                     }
                     case Cancel:
                     {
-                    UIAlertView alert = new UIAlertView("授权取消","",null,"确定");
+                    UIAlertView alert = new UIAlertView("Cancel!","",null,"OK");
                     alert.show();
                     break;
                     }
@@ -147,7 +147,7 @@ iii.配置robovm.xml 中引用各种系统库和第三方库的路径
                     break;
                     case Success:
                     {
-                    UIAlertView alert = new UIAlertView("授权成功","",null,"确定");
+                    UIAlertView alert = new UIAlertView("Success!","",null,"OK");
 
                     System.out.println("用户uid:" + user.getUid());
                     System.out.println("用户昵称:" + user.getNickname());
@@ -156,7 +156,7 @@ iii.配置robovm.xml 中引用各种系统库和第三方库的路径
                     }
                     case Fail:
                     {
-                    UIAlertView alert = new UIAlertView("授权失败","",null,"确定");
+                    UIAlertView alert = new UIAlertView("Authorize failed!","",null,"OK");
                     alert.show();
 
                     String errorInfo =  error.getUserInfo().toString();
@@ -166,7 +166,7 @@ iii.配置robovm.xml 中引用各种系统库和第三方库的路径
                     }
                     case Cancel:
                     {
-                    UIAlertView alert = new UIAlertView("授权取消","",null,"确定");
+                    UIAlertView alert = new UIAlertView("Cancel!","",null,"OK");
                     alert.show();
                     break;
                     }
@@ -204,13 +204,13 @@ iii.配置robovm.xml 中引用各种系统库和第三方库的路径
                     break;
                     case Success:
                     {
-                    UIAlertView alert = new UIAlertView("分享成功","",null,"确定");
+                    UIAlertView alert = new UIAlertView("Success!","",null,"OK");
                     alert.show();
                     break;
                     }
                     case Fail:
                     {
-                    UIAlertView alert = new UIAlertView("失败","",null,"确定");
+                    UIAlertView alert = new UIAlertView("Failed!","",null,"OK");
                     alert.show();
                     NSErrorUserInfo userInfo = error.getUserInfo();
                     System.out.println("errorInfo:" + userInfo.getDictionary());
@@ -218,7 +218,7 @@ iii.配置robovm.xml 中引用各种系统库和第三方库的路径
                     }
                     case Cancel:
                     {
-                    UIAlertView alert = new UIAlertView("分享取消","",null,"确定");
+                    UIAlertView alert = new UIAlertView("Cancel!","",null,"OK");
                     alert.show();
                     break;
                     }
@@ -283,7 +283,293 @@ iii.配置robovm.xml 中引用各种系统库和第三方库的路径
             </dict>
         </dict>
 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+如需要技术支持,请联系QQ:46131514
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+# ShareSDK-for-RoboVM-iOS (English document)
+
+##### [ShareSDK](https://github.com/MobClub/ShareSDK3.x-for-iOS) now is supported to iOS project base on RoboVM.Most basic classes and methods have been bound and simplified.
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+##How To Integrate ShareSDK To Your RoboVM iOS Project 
+
+### Step.1 - Import ShareSDK
+
+##### 1.add the packages to your RoboVM project
+
+Copy the folder ’com‘ to path src/main/java of your project.It includes to package,com.mob.sharesdk and com.mob.platforms.
+
+- com.mob.sharesdk : the main function bindings of ShareSDK
+
+- com.mob.platforms : the bindings of some necessary third part SDKs(such as WeChat SDK).
+
+##### 2.add the ShareSDK lib/framework to your RoboVM project
+
+i.Download [ShareSDK For iOS](https://github.com/MobClub/ShareSDK3.x-for-iOS).Unzip it and you will get a folder ShareSDK.Copy the folder to the root directory of your Eclipse RoboVM project.
+
+ii.Move ShareSDK.bundle(in ShareSDK/Support/Required) and ShareSDKUI.bundle(in ShareSDK/Support/Optional) to the resources folder of you project.
+
+iii.set the right path for the libs and framework in robovm.xml,like this:
+
+**.a:**
+
+        <libs>
+            <lib>z</lib>       	 <!--(basic lib,necessary)-->
+            <lib>sqlite3</lib> 	 <!--(basic lib,necessary)-->
+            <lib>stdc++</lib>	 <!--(basic lib,necessary)-->
+            <lib>icucore</lib>	 <!--(basic lib,necessary)-->
+            <lib>ShareSDK/Support/PlatformSDK/WeChatSDK/libWeChatSDK.a</lib>   <!--(wechat)-->
+            <lib>ShareSDK/Support/PlatformSDK/APSocialSDK/libAPOpenSdk.a</lib> <!--(alipaySocial)-->
+            <lib>ShareSDK/Support/PlatformSDK/YiXinSDK/libYixinSDK.a</lib>     <!--(yixin)-->
+        </libs>
+
+**.framework:**
+
+*path:*
+
+        <frameworkPaths>
+            <path>ShareSDK</path>
+            <path>ShareSDK/Support/Required</path>
+            <path>ShareSDK/Support/Optional</path>
+            <path>ShareSDK/Support/PlatformSDK/QQSDK</path>
+            <path>ShareSDK/Support/PlatformSDK/RenRenSDK</path>
+            <path>ShareSDK/Support/PlatformSDK/FacebookMessengerSDK</path>
+            <path>ShareSDK/Support/PlatformSDK/KaKaoSDK</path>
+            <path>ShareSDK/Support/PlatformSDK/RennSDK</path>
+        </frameworkPaths>
+*name:*
+
+        <frameworks>
+            <framework>JavaScriptCore</framework>	 <!--(basic framework,necessary)-->
+            <framework>ShareSDK</framework>          <!--(ShareSDK framework,necessary)-->
+            <framework>ShareSDKUI</framework>		 <!--(ShareSDK framework,necessary)-->
+            <framework>ShareSDKExtension</framework> <!--(ShareSDK framework,necessary)-->
+            <framework>MOBFoundation</framework>	 <!--(ShareSDK framework,necessary)-->
+            <framework>ShareSDKConnector</framework> <!--(ShareSDK framework,necessary)-->
+            <framework>ImageIO</framework>           <!--(Sina SDK need)-->
+            <framework>TencentOpenAPI</framework>    <!--(QQSDK)-->
+            <framework>RennSDK</framework>           <!--(Renren SDK)-->
+            <framework>FBSDKMessengerShareKit</framework>  <!--(FBSDKMessenger SDK)-->
+            <framework>KakaoOpenSDK</framework>            <!--(Kakao SDK)-->
+        </frameworks>
+
+### Step.2 - Add the code of ShareSDK
+
+##### 1.Init ShareSDK
+
+In your project's mainclass, you will find a override method name **didFinishLaunching**.Add the flollowing code in this method.Like this:
+
+        //total HashMap 
+        HashMap<Number, HashMap<String, String>> totalMap = new HashMap<Number, HashMap<String, String>> ();
+
+        //Sina
+        HashMap<String, String> sinaHashMap = new HashMap<String, String>();
+        sinaHashMap.put("app_key", "568898243");
+        sinaHashMap.put("app_secret", "38a4f8204cc784f81f9f0daaf31e02e3");
+        sinaHashMap.put("redirect_uri", "http://www.sharesdk.cn");
+        sinaHashMap.put("auth_type", "both");
+        totalMap.put(SSDKPlatformType.SinaWeibo.value(), sinaHashMap);
+
+        //Tencent 
+        HashMap<String, String> tencentHashMap = new HashMap<String, String>();
+        tencentHashMap.put("app_key", "801307650");
+        tencentHashMap.put("app_secret", "ae36f4ee3946e1cbb98d6965b0b2ff5c");
+        tencentHashMap.put("redirect_uri", "http://www.sharesdk.cn");
+        totalMap.put(SSDKPlatformType.TencentWeibo.value(), tencentHashMap);
+
+        //other platforms...
+
+        //Init ShareSDK(The first param,appkey,you can get it from [mob.com](http://mob.com))
+        ShareSDK.registerApp("iosv1101", totalMap);
+
+##### 2.Authorization example:
+
+        //authorize Sina
+        ShareSDK.authorize(SSDKPlatformType.SinaWeibo, null, new ShareSDK.SSDKAuthorizeStateChangedHandler() {
+
+            @Override
+            public void invoke(SSDKResponseState state, SSDKUser user, NSError error) {
+
+                switch (state)
+                {
+                    case Begin:
+                    break;
+                    case Success:
+                    {
+                    UIAlertView alert = new UIAlertView("Success!","",null,"OK");
+                    alert.show();
+                    break;
+                    }
+                    case Fail:
+                    {
+                    UIAlertView alert = new UIAlertView("Authorize failed!","",null,"OK");
+                    alert.show();
+                    break;
+                    }
+                    case Cancel:
+                    {
+                    UIAlertView alert = new UIAlertView("Cancel!","",null,"OK");
+                    alert.show();
+                    break;
+                    }
+                }
+            }
+        });
+
+##### 3.Get user info example:
+
+        //Get user info of QQ user
+        ShareSDK.getUserInfo(SSDKPlatformType.QQ, new ShareSDK.SSDKGetUserStateChangedHandler() {
+
+            @Override
+            public void invoke(SSDKResponseState state, SSDKUser user, NSError error) {
+
+                switch (state)
+                {
+                    case Begin:
+                    break;
+                    case Success:
+                    {
+                    UIAlertView alert = new UIAlertView("Success!","",null,"OK");
+
+                    System.out.println("user uid:" + user.getUid());
+                    System.out.println("nickname:" + user.getNickname());
+                    alert.show();
+                    break;
+                    }
+                    case Fail:
+                    {
+                    UIAlertView alert = new UIAlertView("Authorize failed!","",null,"OK");
+                    alert.show();
+
+                    String errorInfo =  error.getUserInfo().toString();
+
+                    System.out.println("errorInfo:" + errorInfo);
+                    break;
+                    }
+                    case Cancel:
+                    {
+                    UIAlertView alert = new UIAlertView("Cancel!","",null,"OK");
+                    alert.show();
+                    break;
+                    }
+                }
+            }
+        });
 
 
+##### 4.Sharing example:
+
+        //Share to Sina 
+        //Make a Share Param - NSMutableDictionary
+        NSMutableDictionary<NSString, NSObject> shareParams = new NSMutableDictionary<> ();
+
+        //Custom your share content
+        NSString text = new NSString("Simple Share Content");
+        NSString title = new NSString("Simple Share Title");
+        NSURL url = new NSURL("http://mob.com");
+
+        //custom your share image (url image)
+        NSURL imageUrl = new NSURL("http://img.taopic.com/uploads/allimg/130501/240451-13050106450911.jpg");
+        SSDKImage urlImage = new SSDKImage(imageUrl);
+        NSArray<SSDKImage> imagesArray = new NSArray<SSDKImage>(urlImage);
+
+        //set all the content
+        ShareParamsManager.setBasicShareParams(shareParams, text, imagesArray, url, title, SSDKContentType.Image);
+    
+        //then share
+        ShareSDK.shareContent(SSDKPlatformType.SinaWeibo, shareParams, new ShareSDK.SSDKShareOnStageChange() {
+
+            @Override
+            public void invoke(SSDKResponseState state, NSDictionary<?, ?> userData, SSDKContentEntity shareContent, NSError error) {
+
+                switch (state)
+                {
+                    case Begin:
+                    break;
+                    case Success:
+                    {
+                    UIAlertView alert = new UIAlertView("Success!","",null,"OK");
+                    alert.show();
+                    break;
+                    }
+                    case Fail:
+                    {
+                    UIAlertView alert = new UIAlertView("Failed!","",null,"OK");
+                    alert.show();
+                    NSErrorUserInfo userInfo = error.getUserInfo();
+                    System.out.println("errorInfo:" + userInfo.getDictionary());
+                    break;
+                    }
+                    case Cancel:
+                    {
+                    UIAlertView alert = new UIAlertView("Cancel!","",null,"OK");
+                    alert.show();
+                    break;
+                    }
+                }
+
+            }
+        });
+
+
+### Step.3 - About setting the Info.plist.xml
+
+##### 1.URL Scheme：
+
+Some social platforms will jumps to their apps when authorizing or sharing.For there platfroms,you will need to set right the URL Scheme.Like this:
+
+        <key>CFBundleURLTypes</key>
+            <array>
+                <dict>
+                    <key>CFBundleURLSchemes</key>
+                        <array>				
+                            <string>QQ05FB8B52</string>         <!--(QQ Share)-->
+                            <string>tencent100371282</string>   <!--(QQ Authorization)-->
+                            <string>wx4868b35061f87885</string> <!--(WeChat)-->
+                        </array>
+                </dict>
+            </array>
+
+##### 2.If running above iOS 9.0,you will need to set the  LSApplicationQueriesSchemes:
+
+        <key>LSApplicationQueriesSchemes</key>
+            <array>
+                <string>wechat</string> <!--(For wechat)-->
+                <string>weixin</string> <!--(For wechat)-->
+            </array>
+
+##### 3.If running above iOS 9.0,you will need to set NSAppTransportSecurity
+
+allow http request for all:
+
+        <key>NSAppTransportSecurity</key>
+            <dict>
+                <key>NSAllowsArbitraryLoads</key>
+                <true />
+            </dict>
+
+allow http request only for the exception domains:
+
+        <key>NSAppTransportSecurity</key>
+        <dict>
+            <key>NSExceptionDomains</key>
+            <dict>
+                <key>qq.com</key>
+                <dict>
+                    <key>NSIncludesSubdomains</key>
+                    <true/>
+                    <key>NSExceptionRequiresForwardSecrecy</key>
+                    <false/>
+                    <key>NSExceptionAllowsInsecureHTTPLoads</key>
+                    <true/>
+                </dict>
+            </dict>
+        </dict>
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+If you have any question,please contact me by QQ:46131514
 
 
