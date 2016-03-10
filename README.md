@@ -15,6 +15,7 @@
 包内容说明：
 
 -com.mob.sharesdk - ShareSDK 主要的功能接口的绑定
+
 -com.mob.platforms - 对使用到的第三方社交平台的SDK绑定
 
 ##### 2.项目添加ShareSDK库文件
